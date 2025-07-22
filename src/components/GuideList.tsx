@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react'
-import { workoutService } from '../services/workoutService'
-import { Link } from 'react-router-dom'
-import '../styles/global.css'
+import { workoutService } from '../../frontend/src/services/workoutService'
+
+import { Card, CardHeader, CardContent, CardTitle } from './ui/card'
+import { Skeleton } from './ui/skeleton'
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@radix-ui/react-collapsible'
+import { Dumbbell, ChevronDown, ChevronRight, Calendar, Play } from 'lucide-react'
+import { Badge } from './ui/badge'
 
 interface Guide {
   id: string
@@ -15,13 +19,6 @@ interface Week {
   week_index: number
   sessions: Session[]
   week_title: string
-}
-
-interface Session {
-  id: string
-  session_index: number
-  exercises: Exercise[]
-  name: string
 }
 
 interface Exercise {
@@ -48,8 +45,8 @@ interface Week {
 
 interface Session {
   id: string
-  session_index: number
-  exercises: any[]
+  day_number: number
+  exercises: Exercise[]
   name: string
 }
 
@@ -58,12 +55,12 @@ export default function GuideList() {
   const [expandedGuides, setExpandedGuides] = useState<Record<string, boolean>>({})
   const [expandedWeeks, setExpandedWeeks] = useState<Record<string, boolean>>({})
   const [expandedSessions, setExpandedSessions] = useState<Record<string, boolean>>({})
+  const [exercisesData, setExercisesData] = useState<Record<string, Exercise[]>>({})
+  const [loadingExercises, setLoadingExercises] = useState<Record<string, boolean>>({})
   const [loadingWeeks, setLoadingWeeks] = useState<Record<string, boolean>>({})
   const [loadingSessions, setLoadingSessions] = useState<Record<string, boolean>>({})
-  const [loadingExercises, setLoadingExercises] = useState<Record<string, boolean>>({})
   const [weeksData, setWeeksData] = useState<Record<string, Week[]>>({})
   const [sessionsData, setSessionsData] = useState<Record<string, Session[]>>({})
-  const [exercisesData, setExercisesData] = useState<Record<string, Exercise[]>>({})
   const [loading, setLoading] = useState(true)
   
   useEffect(() => {
@@ -123,34 +120,34 @@ export default function GuideList() {
     }
   }
 
-  // const toggleSession = async (sessionId: string) => {
-  //   setExpandedSessions(prev => ({
-  //     ...prev,
-  //     [sessionId]: !prev[sessionId]
-  //   }))
+  const toggleSession = async (sessionId: string) => {
+    setExpandedSessions(prev => ({
+      ...prev,
+      [sessionId]: !prev[sessionId]
+    }))
 
-  //   if (!exercisesData[sessionId] && !loadingExercises[sessionId]) {
-  //     setLoadingExercises(prev => ({
-  //       ...prev,
-  //       [sessionId]: true
-  //     }))
+    if (!exercisesData[sessionId] && !loadingExercises[sessionId]) {
+      setLoadingExercises(prev => ({
+        ...prev,
+        [sessionId]: true
+      }))
 
-  //     try {
-  //       const session = await workoutService.getSession(sessionId)
-  //       setExercisesData(prev => ({
-  //         ...prev,
-  //         [sessionId]: session.exercises || []
-  //       }))
-  //     } catch (error) {
-  //       console.error('Error fetching exercises:', error)
-  //     } finally {
-  //       setLoadingExercises(prev => ({
-  //         ...prev,
-  //         [sessionId]: false
-  //       }))
-  //     }
-  //   }
-  // }
+      try {
+        const session = await workoutService.getSession(sessionId)
+        setExercisesData(prev => ({
+          ...prev,
+          [sessionId]: session.exercises || []
+        }))
+      } catch (error) {
+        console.error('Error fetching exercises:', error)
+      } finally {
+        setLoadingExercises(prev => ({
+          ...prev,
+          [sessionId]: false
+        }))
+      }
+    }
+  }
 
   const toggleGuide = async (guideId: string) => {
     setExpandedGuides(prev => ({
@@ -230,34 +227,44 @@ export default function GuideList() {
         <p className="text-gray-600">Selecciona una guía para ver sus semanas y sesiones</p>
       </div>
 
-      <div className="space-y-4">
+      <div className="">
         {guides.map((guide) => (
-          <Card key={guide.id} className="overflow-hidden">
+          <Card key={guide.id} className="bg-blue-50 my-2">
             <Collapsible open={expandedGuides[guide.id]} onOpenChange={() => toggleGuide(guide.id)}>
               <CollapsibleTrigger asChild>
-                <CardHeader className="cursor-pointer hover:bg-gray-50 transition-colors">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-16 h-16 rounded-lg overflow-hidden bg-gray-100">
-                        <img
-                          src={guide.image_url || "/placeholder.svg"}
-                          alt={guide.title}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <div>
-                        <CardTitle className="text-xl">{guide.title}</CardTitle>
-                        <div className="flex items-center space-x-2 mt-1">
-                          <Dumbbell className="w-4 h-4 text-gray-500" />
-                          <span className="text-sm text-gray-500">Guía de entrenamiento</span>
+                <CardHeader className="cursor-pointer hover:bg-gradient-to-r hover:from-gray-50 hover:to-blue-50 transition-all duration-300 ease-in-out border-b border-gray-100">
+                  <div className="flex items-center justify-between p-2">
+                    <div className="flex items-center gap-4">
+                      <div className="relative group">
+                        <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 shadow-sm overflow-hidden">
+                          <img
+                            src={guide.image_url || "/placeholder.svg"}
+                            alt={guide.title}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            onError={(e) => {
+                              e.currentTarget.src = "/placeholder.svg";
+                            }}
+                          />
                         </div>
+                        {/* Overlay sutil para darle profundidad */}
+                        <div className="absolute inset-0 rounded-xl bg-black/5 group-hover:bg-black/10 transition-colors duration-300"></div>
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <CardTitle className="text-base font-semibold text-gray-800 truncate leading-tight hover:text-blue-700 transition-colors duration-200">
+                          {guide.title}
+                        </CardTitle>
+                        <p className="text-sm text-gray-500 mt-1">Toca para expandir</p>
                       </div>
                     </div>
-                    {expandedGuides[guide.id] ? (
-                      <ChevronDown className="w-5 h-5 text-gray-500" />
-                    ) : (
-                      <ChevronRight className="w-5 h-5 text-gray-500" />
-                    )}
+                    <div className="flex-shrink-0 ml-4">
+                      <div className="p-2 rounded-full hover:bg-white/60 transition-colors duration-200">
+                        {expandedGuides[guide.id] ? (
+                          <ChevronDown className="w-5 h-5 text-gray-600 hover:text-blue-600 transition-colors duration-200" />
+                        ) : (
+                          <ChevronRight className="w-5 h-5 text-gray-600 hover:text-blue-600 transition-colors duration-200" />
+                        )}
+                      </div>
+                    </div>
                   </div>
                 </CardHeader>
               </CollapsibleTrigger>
@@ -319,7 +326,7 @@ export default function GuideList() {
                                                     <h4 className="font-medium text-sm">{session.name}</h4>
                                                     <div className="flex items-center space-x-2 mt-1">
                                                       <Badge variant="secondary" className="text-xs">
-                                                        Sesión {session.session_index}
+                                                        Sesión {session.day_number}
                                                       </Badge>
                                                       <span className="text-xs text-gray-500">
                                                         {session.exercises?.length || 0} ejercicios

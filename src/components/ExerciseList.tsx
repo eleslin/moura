@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Session, Exercise, ExerciseSet } from '../services/workoutService'
-import { workoutService } from '../services/workoutService'
+import { Session, Exercise, ExerciseSet } from '../../frontend/src/services/workoutService'
+import { workoutService } from '../../frontend/src/services/workoutService'
 
 export default function ExerciseList() {
   const { id } = useParams()

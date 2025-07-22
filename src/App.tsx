@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import GuideList from '../frontend/src/components/GuideList'
-import WeekList from '../frontend/src/components/WeekList'
-import SessionList from '../frontend/src/components/SessionList'
-import ExerciseList from '../frontend/src/components/ExerciseList'
+import GuideList from './components/GuideList'
+import WeekList from './components/WeekList'
+import SessionList from './components/SessionList'
+import ExerciseList from './components/ExerciseList'
 
 function App() {
   return (

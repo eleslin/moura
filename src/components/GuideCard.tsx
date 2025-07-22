@@ -1,4 +1,4 @@
-import { Guide } from '../services/workoutService'
+import { Guide } from '../../frontend/src/services/workoutService'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
