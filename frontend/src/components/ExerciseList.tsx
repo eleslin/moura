@@ -45,30 +45,48 @@ export default function ExerciseList() {
         </button>
       </div>
       
-      <div className="space-y-4">
+      <div className="space-y-6">
         {data.exercises.map((exercise) => (
-          <div key={exercise.id} className="bg-white rounded-lg shadow-md p-4">
-            <div className="flex justify-between items-center mb-2">
-              <h2 className="text-xl font-semibold">{exercise.exercise_name}</h2>
+          <div key={exercise.id} className="bg-white rounded-lg shadow-md p-6">
+            <div className="mb-4">
+              <h2 className="text-2xl font-bold mb-2">{exercise.title}</h2>
               {exercise.video_url && (
-                <a 
-                  href={exercise.video_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-                >
-                  Ver Video
-                </a>
-              )}
-            </div>
-            <div className="mt-4 space-y-2">
-              {exercise.sets.map((set) => (
-                <div key={set.id} className="flex justify-between items-center p-2 bg-gray-50 rounded">
-                  <span>Serie {set.set_series}</span>
-                  <span>{set.set_reps} repeticiones</span>
-                  <span>{set.set_rest} descanso</span>
+                <div className="flex justify-center mb-4">
+                  <a 
+                    href={exercise.video_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                  >
+                    Ver Video
+                  </a>
                 </div>
-              ))}
+              )}
+              <div className="mt-4 space-y-3">
+                {exercise.sets.map((set, index) => (
+                  <div key={set.id} className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className='flex '>
+                          <div className="mt-1 flex flex-col items-center justify-center">
+                            <div className="text-gray-800">Series</div>
+                            <div className="text-gray-800">{set.set_series}</div>
+                          </div>
+                          <div className="mt-1 flex flex-col items-center justify-center">
+                            <div className="text-gray-800">Reps</div>
+                            <div className="text-gray-800">{set.set_reps}</div>
+                          </div>
+                          <div className="mt-1 flex flex-col items-center justify-center">
+                            <div className="text-gray-800">Rest</div>
+                            <div className="text-gray-800">{set.set_rest}</div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         ))}

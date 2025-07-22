@@ -1,0 +1,3670 @@
+[
+  {
+    "id": "fc178788-a16c-43de-b6d6-df22d7710e88",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/817084f6-42c4-451a-9692-d0e4a237050f",
+    "week_index": 1
+  },
+  {
+    "id": "0c0851e2-d6e2-4c7b-b125-8209a572d7b8",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/c2bd75e2-29c2-441a-bb80-e42ef70d23de",
+    "week_index": 2
+  },
+  {
+    "id": "2d85ceaf-2588-4a0c-8804-28e604fdc1f1",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/7f2ab8a8-a054-42d3-9aa8-5c9a58eff4d1",
+    "week_index": 3
+  },
+  {
+    "id": "8de18e38-c6a8-4929-a941-aaa3ad1a5255",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/23aa803f-92dd-4966-b0fb-85f63fd050e2",
+    "week_index": 4
+  },
+  {
+    "id": "b0b004cf-33bf-404f-910d-5d96476ddf7a",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/3e303dce-fddb-402c-b213-4432326f07fb",
+    "week_index": 5
+  },
+  {
+    "id": "28dd07a3-c4da-4628-87f3-510d08d846c5",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/4d70f118-cef8-48c5-af38-cd2e7ed478b6",
+    "week_index": 6
+  },
+  {
+    "id": "0096e9d2-a3dc-4736-8f99-f5d0c177dd2b",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/60a60f16-3f76-4613-9dae-e700e5c412a8",
+    "week_index": 7
+  },
+  {
+    "id": "74601ec6-bebc-4d57-9bc8-55d15ecd8a33",
+    "guide_id": "5919fab6-58c2-4a26-ae4e-5e8d03c4d70a",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/575c9d49-e564-4842-9f16-559bb89af639/week/468b1152-880a-4ebd-9d72-629d69ca7af0",
+    "week_index": 8
+  },
+  {
+    "id": "d029b9de-4d58-4423-86e1-8aa1349b353c",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/b6a2ed7a-e373-408f-9ee8-9f2ce4f9d564",
+    "week_index": 1
+  },
+  {
+    "id": "de13491d-7f2b-47e5-9ac6-dc3f4924500c",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/1a163eda-f156-4eb4-8ba2-ec7b7ec31d34",
+    "week_index": 2
+  },
+  {
+    "id": "2c783d6c-0ad7-4cfb-aae6-235ae3e1c451",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/b40c1ad9-7925-41b7-af6f-466a943d44aa",
+    "week_index": 3
+  },
+  {
+    "id": "d636e55f-c246-4ec3-a3b9-7e79d9f5b0dc",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/93a5dda2-c692-4398-94c1-6f1940d6be36",
+    "week_index": 4
+  },
+  {
+    "id": "63b75a02-e302-411b-993b-cfaa61290243",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/ab78bdef-23fd-4e05-9984-7aeb9ae6c8da",
+    "week_index": 5
+  },
+  {
+    "id": "68c15683-11a8-4476-8651-2deebd8595e0",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/6196da44-df53-42bd-93a3-29de00bbbb8b",
+    "week_index": 6
+  },
+  {
+    "id": "0bdd900d-b0a8-485a-b2b7-a60e0b3d635e",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/6171dadd-9289-4add-bab1-86b4cff3718f",
+    "week_index": 7
+  },
+  {
+    "id": "65297815-f548-40cc-bc8a-56f497973453",
+    "guide_id": "ca5b9f46-5874-4474-b989-e26e599167f3",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c917977-5be0-403e-8b2d-8b793b3e9765/week/39709b8e-c323-49d7-9667-4873f4d4300a",
+    "week_index": 8
+  },
+  {
+    "id": "0c6e1745-ff31-4c3c-873b-eaf790b8cc26",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/aef3fa4c-85b4-4ead-9ce1-171e14232aaa",
+    "week_index": 1
+  },
+  {
+    "id": "19ba1c54-e21d-4d7e-be22-13f0a2789ba6",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/535055e3-c12b-4b18-b1fd-d10f65860dca",
+    "week_index": 2
+  },
+  {
+    "id": "9361f2dd-070d-4887-8697-43595af0846c",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/d7cf6175-baed-4d66-86c8-da9dcaeba907",
+    "week_index": 3
+  },
+  {
+    "id": "1dcdef7d-7a30-47ce-adbd-f48e3154a7af",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/7bfda6b1-d08c-4b39-8ce2-1dfe3d2e3cea",
+    "week_index": 4
+  },
+  {
+    "id": "9da5ad21-f27d-4cdd-a872-76e092236134",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/735ea160-afb1-49bc-a6ef-d408559f1e2d",
+    "week_index": 5
+  },
+  {
+    "id": "a678f69e-9dd5-43aa-99ac-659325233a57",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/4210c0c1-d428-4c9a-865e-027f4ac212cf",
+    "week_index": 6
+  },
+  {
+    "id": "b686163a-b586-481a-969f-226bd8f5540d",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/d11e0135-92ed-4e70-9916-991e41ebc50a",
+    "week_index": 7
+  },
+  {
+    "id": "e17a5ba6-6941-4729-948f-686bdfdcc09b",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/9fc2e314-593b-4d5c-8d1b-d47c5f03d3e3",
+    "week_index": 8
+  },
+  {
+    "id": "9620e6b7-65fe-4d91-b32c-8e7605ddc7e0",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/5d16ba1c-a23c-46d9-a660-313d48531795",
+    "week_index": 9
+  },
+  {
+    "id": "31e60506-7618-4309-b1f1-d5954a2ec5ca",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/2581fc1a-5084-4ec5-911f-32faa4febe8f",
+    "week_index": 10
+  },
+  {
+    "id": "af28aa0b-c174-4994-b81e-c9f620a08374",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/b020206b-8e27-444a-98bd-aaeac7b7d435",
+    "week_index": 11
+  },
+  {
+    "id": "0162300f-9933-4284-97d2-256357a74232",
+    "guide_id": "41afb63e-a70b-41a3-9345-45397223a34a",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ba93aca9-331a-40d8-89da-9f73d69c1052/week/e5c65252-a355-4d7f-98cf-8a648152beaf",
+    "week_index": 12
+  },
+  {
+    "id": "50f115b2-f4bc-46bc-bbcb-8aec4b813c11",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/76f485fd-f4af-41f3-81fd-dc3bff1b4ad6",
+    "week_index": 1
+  },
+  {
+    "id": "a8ef6e56-7271-4d83-a0df-c7ae20935936",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/3aa5b1d0-8f13-4bdf-9a7f-5c0869c68594",
+    "week_index": 2
+  },
+  {
+    "id": "07e6a956-062e-488d-9567-2dce510ebeee",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/cd5e6299-de33-459f-baf0-e7935854d14c",
+    "week_index": 3
+  },
+  {
+    "id": "59eb1564-98aa-4d24-af31-9c9bc69f3368",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/8501f0f9-19a4-4e6c-a05e-6b50466918eb",
+    "week_index": 4
+  },
+  {
+    "id": "63ee84d5-44d8-41e3-a264-fb0d789a2efb",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/de165cf8-eb8e-4522-b973-6781450bc161",
+    "week_index": 5
+  },
+  {
+    "id": "727d328d-c7eb-4f8b-8d6e-d9f6361b4f2e",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/770ede0e-a65d-4962-b336-2c3978ed1d2a",
+    "week_index": 6
+  },
+  {
+    "id": "b159762f-0406-48b1-af99-85198c16f781",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/d96f7c2e-3a64-4332-87de-ba326db6118d",
+    "week_index": 7
+  },
+  {
+    "id": "be8bbd13-a098-4700-991e-101fe9b88225",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/2b646eb7-5539-4c3c-94c8-baa8437d99c4",
+    "week_index": 8
+  },
+  {
+    "id": "2cabb6d2-aeab-4c8e-b711-e3c0c05861da",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/98c588d1-7a64-4edc-8a6b-7ab203d08f7c",
+    "week_index": 9
+  },
+  {
+    "id": "1aa9af6b-e39b-4059-9f7c-8f117ffdfb11",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/2cf9622f-cf60-42a6-bd43-42740ec035fa",
+    "week_index": 10
+  },
+  {
+    "id": "fd25a6c9-5492-4e23-9ff9-3e47faebc7da",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/37d422e0-7140-4b96-a7c8-d0566bcf8644",
+    "week_index": 11
+  },
+  {
+    "id": "85769e9c-ccc6-4858-89e9-46c8c59878e1",
+    "guide_id": "ce6e670f-d6f7-46d1-8289-1c3d47caf4b2",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2730cb16-78fb-4bda-981d-f3435e405a92/week/ccf4ecc5-3cf2-4cbd-8862-9bc0cfd878e0",
+    "week_index": 12
+  },
+  {
+    "id": "83cdced4-f076-4d31-8f14-34dc8b2fa399",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/11a4aab3-a329-4010-8aff-45d935387107",
+    "week_index": 1
+  },
+  {
+    "id": "fb84f486-eaef-4c02-b952-21d8e007c4aa",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/840373c0-145e-45e5-bfab-5155fb3dca74",
+    "week_index": 2
+  },
+  {
+    "id": "4baa204e-1025-4fe6-9486-9e7a39c810b4",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/1c02a1d3-57eb-445a-a117-3dfb1845f906",
+    "week_index": 3
+  },
+  {
+    "id": "499b966d-f031-457b-a3e1-7b805a732ae6",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/56884312-31cc-4882-b1d1-3bd9744b576d",
+    "week_index": 4
+  },
+  {
+    "id": "c8154739-66ee-4dbe-88e8-e15c8d13f16a",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/c8bc73dd-f3b5-4317-a31c-81e0e0929ce9",
+    "week_index": 5
+  },
+  {
+    "id": "44428432-7706-4a4d-9a63-0a22208811d9",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/214dbe67-656f-49a2-943e-a1c50759e9ca",
+    "week_index": 6
+  },
+  {
+    "id": "99a80242-239c-43a8-8de0-dc257f3cf793",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/d4514afb-d011-44e9-ab06-852ee65d11f7",
+    "week_index": 7
+  },
+  {
+    "id": "48d6dfb0-1ab4-451b-961a-a7d8fe41e7aa",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/46bd8639-fa40-4fb7-8d5b-b9185afe8558",
+    "week_index": 8
+  },
+  {
+    "id": "1001bb69-5677-4213-b5c1-0e6ef8484172",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/5ae03401-9de0-462e-b577-a676b09d110a",
+    "week_index": 9
+  },
+  {
+    "id": "b2c7fe9a-ce78-47ba-a55d-c41a8fbd0825",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/b6cbae83-7d52-4f79-bf52-d522f6568114",
+    "week_index": 10
+  },
+  {
+    "id": "22fc39ec-0603-445b-817a-106fd7484c79",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/3bfee07d-986a-4619-9ca3-484a1479f978",
+    "week_index": 11
+  },
+  {
+    "id": "96068c1e-d902-481e-8fc6-51f69e88afbd",
+    "guide_id": "0f8cc89f-d212-4511-8da1-15f0e3347584",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f6c798d-59b4-44d9-ada2-4980b3cd79cd/week/b9b92e88-6901-48bc-8caf-c7b99cceee50",
+    "week_index": 12
+  },
+  {
+    "id": "0eccfa18-8334-42a1-8c9b-f32289828fab",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/f3959119-af24-49f4-a646-f8ba8359d24f",
+    "week_index": 1
+  },
+  {
+    "id": "1aab5141-c9d5-477b-8ef4-de2df19bec8e",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/6965bf1e-0afe-4030-8449-2e3a3cec3085",
+    "week_index": 2
+  },
+  {
+    "id": "9f795bd9-480c-4dd3-b06b-8e58eca46f4f",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/7a9708f4-2975-4850-82a1-67abfd720586",
+    "week_index": 3
+  },
+  {
+    "id": "f4beb4d9-6fd3-4edd-b432-28205441085f",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/fbcb9702-d7bf-4e6a-ac53-13e5cb969550",
+    "week_index": 4
+  },
+  {
+    "id": "4453271b-8903-41b8-a1ab-b83aa20a0821",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/5ce739a3-a691-4753-9e84-a199bd3ac983",
+    "week_index": 5
+  },
+  {
+    "id": "21898316-ae3a-455a-8840-006039a86cde",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/8f2f66fc-e6eb-44f1-b8c5-d31165d0479b",
+    "week_index": 6
+  },
+  {
+    "id": "e7fa2456-ecb3-4878-b7ce-95b28fc8cb5a",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/a6814e37-e6db-4bc6-96ea-f724b180cef8",
+    "week_index": 7
+  },
+  {
+    "id": "ce98a068-8941-4517-968b-f1c9721874bf",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/5891230a-5858-46c8-a8cc-a1e2996a534c",
+    "week_index": 8
+  },
+  {
+    "id": "03a630c8-8e1d-4705-aab6-e4a2a6a53f2b",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/493e80e4-6b32-4656-a909-cc60a9cc1c5a",
+    "week_index": 9
+  },
+  {
+    "id": "03e06782-08c6-4652-8f4c-3721a65b8bf3",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/899568b8-85bb-431f-937f-fbcf4b4cccea",
+    "week_index": 10
+  },
+  {
+    "id": "0cf02dc5-b2a1-444e-ae37-3f909254171c",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/f37b0c1b-526a-4141-8c35-d9e15dd47ca1",
+    "week_index": 11
+  },
+  {
+    "id": "0059c9fc-bb30-421e-be48-b1aa0322da34",
+    "guide_id": "8f2d5422-b8c9-4619-a3d8-cbac648f3ee0",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e7a10857-ab5a-4c66-b775-37c84097ae14/week/f3318914-d316-4461-bb40-4e8b7a62d4a0",
+    "week_index": 12
+  },
+  {
+    "id": "ed4429ec-bd50-43a6-b75c-c9274dea6c90",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/84f0c97e-fc53-4580-a6b4-54d96b218804",
+    "week_index": 1
+  },
+  {
+    "id": "a0a2f6f6-1932-463e-9095-7676c05281c0",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/27a6fed0-acfc-45eb-8507-76938a690beb",
+    "week_index": 2
+  },
+  {
+    "id": "ef1183bd-dae5-4e01-a878-fc4f5077d56c",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/b4f61a24-6c87-4d92-9284-839b95c3e633",
+    "week_index": 3
+  },
+  {
+    "id": "2eb9fe7b-0f00-4a9f-adf1-142d79a7edf8",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/6847c45f-9057-4e61-87dd-9392654191be",
+    "week_index": 4
+  },
+  {
+    "id": "dc8d50c1-4000-4cf2-a5c8-adae0d5d21c5",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/4feb1727-6b4b-4fa7-80f0-94ae23cc69f0",
+    "week_index": 5
+  },
+  {
+    "id": "36e45a75-ee26-417e-9fe6-fefb4eef6b88",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/1a6f1dd6-2149-4a47-971a-dc25f6bde3ef",
+    "week_index": 6
+  },
+  {
+    "id": "5ee25b3b-d078-4b38-a151-f171a48a2808",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/127bf730-b70c-4831-b63e-7785726d5a7e",
+    "week_index": 7
+  },
+  {
+    "id": "533a9eaa-c758-443f-a3e4-53abaddbc6d6",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/43237707-a20e-45a2-a35f-b5691182cdea",
+    "week_index": 8
+  },
+  {
+    "id": "764d8d13-1ccf-4c31-9472-71bfd1176cfa",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/26fea4c3-425b-4c64-a780-bd0057082c16",
+    "week_index": 9
+  },
+  {
+    "id": "aaf586c5-c6dd-4461-976a-54205c425c70",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/aa9e9b97-c964-436f-9eb7-d9472a6d9992",
+    "week_index": 10
+  },
+  {
+    "id": "1d67da33-df4f-49d7-9b65-649ba2ccff7f",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/6ed9b2aa-162b-445a-bd50-4ce04b944fdf",
+    "week_index": 11
+  },
+  {
+    "id": "f6c6c295-f9d2-447d-b5bc-1d71eeca0aef",
+    "guide_id": "07f45521-97b5-4749-8255-42eb48f111cc",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/57912403-8f65-40a8-beef-0e86981163df/week/68a6fb1a-ebc5-4196-b1d8-92d362ae10f1",
+    "week_index": 12
+  },
+  {
+    "id": "c8276603-ab91-4986-9171-802d6c598123",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/b001ba0a-1c04-42a2-9d5d-64f342c6e9d3",
+    "week_index": 1
+  },
+  {
+    "id": "007bdd14-c108-429e-a4da-d8505d38e7c1",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/9ab421d0-80ab-496c-8bb7-f2586fb6e332",
+    "week_index": 2
+  },
+  {
+    "id": "6b106528-4439-4f12-a385-dcfecaf7b83b",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/18e34b55-86bf-4259-ba89-819dee3a6930",
+    "week_index": 3
+  },
+  {
+    "id": "fa47524f-cbbf-4024-9d53-1978ccdf0744",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/775cffc1-956f-43a3-b42e-589f71b956da",
+    "week_index": 4
+  },
+  {
+    "id": "f7fe0597-bcab-43f8-b533-37f707fc9ab1",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/903efa7b-a5a9-4dde-ba69-b95ba52c79e0",
+    "week_index": 5
+  },
+  {
+    "id": "a869f388-694a-4dfd-8d50-b4107c94c1d4",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/447a434d-0563-4a27-8967-fd15e741559c",
+    "week_index": 6
+  },
+  {
+    "id": "c53da539-dfd8-40f4-a905-1dd225a0ba56",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/38e351f7-8b25-4171-9cb0-a47864de6538",
+    "week_index": 7
+  },
+  {
+    "id": "0f0ad35b-b390-4133-9bc5-9bba19684670",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/8045e9d2-4b01-49f4-8312-37da3d29059e",
+    "week_index": 8
+  },
+  {
+    "id": "df057570-0543-45b2-9179-8918fac3be53",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/cf21d697-c8ac-4c22-965c-ee49353f9d20",
+    "week_index": 9
+  },
+  {
+    "id": "8dceaa13-fa2a-456e-8aaf-ff1290990f6a",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/b9bcc95a-3fd3-47af-9034-a621c9ce3bf0",
+    "week_index": 10
+  },
+  {
+    "id": "bd87d52d-847a-4b82-ba02-e1c3507ba8e8",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/39a07217-c9a9-46f0-bade-19c9a84324c4",
+    "week_index": 11
+  },
+  {
+    "id": "48007ac3-3c50-4b28-af8d-9ea18f1e8cd6",
+    "guide_id": "2b15dd8a-55a5-4120-95bd-f61fb34feaf4",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/934f96e2-e03a-43f2-a50f-9f8ee19f832f/week/ba833eee-e70f-46a8-baf7-e603b86d5212",
+    "week_index": 12
+  },
+  {
+    "id": "ef899fbe-dc08-4675-ab49-ef505202c18b",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/ffb74bc1-ed2a-4e3a-b759-af1cd403efc9",
+    "week_index": 1
+  },
+  {
+    "id": "3fd6f566-cd8a-4843-a9ea-684344668ed5",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/9d9d0164-7ded-4c50-a372-aa62af0aed70",
+    "week_index": 2
+  },
+  {
+    "id": "2519df5d-f124-42fe-8df6-e58462aa48bb",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/fc8abe60-6c1c-4656-b754-fbd16f445066",
+    "week_index": 3
+  },
+  {
+    "id": "63a5715a-9873-420e-b6d2-d1b0ae377364",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/4f3a237a-9660-40c9-a594-01f05bc98e39",
+    "week_index": 4
+  },
+  {
+    "id": "86461db7-70fe-41b5-89d7-ac9025163f6c",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/2bff035e-2d80-412a-a11d-63240f365a3c",
+    "week_index": 5
+  },
+  {
+    "id": "56661970-d769-45d4-b8be-cd6ea7d83c1e",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/08aacc68-f75d-4765-8cc6-2550d5378f7c",
+    "week_index": 6
+  },
+  {
+    "id": "a247f34a-bffd-4f05-abab-7e85b025f14e",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/7ffc9087-bc14-4345-9759-912c652c4667",
+    "week_index": 7
+  },
+  {
+    "id": "24b83037-5757-4414-b862-a5996baea0db",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/f097655c-b096-40da-86c5-ef6e0c771241",
+    "week_index": 8
+  },
+  {
+    "id": "518bf1bc-1261-4e3a-a0fb-75af95f50673",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/2d03d116-a563-439d-8cee-f89e361bb392",
+    "week_index": 9
+  },
+  {
+    "id": "74bc619a-6f1e-4412-813f-753d30aaa67d",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/ba55a2fa-8e45-4b1a-9790-3bc469274c80",
+    "week_index": 10
+  },
+  {
+    "id": "e1a3d76d-41f6-40ef-8f5a-0ff7c882f074",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/3f4d5a1e-e9a8-42b9-974f-27916f22ca8d",
+    "week_index": 11
+  },
+  {
+    "id": "318e71c2-776c-4f9c-9ddf-b22653f554af",
+    "guide_id": "bc80aed5-4da3-48f5-a042-6652a50ed4ff",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cfa0d54e-4c5f-4ad0-a54b-761c20b1babe/week/cae000df-f3fb-4569-812a-2d5645280013",
+    "week_index": 12
+  },
+  {
+    "id": "20668909-5e68-455a-9447-4ecbd44f3d10",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/e0ca9554-c4f0-4eb9-af4b-e99215f5d511",
+    "week_index": 1
+  },
+  {
+    "id": "83d5532d-8899-4be6-b5f7-1e0245fd34ba",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/7f418189-7dba-476e-b887-2d270b59b446",
+    "week_index": 2
+  },
+  {
+    "id": "c2fc0e21-d9ea-4a34-a04c-558708be73ec",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/8d12e448-14a2-49e4-9545-2892d9242959",
+    "week_index": 3
+  },
+  {
+    "id": "0952298a-b7f8-491d-9e84-9914ee75e98e",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/c744a235-a270-4cb5-9e02-6d81192aa25f",
+    "week_index": 4
+  },
+  {
+    "id": "d50bad16-ed82-4733-9371-fc0ca17222b6",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/08b64827-7a35-4685-9189-1160e4e94fa7",
+    "week_index": 5
+  },
+  {
+    "id": "35115421-aae0-4724-b053-b44380157ce6",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/877cf8e3-52b7-4807-bf7f-080ff48a6b4b",
+    "week_index": 6
+  },
+  {
+    "id": "61879905-c444-4844-8138-904d440e44bc",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/334a7094-2733-4ec8-9c01-490fc1159c8e",
+    "week_index": 7
+  },
+  {
+    "id": "049a0262-4273-42b0-9f55-96250a480c0c",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/a55f3028-60e3-404e-b5b8-d24bc028b664",
+    "week_index": 8
+  },
+  {
+    "id": "31362135-bbe6-4cc2-bfa5-a183dd48323b",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/1bfa6b8b-0451-400f-a8da-3d4d55f0937f",
+    "week_index": 9
+  },
+  {
+    "id": "7faf78f0-afa6-4391-8502-5e6b365fe81f",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/7441b7fe-ca12-48ba-a4fd-8a405af6e9c8",
+    "week_index": 10
+  },
+  {
+    "id": "013ae43b-0fca-4e98-9b5f-6c55d9ca647b",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/718f4c8c-0352-4ffe-a677-b0d51aa49fdd",
+    "week_index": 11
+  },
+  {
+    "id": "b924d1f8-2f56-41c3-8441-7cf20ca0282a",
+    "guide_id": "e89b06ae-c916-4821-9a3a-37c0efd908fb",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f04e72f8-da49-452a-bf60-2a3d53960d55/week/e8d44148-1c46-40bd-a93d-1c0bbee5790b",
+    "week_index": 12
+  },
+  {
+    "id": "68daeee7-ef8a-4978-bc09-ae584a758d07",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/842dcdc0-6330-4743-a749-bd6a7e79b398",
+    "week_index": 1
+  },
+  {
+    "id": "6a8a8702-22dd-4a3a-873f-69c0e94b1ba5",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/f65fdbe2-c026-4b0c-9f70-ca45e461cfdf",
+    "week_index": 2
+  },
+  {
+    "id": "1c74e3b4-54a5-4c58-9086-71b7c18224d3",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/c33e9947-fe98-42ae-beeb-3523cb3c29a5",
+    "week_index": 3
+  },
+  {
+    "id": "069cf880-43e5-41fe-b84d-b3b366daa138",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/72d8263e-78c6-47f0-8ea0-eb912f39d70a",
+    "week_index": 4
+  },
+  {
+    "id": "63543f01-bfd3-42b2-9b35-dfc79c0c52fc",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/27ce2679-a549-4245-9f7a-d7ef12d054fb",
+    "week_index": 5
+  },
+  {
+    "id": "df58d630-3508-4d3f-89d6-4dc41762fb00",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/25974253-d960-4085-8697-1f5297c952d7",
+    "week_index": 6
+  },
+  {
+    "id": "cac0eb10-cb3d-4d41-b25a-b33cba1cff55",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/761fdae2-998e-43f3-b0f5-4bb979f1764e",
+    "week_index": 7
+  },
+  {
+    "id": "19a14031-6c68-4db0-b357-1445fa4f2ff5",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/c8e3adf6-e2b4-414b-9455-3dd44f68b6dd",
+    "week_index": 8
+  },
+  {
+    "id": "4301c97f-c1cb-476f-a05c-591119ee0b34",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/c04c3ca3-7814-42a3-b451-5de6ddcd56dc",
+    "week_index": 9
+  },
+  {
+    "id": "68dff8e0-1215-420e-8bd8-fee93d461fc2",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/105e68e3-8721-48fa-9eec-092550f7eaba",
+    "week_index": 10
+  },
+  {
+    "id": "03b89601-213b-45d9-a280-a884197f4f7b",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/4503df37-857c-4fec-abfb-7e0ea57cf2e5",
+    "week_index": 11
+  },
+  {
+    "id": "f18306e7-fed2-4e91-9eef-e7bfdb4fa302",
+    "guide_id": "0916604e-924a-4298-84a4-7fac39f3eb52",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cc32f4ca-2e41-4628-996c-04f59e8ef642/week/638652f7-05cc-4698-9820-317fa4720224",
+    "week_index": 12
+  },
+  {
+    "id": "6bdde299-941a-4129-9156-7993ef1a71ea",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/725f35c0-fc9b-4508-ae41-a64117256f9e",
+    "week_index": 1
+  },
+  {
+    "id": "ad792ab6-6919-45b8-b926-33ec54da0513",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/54f5fa60-903c-4d1c-bf6c-2ba08451fb43",
+    "week_index": 2
+  },
+  {
+    "id": "b8806813-9287-47e5-a527-82dce44d9f5c",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/f89f43a2-5650-4fc8-a516-d907706f06b4",
+    "week_index": 3
+  },
+  {
+    "id": "3d1dd96c-8e08-416a-bbcf-cdde541cdfc0",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/be959e9a-27f5-4af2-b813-fdcbd78a12e0",
+    "week_index": 4
+  },
+  {
+    "id": "d51c7769-28f3-4b64-9827-4ee3e50786ae",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/aa2068c3-1b2b-4295-9bbd-682b676357af",
+    "week_index": 5
+  },
+  {
+    "id": "5770b3bf-dcee-439d-b1e7-e208f4670b94",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/2e204be4-3e81-4057-a6b1-0e2fa948f637",
+    "week_index": 6
+  },
+  {
+    "id": "3b68b89c-37b4-4d4a-8b34-1b0d70bdfe80",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/5e0e8781-e802-4230-959b-4b6683140af3",
+    "week_index": 7
+  },
+  {
+    "id": "b2faf83c-b108-4525-87b6-d975908e6c4b",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/33d8d35e-c4a0-4536-b11e-075490e080a0",
+    "week_index": 8
+  },
+  {
+    "id": "fb563b44-c3e4-46b7-b79e-362f85a707d4",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/5c7b81cb-9865-4c00-8bbc-645292b2de60",
+    "week_index": 9
+  },
+  {
+    "id": "2f15f82d-257a-4333-b2e3-7e5f957e2787",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/f8958dc2-10dc-4c66-9e47-723cfc92e376",
+    "week_index": 10
+  },
+  {
+    "id": "e519de11-a8a6-4e5d-afff-397792c40506",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/8c8a4dfe-d849-410f-a35b-ccd89eb9f89a",
+    "week_index": 11
+  },
+  {
+    "id": "9abf5b56-1580-4161-b0a7-ead02932d126",
+    "guide_id": "ff262345-2595-4f73-bf30-d2da0cbeff26",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3b3b9910-1f99-4fb0-8f14-2ae56bd005f6/week/7b0fe879-a199-40e9-9125-641129f29a4c",
+    "week_index": 12
+  },
+  {
+    "id": "b4e44aa4-4cc6-4a43-ba21-649b886efe77",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/4091e768-88fe-4a48-b039-1b8bceb98e82",
+    "week_index": 1
+  },
+  {
+    "id": "893ed977-aa2e-43ae-b140-6db0b6491b20",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/b9cb6f93-98f7-4b50-ac0b-2df7f5bdf2d3",
+    "week_index": 2
+  },
+  {
+    "id": "e1a75cfd-6aac-4b00-9d01-2598d2b8c9c0",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/aca09aea-38cd-4047-93a7-6b5dbb44dc84",
+    "week_index": 3
+  },
+  {
+    "id": "a2aa3fb3-35c0-4ccd-8257-53ff827fbe67",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/d4dd7378-09df-46f6-9254-f942fe77386e",
+    "week_index": 4
+  },
+  {
+    "id": "d2d62bcf-7dee-4d7c-ab67-e6ea425bdc17",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/30d2c3c4-38bc-4c29-a729-2a08067ab7c5",
+    "week_index": 5
+  },
+  {
+    "id": "da2ef1fb-06fc-4fcf-8026-95d7eb39da16",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/21d7abe4-2810-49c2-bcfb-acc79c5854ff",
+    "week_index": 6
+  },
+  {
+    "id": "d91739f7-d3d8-4c1c-a74f-f1732617877b",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/50c4c13c-630d-4f3c-a2da-4f59c407ed98",
+    "week_index": 7
+  },
+  {
+    "id": "1fd8f5ff-b9b5-4aaf-95c1-95c5132102b7",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/5b1ad1b4-183e-4513-9b22-3139bfcc6535",
+    "week_index": 8
+  },
+  {
+    "id": "73583481-fd4b-41e0-81e3-8b4af1b2aacf",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/ad47685d-2629-4d53-93f1-149f10f04560",
+    "week_index": 9
+  },
+  {
+    "id": "5706068c-858d-4111-a248-6875c39c2c34",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/744823a9-f929-47a9-abf8-f6498b69cb36",
+    "week_index": 10
+  },
+  {
+    "id": "deb70d10-601f-4cd7-9114-1f6338c17f0c",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/38b81165-b0d2-4d2e-be93-1d0ea2bf6d5e",
+    "week_index": 11
+  },
+  {
+    "id": "97f3f654-e64d-41a5-b86f-b641afa7dfdd",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/00d7a65a-88aa-4ea8-bc69-c086fa068262",
+    "week_index": 12
+  },
+  {
+    "id": "fc6dbac6-1e3c-414f-8c87-2b05f7fe75dc",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 13",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/0986dd2f-6489-4aa4-8440-e6b6a9e907f7",
+    "week_index": 13
+  },
+  {
+    "id": "6de722f5-9579-4798-81c2-e9d4f4fc2402",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 14",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/4cc19871-ba89-4329-853f-9a7c0d2c6dad",
+    "week_index": 14
+  },
+  {
+    "id": "a419e954-7350-4393-90bc-ef4e2a197a83",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 15",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/436272b5-373c-49bb-8f93-495a1a344d06",
+    "week_index": 15
+  },
+  {
+    "id": "3075ea37-a8f0-4c0e-bddd-44a6329e5003",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 16",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/5287a175-16a0-4f15-833e-2a831dec3139",
+    "week_index": 16
+  },
+  {
+    "id": "6e580939-1b83-48c4-8514-03fdff2f72b0",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 17",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/2e4e6b4d-4935-4d34-a776-1cc3f237fd16",
+    "week_index": 17
+  },
+  {
+    "id": "77e7aeca-f99f-4048-9ddf-66d09bc95dd8",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 18",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/e49c5500-7a7d-41d6-b6e2-9554fae1e44d",
+    "week_index": 18
+  },
+  {
+    "id": "222e8bba-c99d-42c8-8bb6-5e65e12c1b6c",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 19",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/2eca7cc6-f66b-4976-a80f-d8b487a2ffe5",
+    "week_index": 19
+  },
+  {
+    "id": "851ca0b0-fabb-4d50-9ff9-017f4a0fc1fe",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 20",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/0ee0777b-f6b0-4131-b851-36eeee4c4886",
+    "week_index": 20
+  },
+  {
+    "id": "80650775-61da-48d0-a3c9-4c882b30f55e",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 21",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/2f364730-c25e-4501-b5d4-328230d17e93",
+    "week_index": 21
+  },
+  {
+    "id": "26f3f39c-9719-4c2b-a313-7ff4e272216c",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 22",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/45188a2f-7a77-4327-bc2c-d640421bc6ac",
+    "week_index": 22
+  },
+  {
+    "id": "79ff8f24-e5a2-44fe-b34e-ff550a86b1b3",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 23",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/b2a7b1c6-6d7a-4540-97d1-009bb4d9f72e",
+    "week_index": 23
+  },
+  {
+    "id": "a9b07554-d121-4661-9745-f8a3c652d6f5",
+    "guide_id": "2ac6e22e-8034-4e5d-af43-3a8a90006595",
+    "week_title": "Semana 24",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c93e3632-cf82-4947-90f1-706ede0b0376/week/4328ac39-1ffe-468c-bf6d-48e2295aac82",
+    "week_index": 24
+  },
+  {
+    "id": "fb485de6-c51a-45e8-bb6e-f73615350a67",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/388f0638-6742-4652-913a-557a183afab7",
+    "week_index": 1
+  },
+  {
+    "id": "1e555826-be1f-437d-b543-f15889f0a217",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/5237b676-7403-4684-ada4-ced4e11cfd24",
+    "week_index": 2
+  },
+  {
+    "id": "53fcb8dc-b0b9-4056-ac30-1bb3fc763baa",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/064bfe55-53f8-41e9-8042-fb567e91dde8",
+    "week_index": 3
+  },
+  {
+    "id": "fd532b6d-7b73-47ba-8538-f4b17f24c561",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/9a75b32d-f7df-43f2-9236-144b6b1ff94c",
+    "week_index": 4
+  },
+  {
+    "id": "508e0f2d-ba43-4174-bcfb-e77e21dba18a",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/5827f51d-9881-403c-9ee6-a89aa2843abd",
+    "week_index": 5
+  },
+  {
+    "id": "f287ed7a-c367-4c72-8d14-622775e9b594",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/1c740021-3b34-41e8-a6fd-63a1d4977d7f",
+    "week_index": 6
+  },
+  {
+    "id": "64110b86-79eb-4f85-a58d-06473bb1cf1a",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/e1d87f67-a5b8-4153-b163-4201cc6d1ba4",
+    "week_index": 7
+  },
+  {
+    "id": "d3115002-4967-40a2-a435-d265d6e5570c",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/a363741b-49ef-47fa-a270-85bc0b708dc0",
+    "week_index": 8
+  },
+  {
+    "id": "ac7514ad-5583-4dc3-9edd-185cb7e56775",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/9421e1fd-b7f7-4cb5-ba4c-377b29cdd754",
+    "week_index": 9
+  },
+  {
+    "id": "dc16f0c8-1672-42e9-9ba1-008f7a83d6bf",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/fadf7758-a4be-4ac3-b0a6-e7d02c6cdefc",
+    "week_index": 10
+  },
+  {
+    "id": "f2991055-e043-42aa-b3d1-90c0dae15421",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/c3b21fc5-6736-4860-ada8-dbdb3bfe21d3",
+    "week_index": 11
+  },
+  {
+    "id": "b37bd5b3-67d5-475f-99ee-37b0c8ced3d5",
+    "guide_id": "b71ba7ad-293f-4e35-9145-8e0c500d06e6",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/75090f2e-9c5c-47e0-9f58-2f43b32ea82c/week/e99ea54f-f775-407a-b8c5-443b4867bd26",
+    "week_index": 12
+  },
+  {
+    "id": "c8a000da-589c-4cac-8093-a86b3aa493c8",
+    "guide_id": "bfe8a7c0-5d44-4496-8153-6b6f77d737fd",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8d3507fc-9a50-48ff-8f62-93eda06c40a3/week/3616bbdf-e18a-41a8-9a93-2a6a66712ccc",
+    "week_index": 1
+  },
+  {
+    "id": "b35295d7-9252-4d51-85b9-f19647f06011",
+    "guide_id": "bfe8a7c0-5d44-4496-8153-6b6f77d737fd",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8d3507fc-9a50-48ff-8f62-93eda06c40a3/week/c7d01b97-0fb7-4481-abbb-27c5d572b913",
+    "week_index": 2
+  },
+  {
+    "id": "3456e1bd-80a1-45c0-9209-7b803668b10d",
+    "guide_id": "bfe8a7c0-5d44-4496-8153-6b6f77d737fd",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8d3507fc-9a50-48ff-8f62-93eda06c40a3/week/140f952c-14fa-4d4c-a8b0-5069e9792d85",
+    "week_index": 3
+  },
+  {
+    "id": "33b21526-5cd9-4541-8094-3e4072ecd6b8",
+    "guide_id": "bfe8a7c0-5d44-4496-8153-6b6f77d737fd",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8d3507fc-9a50-48ff-8f62-93eda06c40a3/week/b16c72e3-49da-4156-8c25-f684579a9d38",
+    "week_index": 4
+  },
+  {
+    "id": "5d94ec88-c6c9-4871-a04a-d8d823612865",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/d5be6853-084f-4c88-8187-f45c55eb7d84",
+    "week_index": 1
+  },
+  {
+    "id": "4c598336-532f-4677-a464-4900298c4ce0",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/ef60f2b5-3f44-43c9-baad-86b9c3284ad8",
+    "week_index": 2
+  },
+  {
+    "id": "2d1505ce-16da-496f-9111-b55536357d13",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/e2beb578-aed2-4dc7-9e6e-b93d66c3fd82",
+    "week_index": 3
+  },
+  {
+    "id": "c5a9ad9a-648b-4e99-aa85-c56e45617eab",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/52e25036-2ed4-4b3b-b297-4125e5eb908a",
+    "week_index": 4
+  },
+  {
+    "id": "217bd787-fa00-47aa-a8de-47024b75a2e6",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/425821c8-e8af-46aa-bb51-f4cd3ca7239e",
+    "week_index": 5
+  },
+  {
+    "id": "50554253-3f8e-4292-989b-2b98fc791108",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/3433f5c6-61ff-44e4-b034-41690456ea6c",
+    "week_index": 6
+  },
+  {
+    "id": "b02ec641-40f4-4ba5-97ca-69bd46463a34",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/62407d07-5445-4dff-affb-0679b1396b57",
+    "week_index": 7
+  },
+  {
+    "id": "9f0c97ca-6359-4a88-a24d-dde8d9e3fb05",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/afb6a4a5-04a0-416d-aa0c-afe96e610582",
+    "week_index": 8
+  },
+  {
+    "id": "978325a3-555e-41cb-b0da-366a713c8114",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/11162b1e-02f6-4c11-81ab-ccb64ab9491d",
+    "week_index": 9
+  },
+  {
+    "id": "4ff5c28b-4ccc-414f-9d79-3f45252a4fcb",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/f89ddb9a-7898-4f40-804d-2268b85fe62e",
+    "week_index": 10
+  },
+  {
+    "id": "168a8f80-13f1-4f7c-a7f7-62c05f9002f6",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/296cd78f-4784-4c92-aefa-e5f51d832523",
+    "week_index": 11
+  },
+  {
+    "id": "c61ee77e-422c-4da1-a68d-ac2b52725fc5",
+    "guide_id": "4758ffa2-b1e5-4d4e-b769-22a34451d95b",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/cebe6832-c80c-487a-a71a-2c88dc7dcdf4/week/dec58210-0f34-4d8e-ae20-8ed6a0d1e9c5",
+    "week_index": 12
+  },
+  {
+    "id": "e3474f52-89f1-424f-8fa9-4a2d47198dcc",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/95206eea-53b8-481e-9994-98a7935239e2",
+    "week_index": 1
+  },
+  {
+    "id": "5f025f4d-ac62-4688-8e98-e82664e96805",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/9b4e87ca-2ca2-4b88-9944-021b6c5409b6",
+    "week_index": 2
+  },
+  {
+    "id": "76e5942a-4756-46bc-8fb0-7296b8493877",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/d66c9171-cf1f-4518-b618-87e249bc84b3",
+    "week_index": 3
+  },
+  {
+    "id": "306749bd-9ad8-49b0-97dd-e8edc4c7f3bb",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/306896d9-d710-4d9f-bd30-9305c5463fb2",
+    "week_index": 4
+  },
+  {
+    "id": "84587d14-bf14-47f8-8ad2-1b49dbcefbb8",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/017a2982-8040-43af-b051-98d97ffc4d8a",
+    "week_index": 5
+  },
+  {
+    "id": "593b858d-bd9b-4790-936f-1bb3cea62609",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/32512c54-37e0-4730-a9ac-5bb273d5b589",
+    "week_index": 6
+  },
+  {
+    "id": "ef70204b-8e50-42c4-a855-77df6ab519b4",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/ce20630b-6966-41d4-ae92-85bed8d538f8",
+    "week_index": 7
+  },
+  {
+    "id": "540338e0-725a-4104-9204-2542a6f33fba",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/ba56593e-8959-428c-b719-0f63885e4606",
+    "week_index": 8
+  },
+  {
+    "id": "32ae9827-4d5c-4d14-8c97-afb33041dfad",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/1271ea90-2121-4058-9f01-e001b684ef10",
+    "week_index": 9
+  },
+  {
+    "id": "d1e1bcfa-b2c4-49ae-9256-bfe97c8968ef",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/d1a5c114-b1ca-4df2-9f8b-5e9c6ac75239",
+    "week_index": 10
+  },
+  {
+    "id": "56711859-9677-4fab-97da-40e613158ec8",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/9f931ce8-fe93-4e73-a863-53599f42663b",
+    "week_index": 11
+  },
+  {
+    "id": "dafd2652-aeaa-4ed6-9fb8-cca5e3af980d",
+    "guide_id": "8d4c4018-49fb-4fbf-adfd-305d5903b03d",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fb28a915-4790-4aa4-b447-cb950aa18d16/week/ded3cb85-da03-403d-bebe-fb7e16f67ea9",
+    "week_index": 12
+  },
+  {
+    "id": "41ce6c89-6e67-4426-ab8b-371531fb2d01",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/7433a2c2-aefa-467c-a5b2-f448ce1fa174",
+    "week_index": 1
+  },
+  {
+    "id": "6315662a-add5-42e9-84f7-ee240c685fba",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/b200ac76-e461-4892-93af-e9091f771f8a",
+    "week_index": 2
+  },
+  {
+    "id": "3178b2e8-30df-4fac-a17a-475c1ee3ed33",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/8988bb63-9fe3-4ce8-92f0-62aea62b7d70",
+    "week_index": 3
+  },
+  {
+    "id": "a9794938-5dff-45d0-9e74-b9e58eff9b4d",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/f64b2a53-0fbc-485d-b204-7d5502c10abe",
+    "week_index": 4
+  },
+  {
+    "id": "f632683a-2c4c-44f5-8d67-50e727be712f",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/a46594c0-b223-42bf-855e-67daa371b6bf",
+    "week_index": 5
+  },
+  {
+    "id": "abb6fd43-f8cc-4cc9-a1bd-54301df1ff41",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/66744821-e8f6-44c7-a769-33335a8063c0",
+    "week_index": 6
+  },
+  {
+    "id": "96a9ded2-7878-4bcd-afe6-6a637c8a690a",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/33f00f62-5ab6-4d85-bdbe-473953006746",
+    "week_index": 7
+  },
+  {
+    "id": "ddeceebb-7cac-4a35-9619-de88cffb4037",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/01cc686d-2d4a-4824-98ea-e892cb45f4dd",
+    "week_index": 8
+  },
+  {
+    "id": "a2161b4c-a7df-4069-b985-e07aba00a607",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/6df21e82-147a-4776-a4ef-1ba4434a9d71",
+    "week_index": 9
+  },
+  {
+    "id": "fad68ecb-ada6-43fb-830e-fc04eab9efd0",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/8a0f1414-b1b8-4cf7-bf8d-13fd70818fc1",
+    "week_index": 10
+  },
+  {
+    "id": "45868d7d-80bd-453b-9c96-09fb07eda461",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/7c738f65-41db-458f-83a6-4aa7ad965c6b",
+    "week_index": 11
+  },
+  {
+    "id": "bf725cee-5b21-4dfa-833c-7375aafc8e9d",
+    "guide_id": "5cfd5ca9-e280-49e4-bc30-f18a6c966c09",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/54877f69-ae71-4c6b-b4d2-e597fcfeb35a/week/d0d4e67e-b978-4601-8cd5-20aa3432dee1",
+    "week_index": 12
+  },
+  {
+    "id": "86c49384-d593-45bb-9f7d-6eae77287792",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/fbe22797-9aed-493b-8d62-8a1b9ea8e039",
+    "week_index": 1
+  },
+  {
+    "id": "a63a00bc-7f26-4e15-8752-72417e41674a",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/994698db-837e-47f6-8048-4c13aecb674d",
+    "week_index": 2
+  },
+  {
+    "id": "063cd39b-02b8-47c7-919d-9b9304facfb0",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/1483aec9-9051-4b62-9c43-c2af4c540006",
+    "week_index": 3
+  },
+  {
+    "id": "8f32862a-1ed2-4db5-b333-e86dd41277a1",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/0e058b4d-8768-4b13-a1a9-acddee871c5b",
+    "week_index": 4
+  },
+  {
+    "id": "0613d205-db15-4056-8b1e-d0ca8a94d2ea",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/b35cac65-3a85-4a09-a25b-40ad3faa9824",
+    "week_index": 5
+  },
+  {
+    "id": "8c83ba79-6ae3-4c6d-8040-d7a146fc3c37",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/d08468d5-ba2d-4d28-b0a3-eb43f17ca539",
+    "week_index": 6
+  },
+  {
+    "id": "03d41f90-1b0b-4414-9fba-b0d1cc001ef8",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/c70aa2c3-0ed6-41b8-90ae-375eea6d12a1",
+    "week_index": 7
+  },
+  {
+    "id": "f38e9013-5d3a-4c33-9ae9-c3f8139b328b",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/7fff0809-6a40-4a38-897b-830aeb7ffcf2",
+    "week_index": 8
+  },
+  {
+    "id": "01dc1859-872d-48b2-84ac-b3cb1c81d348",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/75efb832-4308-4d3a-921b-1c28198d1209",
+    "week_index": 9
+  },
+  {
+    "id": "c0bc0aef-c12f-43b5-b12b-f00dc7e53127",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/7227e60d-0e47-4c6b-aac8-55ab3178ba27",
+    "week_index": 10
+  },
+  {
+    "id": "794d465f-bffe-4c42-bc1f-739e19dc6aaf",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/03eda998-4618-484f-9375-00810989a082",
+    "week_index": 11
+  },
+  {
+    "id": "8de5eb32-2eaf-407a-a6d6-2c2dd8723dbb",
+    "guide_id": "20f2ac87-089a-4e5e-8cc2-c1dc57144803",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/516309a2-4f5d-42a5-be32-7fcea50485f6/week/1a493123-92c0-4384-815c-f5ed89f0cb33",
+    "week_index": 12
+  },
+  {
+    "id": "cdbf03e3-6f33-4542-a25d-2c039901fe63",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/20fa4872-9928-46a7-8b49-67a9a24af708",
+    "week_index": 1
+  },
+  {
+    "id": "3a529216-c712-4233-bea4-4c4eaa4d635e",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/59aa27ed-c1a7-48e6-8e43-1f7df459386a",
+    "week_index": 2
+  },
+  {
+    "id": "eb64ad42-b359-4e52-8284-d23f2fd0d425",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/e2460eb5-a18c-4767-9cff-608ad83bc591",
+    "week_index": 3
+  },
+  {
+    "id": "8f4606d1-7bc7-496a-ad8e-d6d0c544d27a",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/4bb18313-c018-4de7-9571-c56ce755bd19",
+    "week_index": 4
+  },
+  {
+    "id": "fc448ada-06ec-441a-867d-4231ee165349",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/d0438a37-fd17-4d70-a230-675ed01a59b0",
+    "week_index": 5
+  },
+  {
+    "id": "c3353a7f-7459-4554-b82c-641de6b5fe5f",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/b7d4de7d-679d-4297-bd3d-26461a48ffd8",
+    "week_index": 6
+  },
+  {
+    "id": "d6a68fcc-3e68-4611-b650-411be6290177",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/e45b7aa4-e593-4cda-9947-8a299eade674",
+    "week_index": 7
+  },
+  {
+    "id": "b67dda86-f624-4024-87ad-8bef93b796a7",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/97e13b8d-e754-4b9f-ac34-14586ae02291",
+    "week_index": 8
+  },
+  {
+    "id": "c290c0aa-90b5-45a2-ac9d-975433872760",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/a8481796-d536-4aad-b930-4ae81ae49120",
+    "week_index": 9
+  },
+  {
+    "id": "172240ac-5f6f-4995-a994-7f03843e7241",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/d8ccb09c-1106-408d-acdc-09e27ca2b592",
+    "week_index": 10
+  },
+  {
+    "id": "3bfbb1c9-ebd4-4ee1-b292-e38b96380e46",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/b730dfe9-5487-4060-92be-3ccc5429d91c",
+    "week_index": 11
+  },
+  {
+    "id": "10cff32b-9198-486e-a771-c7bb4c17a795",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/604f7708-ed0d-4dd7-8e4e-93b912a7185e",
+    "week_index": 12
+  },
+  {
+    "id": "77c97ca5-1e33-403b-b584-af120336de4d",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 13",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/d1f5d6ff-4787-4086-849a-14eac0c8b32c",
+    "week_index": 13
+  },
+  {
+    "id": "3c41789b-492b-4666-a3ba-aee02742977e",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 14",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/aaba48f2-7b4f-46ac-acd5-5766ea6e4739",
+    "week_index": 14
+  },
+  {
+    "id": "1c84e1d7-2ed9-493a-b18e-9ede32e5c727",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 15",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/be680298-60cc-435d-b1b7-d7b2cfc45502",
+    "week_index": 15
+  },
+  {
+    "id": "268e6dd5-e547-4848-b6e0-bd404509d848",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 16",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/139e6ad2-dd81-47f5-9ab5-7c0421b0530a",
+    "week_index": 16
+  },
+  {
+    "id": "f5e9fe61-09ab-4771-a2f3-48a413b81e62",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 17",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/3bad101c-2009-4db2-85fd-7551232b32c1",
+    "week_index": 17
+  },
+  {
+    "id": "b2ebd26f-8562-4436-86b6-b7dce812c5b4",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 18",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/d433e32d-ebc3-4d4e-8f52-b8a553fd408c",
+    "week_index": 18
+  },
+  {
+    "id": "d101494c-c2c0-450a-8052-2da539b2aeb4",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 19",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/9e55eb8d-b9e3-4418-8499-63cd025e1fa4",
+    "week_index": 19
+  },
+  {
+    "id": "0cbaf1b0-4564-4cd7-9a6c-59c6a1af1fdc",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 20",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/25b033ed-7d46-4939-8759-c1e3b135c5e4",
+    "week_index": 20
+  },
+  {
+    "id": "4980019d-a17e-4276-83b9-13cfd7fdcb56",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 21",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/5d6993f6-6b0f-425c-9999-75dc2bd75f8a",
+    "week_index": 21
+  },
+  {
+    "id": "112c317e-a68b-4a75-8639-54f07a295af0",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 22",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/c2529594-ca15-4450-9a7f-902a2a92909c",
+    "week_index": 22
+  },
+  {
+    "id": "3c327862-2711-492e-b0eb-f0dbbbdf41c1",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 23",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/68835bfc-7bc4-4719-88a9-cf1afd989a93",
+    "week_index": 23
+  },
+  {
+    "id": "7c0520a5-a263-46f4-b052-691f53d006ef",
+    "guide_id": "bbe46efe-ecea-469c-8cd4-c2a4f6e49087",
+    "week_title": "Semana 24",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bb00ae55-f643-412c-bdca-ea989a47f27c/week/28c6f398-3420-4f53-9df7-caa0f612199e",
+    "week_index": 24
+  },
+  {
+    "id": "365e1d7e-85d4-49be-b87d-a4fbc5f6be26",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/7b62ec7c-8aa1-4da2-b9a0-bc25a53f8aaa",
+    "week_index": 1
+  },
+  {
+    "id": "ae6a71cf-7dc7-43f5-b0f9-4ae2dbc4df8b",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/794e2c50-b2d5-4bce-a42b-d21b15d25e68",
+    "week_index": 2
+  },
+  {
+    "id": "0b938710-ab23-4e9e-b182-cc6dd4e9e72f",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/a347463d-c4fc-47a9-a66b-86cc8ef701c7",
+    "week_index": 3
+  },
+  {
+    "id": "71779680-9021-49b2-a681-469e789a3524",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/d846a75b-9ede-4426-852e-bfe976b07ecb",
+    "week_index": 4
+  },
+  {
+    "id": "70ae926d-8eed-4f27-8fd8-8c3c7aa3adbc",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/56a0efe4-dd3f-4e7c-a0e3-f14576bb1f31",
+    "week_index": 5
+  },
+  {
+    "id": "ed5a0b28-82e6-404c-a6a9-b664e3974c93",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/91606c3c-842e-42d9-9ad2-bace5530b654",
+    "week_index": 6
+  },
+  {
+    "id": "971f66d4-fcd7-46e5-8057-390ecf980e6f",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/b3767224-d8da-456c-a731-40b5ad3c1752",
+    "week_index": 7
+  },
+  {
+    "id": "a1c9f1f3-6044-4e42-af77-4b6a7c71f4ff",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/1c6add04-f94f-4c12-88ff-44de497fa3fe",
+    "week_index": 8
+  },
+  {
+    "id": "63f9a945-b434-45a5-bae4-c8d32ad6ab91",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/7e6fec20-a478-4927-ab0b-e28880cf0c0a",
+    "week_index": 9
+  },
+  {
+    "id": "3c8f37eb-9444-471f-b38c-f3c01533f612",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/5081b3c7-7de8-4a4f-8c3e-8d06ad092a28",
+    "week_index": 10
+  },
+  {
+    "id": "6f18af85-ffdc-48fa-824b-0933a7843f99",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/4310c5f0-6afe-48b7-9d8f-4cce15080459",
+    "week_index": 11
+  },
+  {
+    "id": "5565f2c8-c4e8-4e62-9904-8420c87478ba",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/ee3527b3-e4c8-48a6-a94f-cf30b4440790",
+    "week_index": 12
+  },
+  {
+    "id": "de28c7de-e4ab-48ad-bc38-696571c77662",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 13",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/676de4cf-117d-4660-8163-0c21a82c5040",
+    "week_index": 13
+  },
+  {
+    "id": "1b8e96d6-59d0-432c-9530-086f7a000a1d",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 14",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/e15b4097-9c41-4a00-964b-2c35d0dad398",
+    "week_index": 14
+  },
+  {
+    "id": "a94428a3-46b4-4eb8-beec-68ff8afb8b1f",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 15",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/d5e38066-07ae-4b7c-8a47-c81a097e9da9",
+    "week_index": 15
+  },
+  {
+    "id": "f7cae6ad-4819-4a8b-841c-2c9f29a21fcb",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 16",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/aa150ef4-3edc-4801-b765-df358b213d96",
+    "week_index": 16
+  },
+  {
+    "id": "f5c1acfa-1a2d-42cc-b9ff-8fbf781f2767",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 17",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/eb4c7e27-2ebe-4522-bbfd-fc99f6a05976",
+    "week_index": 17
+  },
+  {
+    "id": "28549276-a334-4cf4-93a2-067e3b4cd00a",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 18",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/c77de759-1932-4c53-855c-2beb67d565f9",
+    "week_index": 18
+  },
+  {
+    "id": "7df5a1f7-a3ce-4bcb-9d50-331cfac4cccf",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 19",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/60ef667d-30eb-468e-b951-ed3a422ed380",
+    "week_index": 19
+  },
+  {
+    "id": "091d9e1b-be42-4dc1-8637-8d0bdf060019",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 20",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/6c53206a-8064-4dd0-9c1f-2ec16e2e389b",
+    "week_index": 20
+  },
+  {
+    "id": "65efd40d-c549-49b5-844d-b8952bb09e73",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 21",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/6ddd064a-78dd-4169-b901-98fb5f83f4df",
+    "week_index": 21
+  },
+  {
+    "id": "d70e3bdf-560f-49cf-bd5c-5fd4cd4bbf34",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 22",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/55136704-3e82-49d6-85ad-f1d313e158eb",
+    "week_index": 22
+  },
+  {
+    "id": "7f298196-9718-44f3-b518-88abe8626fff",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 23",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/45d73c3f-4aa4-400c-ad01-8640ca5e1fdf",
+    "week_index": 23
+  },
+  {
+    "id": "00b79a20-4f26-4e29-91f9-0f2bf66c4c60",
+    "guide_id": "ff5aefa4-6db5-4ce9-a9cf-9553264994cb",
+    "week_title": "Semana 24",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/e793a13b-5b75-46aa-bf1d-20455ce1b563/week/1c369c50-9ea9-4454-aa7d-cbeff77cbd03",
+    "week_index": 24
+  },
+  {
+    "id": "12ed4fec-395e-4e16-b9c9-3daa1f159bc7",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/45989160-9996-4b43-9745-2b624cfe75e1",
+    "week_index": 1
+  },
+  {
+    "id": "1f092570-5820-41e6-ad6f-5404f038690b",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/98a4a734-2d3b-4722-a400-c989f9e83408",
+    "week_index": 2
+  },
+  {
+    "id": "178a73d5-7cfd-4bf1-843c-0bb6e5f057e7",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/7c9a8bff-f97f-405e-afd3-51f109f51c7d",
+    "week_index": 3
+  },
+  {
+    "id": "15d4cab6-54de-4cf8-8360-009e692d58ad",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/dbf90175-99ab-4540-90a5-d4d6513a80a7",
+    "week_index": 4
+  },
+  {
+    "id": "b1db1ac1-3063-42aa-9a27-822ef08c0ac9",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/815aba59-c9de-45b6-a2d3-3152d2aeaf96",
+    "week_index": 5
+  },
+  {
+    "id": "6fb3caa1-fb54-4d04-bc51-95978ac6ffc4",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/3f7acc54-9db7-4a21-b194-2d8357009548",
+    "week_index": 6
+  },
+  {
+    "id": "8297bfe2-3db3-423c-820b-bf095d7fd8db",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/79f82e4c-16c3-4bdd-9579-beb95975e789",
+    "week_index": 7
+  },
+  {
+    "id": "02bdab64-bcd3-4213-a83d-041d02c3c230",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/b1fc556a-8ada-4ca9-9930-23cbbd355c66",
+    "week_index": 8
+  },
+  {
+    "id": "68bff6ca-ae17-4476-9fb5-74ab2c8cb751",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/d6a59947-bd98-4fa5-97ca-236445719328",
+    "week_index": 9
+  },
+  {
+    "id": "4b048280-81f7-411e-bebb-222a28d9bda3",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/4cc90cc2-b774-4c69-8760-51b4b95757bc",
+    "week_index": 10
+  },
+  {
+    "id": "7cf76a0a-3f65-43d0-abeb-96730da3bf2c",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/8c606a3d-651b-4974-9712-beb618f40b74",
+    "week_index": 11
+  },
+  {
+    "id": "44d3b345-5e01-4e21-b0ee-5d1f9b5f4f7f",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/e5bd3889-9bb6-4206-ae56-d7f1874ed082",
+    "week_index": 12
+  },
+  {
+    "id": "a1612662-0663-4389-8fdd-a44cb83ebded",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 13",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/2902e226-de18-4ef2-82ab-2d46df8a6360",
+    "week_index": 13
+  },
+  {
+    "id": "f7b23212-536c-4000-800c-63ab8983f438",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 14",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/ad923643-f09a-470d-9b9e-e4076d89cf75",
+    "week_index": 14
+  },
+  {
+    "id": "444719b5-3fa1-4910-8d2f-229d50390c11",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 15",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/75a5ef31-bb8e-43be-9ad2-ac5a1086f477",
+    "week_index": 15
+  },
+  {
+    "id": "a5d13e4f-f1dc-4ff0-9ab2-07dba6c368c1",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 16",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/8180685a-37c7-4b9f-bb4a-cac41c5ccff5",
+    "week_index": 16
+  },
+  {
+    "id": "f5f406d8-efb1-465c-b362-a8b492e5764e",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 17",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/e4672a5f-6334-45ad-8d76-33351185df0b",
+    "week_index": 17
+  },
+  {
+    "id": "e8c1814a-f78c-4f93-bae9-7811dd17470e",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 18",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/94ca1ade-ccb7-4a17-b0c4-9fd8baabcaf7",
+    "week_index": 18
+  },
+  {
+    "id": "19dafdd6-5303-463c-81f6-843824f8a758",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 19",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/2cd02fd5-e46d-44e6-8891-598e34ac9d3c",
+    "week_index": 19
+  },
+  {
+    "id": "b5109fc1-89e3-4eb7-96e2-c926ccac078f",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 20",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/34a74791-5658-4460-9693-7376af1033e0",
+    "week_index": 20
+  },
+  {
+    "id": "9da92ff9-637d-43e5-8567-1c28a387598c",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 21",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/3557233b-4a71-4d6a-abd0-e7ed705d89c0",
+    "week_index": 21
+  },
+  {
+    "id": "5e9922cb-c83b-4622-8c4a-53c0526d0e03",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 22",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/9f66215f-2658-4e43-a685-823b75fd1242",
+    "week_index": 22
+  },
+  {
+    "id": "ad26bef8-975a-4322-98c9-0c7f5e0e3552",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 23",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/5a7ec358-47bb-4dc4-8e3b-446e5c607379",
+    "week_index": 23
+  },
+  {
+    "id": "187a1433-e20b-4e7b-8c1c-50f60771ee4a",
+    "guide_id": "c5b25bd5-dc83-40a8-8672-6aa9b3ba6bc2",
+    "week_title": "Semana 24",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5fa53d8c-3aa4-475b-8155-414fc4840eb8/week/e6490ba8-df9d-4ebc-838f-aa0adc0f6872",
+    "week_index": 24
+  },
+  {
+    "id": "7e41c66f-6888-4671-8ae1-a2316bce9c27",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/df1e3de0-01e9-4d5a-a152-13025d4823b2",
+    "week_index": 1
+  },
+  {
+    "id": "c80d22ba-d555-422e-8e84-c72ef400f4a6",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/0ca888ef-46ff-4cc2-b3a0-2350ddf0e2e4",
+    "week_index": 2
+  },
+  {
+    "id": "fd571ee9-b46c-4096-addf-9ca610f07247",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/a0820b61-e41e-44af-ae24-f6e8eae8bbb4",
+    "week_index": 3
+  },
+  {
+    "id": "053d4b85-48f1-49c5-822d-9276781e176a",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/35b12f39-9108-4834-9e5b-cd4b8730ab2e",
+    "week_index": 4
+  },
+  {
+    "id": "84c2efef-268e-42d2-a623-2abe11aa3d64",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/b9ba0fe1-cc04-494c-a414-e36016e6ce37",
+    "week_index": 5
+  },
+  {
+    "id": "98139bc5-7a90-4f2d-bd21-c762cf9416ae",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/2d3d3956-2f63-49ee-b3e0-639dbaa48b91",
+    "week_index": 6
+  },
+  {
+    "id": "e9b8cc67-c1b2-40a5-a8f7-13d9b0c2964c",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/19394227-2d4e-4528-a207-a95a63b755b0",
+    "week_index": 7
+  },
+  {
+    "id": "78b7bd00-33d5-4b0b-b356-151bdc3cdd0f",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/46a32611-e74f-4c7f-835c-15ae89d48de3",
+    "week_index": 8
+  },
+  {
+    "id": "98aa97ce-4c8e-49fd-9906-5f5f5aed59c8",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/aeaaefd6-06b1-4514-b5db-421a719a8a57",
+    "week_index": 9
+  },
+  {
+    "id": "1bad566d-742a-423f-aaef-714ecd4f4feb",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/2e643b46-3f6a-41bc-be70-81debd182964",
+    "week_index": 10
+  },
+  {
+    "id": "0d42ff44-5a67-4307-b159-ca727a6f6154",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/2e2c7068-a2bf-429a-880a-6bfc350307a4",
+    "week_index": 11
+  },
+  {
+    "id": "71858008-f360-4d67-bc3b-5d184e36652b",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/207e4710-6628-4f62-90c3-f1dd7bcdbf4c",
+    "week_index": 12
+  },
+  {
+    "id": "f43ffdf6-746f-48c8-8f6c-6ab0a0fe1bdd",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 13",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/33c4755d-6f90-4aa4-92aa-82d48fdcedf0",
+    "week_index": 13
+  },
+  {
+    "id": "458ee759-0430-4e8a-82fb-92cb10e6884a",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 14",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/4dfb6ee3-2b5e-42da-8998-9a1cc84494ab",
+    "week_index": 14
+  },
+  {
+    "id": "b2d67cfe-762a-4abd-baff-a41458e86297",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 15",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/48ca2ac2-1bd8-4f60-8da2-ddf885a277a7",
+    "week_index": 15
+  },
+  {
+    "id": "05e78c09-945d-4749-8fe8-7580befbe462",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 16",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/bebaae79-2933-493a-9a04-92597fd904d5",
+    "week_index": 16
+  },
+  {
+    "id": "be3a1ce6-b726-4ada-92f4-e853c1bd5c4e",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 17",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/1650e18a-d9ca-4dcf-af39-43317d5310ba",
+    "week_index": 17
+  },
+  {
+    "id": "bb6f2265-5334-4869-8c3a-8907e60e7c78",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 18",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/4ec57954-78fb-41d1-b7cc-7a08304755c1",
+    "week_index": 18
+  },
+  {
+    "id": "b2829b5a-cb67-4ec0-ae1b-c38decf1199e",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 19",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/e6498cf1-348c-4fb1-968b-16de4b653437",
+    "week_index": 19
+  },
+  {
+    "id": "6732644a-a010-42e2-b104-1b9d4a4fa956",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 20",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/60f705c2-3f68-4e6f-90bc-fb31a0481f76",
+    "week_index": 20
+  },
+  {
+    "id": "bc3a12b3-08ae-4f42-a884-bc94f83bb98f",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 21",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/afd065df-d7cf-4812-99a1-208ea30e147f",
+    "week_index": 21
+  },
+  {
+    "id": "6d6b3bfa-d312-48fe-b4fd-a4e898353626",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 22",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/0abcd74b-f713-4426-ae6d-632a91a57972",
+    "week_index": 22
+  },
+  {
+    "id": "165a991b-55cb-4183-aa08-8785633c4820",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 23",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/ef3dcd2c-7e35-4a00-aa78-d1a810bd1ce2",
+    "week_index": 23
+  },
+  {
+    "id": "61d78e96-1312-48ce-865c-094cf1d2afb3",
+    "guide_id": "fd0c4396-3c76-4216-a034-ec695f08e9e9",
+    "week_title": "Semana 24",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/00d35cf9-aae4-473c-b595-28d99bf568e6/week/55a71997-fcc1-459e-91be-7c3a49512b11",
+    "week_index": 24
+  },
+  {
+    "id": "743fb4bb-6431-442f-a2ab-fce732aa5924",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/917e7b12-971e-467d-8873-7d0459ebdb95",
+    "week_index": 1
+  },
+  {
+    "id": "b38b3040-8251-46c5-a9be-7d3a6a1d4f00",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/aa0a1f15-6575-4afa-b7c0-563aad8e437a",
+    "week_index": 2
+  },
+  {
+    "id": "8d5171fc-a3c2-4218-8682-b35f41b4f80e",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/8973e66a-9368-45d2-b355-33e1b16a0bca",
+    "week_index": 3
+  },
+  {
+    "id": "cc0319aa-142b-4075-9b30-87cd810be1a2",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/57a320ef-708c-43a1-8d86-0334ceb20e37",
+    "week_index": 4
+  },
+  {
+    "id": "ec6e4867-18ef-42eb-beb4-9db338399b1b",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/6982c015-bd9f-413c-8a1d-63c392ab3377",
+    "week_index": 5
+  },
+  {
+    "id": "85b1a3e0-22f0-4f43-a421-a8c12ebae4db",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/6b242385-95d0-4162-a318-ddef0c34d383",
+    "week_index": 6
+  },
+  {
+    "id": "65cb41e9-5c32-4205-92a7-e2838d5e6c21",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/9a3eb222-c065-46ad-bdb5-cee2680b83cc",
+    "week_index": 7
+  },
+  {
+    "id": "8f171a0e-6770-44d8-87ae-92fb67f23ab0",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/fe459b90-12a5-48b5-a588-9c9a83203d62",
+    "week_index": 8
+  },
+  {
+    "id": "03d0565c-3bae-4de7-9e40-acb48a2f3068",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/1baf87b1-aaf5-433c-8caa-13c08bbadc73",
+    "week_index": 9
+  },
+  {
+    "id": "902e9795-3243-4951-953c-02a50e2eb67e",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/0c3d696c-961d-4246-b20c-410a433c1b62",
+    "week_index": 10
+  },
+  {
+    "id": "51598505-11ce-4a00-83c1-a8d924ca1c4e",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/7927c125-dca1-441c-814c-eb3559e0fd70",
+    "week_index": 11
+  },
+  {
+    "id": "635dc06a-8344-4a2c-8e3b-00ebc28abf0a",
+    "guide_id": "af56f4ec-f9c9-4f6b-bd38-ca109a9b3dee",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1844ff15-ebf2-4a00-8611-0912fdc695e2/week/11759044-d99a-4d64-9f85-feba8321eeb4",
+    "week_index": 12
+  },
+  {
+    "id": "fca96f82-eb8e-459f-bdfd-e22380bf4f20",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/29a9563a-9267-4ba8-abd6-06841af4d664",
+    "week_index": 1
+  },
+  {
+    "id": "e3960e8e-e51f-4bf4-aef5-c9d6982d7f3c",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/cc2e2755-6d88-4bd5-8697-16f9a092036a",
+    "week_index": 2
+  },
+  {
+    "id": "69bc3dd7-460a-4bee-b4b4-21dae809f17c",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/ecaba5c0-def3-4b7b-8c69-ddfb73c05169",
+    "week_index": 3
+  },
+  {
+    "id": "002c518f-39c6-49ae-a8f2-19516b2df3ef",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/ff154949-910a-46c6-8455-d71718e7b07e",
+    "week_index": 4
+  },
+  {
+    "id": "ba965b1a-08d0-4b35-ac67-7730d9ebbe3a",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/70b892a3-f553-4607-8396-129685928ff7",
+    "week_index": 5
+  },
+  {
+    "id": "0f9b8983-03c2-4810-958f-4962a58e7c9b",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/f5d9e82f-0ee1-476d-85bf-bc4b4b6e1155",
+    "week_index": 6
+  },
+  {
+    "id": "cb22d169-1058-4419-9397-1b30da82815d",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/b566a0e0-e969-4058-8f0d-f2053220545e",
+    "week_index": 7
+  },
+  {
+    "id": "22a10dfe-84aa-41d0-bb54-1b0d27468d14",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/56340990-e3f9-4d75-8206-5dd89bf989ba",
+    "week_index": 8
+  },
+  {
+    "id": "2091fcaa-8a7e-426b-bdc6-a3ec0a2ab31d",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/cfc55e24-8bad-4ff8-93d4-714b490fccf0",
+    "week_index": 9
+  },
+  {
+    "id": "d0d00c1c-0cfa-4eb1-94dc-08b4daa6357b",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/1860c5d3-6815-49ea-8b4e-13cce1c88474",
+    "week_index": 10
+  },
+  {
+    "id": "0d6d2606-9833-4e7b-91ab-9bea81a79053",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/9cfd976e-92b0-4a62-a063-c4eee35d932b",
+    "week_index": 11
+  },
+  {
+    "id": "98c474f9-ec3c-4796-8d4a-529ca603cc9b",
+    "guide_id": "c139e153-00e3-4a3e-a8c1-80d05abf7a0e",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2b0a9f8a-6cfb-4544-86d6-ed947f42bb88/week/9e71dcba-b86c-427d-8654-9c84857a16d4",
+    "week_index": 12
+  },
+  {
+    "id": "488e3e22-e8ed-4e38-b825-d74a0fe79f7a",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/41c14342-86ae-4df0-9eb0-801f1f0d030e",
+    "week_index": 1
+  },
+  {
+    "id": "85de4951-5b1a-402e-88ac-de8f6b5c19e5",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/1ad8ef82-b641-4c39-a4af-e11fd1828279",
+    "week_index": 2
+  },
+  {
+    "id": "7e7a9d31-5de6-4b28-abb5-fdb483e7fbfe",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/2dbca9a5-91e0-483d-9a05-11589fa1d5f6",
+    "week_index": 3
+  },
+  {
+    "id": "65466370-9d82-46f9-87a9-dab928bf9cd3",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/df037b45-d0a3-4203-a2eb-abeb4dc49ad1",
+    "week_index": 4
+  },
+  {
+    "id": "e7c6d85f-4ecc-4beb-81a7-9c72a584df3f",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/c19335e8-4e70-46ac-81c1-429c525c5208",
+    "week_index": 5
+  },
+  {
+    "id": "a427fe6a-04f5-44ca-9779-44899c9898e9",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/3fb30d90-c989-43b3-a392-81d0dfda5d67",
+    "week_index": 6
+  },
+  {
+    "id": "717dac51-3b35-4880-b07a-d884f1a116e8",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/d756d6cf-b6c3-4b32-9e14-2bb3cb01e535",
+    "week_index": 7
+  },
+  {
+    "id": "ef9593f2-13f7-4031-b354-624e4f19eb14",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/331ed0a1-9ee5-4bd2-b8b1-adf6d3c32ea7",
+    "week_index": 8
+  },
+  {
+    "id": "f0bac015-3d71-4c65-9439-1418740b4274",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/c23ab56a-d865-49ac-a2f6-24253f08ad12",
+    "week_index": 9
+  },
+  {
+    "id": "efbe4195-02c1-4f79-9888-75fbafb2de6e",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/afb7501a-6c00-4e08-86f8-927a0dab257e",
+    "week_index": 10
+  },
+  {
+    "id": "1e5839d5-c581-4a3e-8ad6-afaa50a18e48",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/ffd7b46e-c3ec-4595-99bd-76a6d78766d9",
+    "week_index": 11
+  },
+  {
+    "id": "1644f4dd-6368-495f-883c-31e4ce2b657b",
+    "guide_id": "81b38b22-653c-4171-993a-7471b9252ccf",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d79a8ea5-a4fe-48b1-9b6b-8880f20e89f3/week/6806cc02-2bc0-4079-a7bd-ed794590a5a2",
+    "week_index": 12
+  },
+  {
+    "id": "430f22ab-5f0e-4431-be82-c6967d143ca0",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/044b4adb-9d0a-411f-ae4c-67e24ad5fb3f",
+    "week_index": 1
+  },
+  {
+    "id": "af6d409d-1c4f-4344-a601-fe8b66224765",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/0188f27c-5976-4f3b-b021-60fba26d8a94",
+    "week_index": 2
+  },
+  {
+    "id": "24f532b2-67c0-4836-b6d8-fa659f788f34",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/edec1289-d1d4-418a-b7a8-e476bed014aa",
+    "week_index": 3
+  },
+  {
+    "id": "8d833852-cf3b-40a2-8d78-0389fc88eee5",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/2283c115-3165-4e32-8c8f-e1b31b8c82ef",
+    "week_index": 4
+  },
+  {
+    "id": "340ef2ab-87aa-4929-a8f0-0fe202da07f7",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/1cb70efe-175a-41e2-940a-eca5086287ee",
+    "week_index": 5
+  },
+  {
+    "id": "7c841f3f-c9a5-45be-97ad-c172845e89ab",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/a1addf6b-0728-44d5-aee4-b1428ebdc180",
+    "week_index": 6
+  },
+  {
+    "id": "7ffded0b-d28a-479b-b62c-8845263e2bd5",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/1a75e7cc-470c-4d01-a7b0-4f5191e14c3e",
+    "week_index": 7
+  },
+  {
+    "id": "cf837116-3613-40a4-8c1a-5b9c4f142a3c",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/750e9d00-bc45-4a3e-bdcc-34671670f878",
+    "week_index": 8
+  },
+  {
+    "id": "6e49b147-9778-434b-946c-94058554137a",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/0bd2ece7-44e5-4f2d-9860-af3b76678de2",
+    "week_index": 9
+  },
+  {
+    "id": "d1a74059-e902-4737-a31e-18190ab28c1f",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/18c0f373-813b-46aa-8c33-c33feb266ae2",
+    "week_index": 10
+  },
+  {
+    "id": "3e430dc6-e096-48ab-84f0-0109c1dc4443",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/ba683a9a-b310-43c4-8744-d2501c152de5",
+    "week_index": 11
+  },
+  {
+    "id": "b857a288-0630-416f-b598-7d8423be0f78",
+    "guide_id": "8ebaafd3-d87b-495b-bf50-898206482ace",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/248070d3-2af3-4c11-8144-6ae8850b7e65/week/31cb1e16-03f6-4f55-a3e0-ed94eb33f92a",
+    "week_index": 12
+  },
+  {
+    "id": "fcf8b203-e6fa-4fed-aa94-1454677e2759",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/e27cd788-ac45-423a-bfbd-b796c7cdded1",
+    "week_index": 1
+  },
+  {
+    "id": "ee5de712-25ba-495e-9a55-db1cd7d55851",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/2eebab07-d5c3-4a70-96a7-3ab439d14341",
+    "week_index": 2
+  },
+  {
+    "id": "de749778-1587-4cf4-a036-6a9c430f505b",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/69bf1a72-017c-40ed-8ed2-fab2158a4d96",
+    "week_index": 3
+  },
+  {
+    "id": "50fdcf75-180f-4df0-bf86-8f485ae54749",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/56a10aa2-940f-4415-8474-b0e8129e84bb",
+    "week_index": 4
+  },
+  {
+    "id": "6de2c427-179e-4c29-b5d5-196528e72ad8",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/5c34fc45-8772-45c1-b5f9-3315ee05ecd1",
+    "week_index": 5
+  },
+  {
+    "id": "4ba406b2-aed8-4d01-94d7-0c08a379c9d8",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/c9ad8077-6644-4f99-b519-1ceab7ae4b19",
+    "week_index": 6
+  },
+  {
+    "id": "9d42be6c-43d8-4727-b6aa-504105378072",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/b5763621-c676-4f91-adfb-0fe97f152c7b",
+    "week_index": 7
+  },
+  {
+    "id": "047eddc6-399d-46e7-9e1b-f73a42bdfe53",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/83086542-cd11-482a-a23f-dd9a0a451302",
+    "week_index": 8
+  },
+  {
+    "id": "c8c3185d-d7db-4d99-832f-3163f4ff4ba1",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/706b8ee2-7046-4638-9cb3-a11b09206fa0",
+    "week_index": 9
+  },
+  {
+    "id": "42e0be5f-3621-4d4d-a9dc-ea4d8344dcb6",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/7e8847ec-81b7-48ca-83b9-4be9da083c7d",
+    "week_index": 10
+  },
+  {
+    "id": "c6a746a1-5a19-4e57-9a62-4dc84b4e3c13",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/cec98ed1-d942-457a-b2bc-468329c6eb3e",
+    "week_index": 11
+  },
+  {
+    "id": "da69c358-e6f7-43ab-8d72-16f1c31aa8e4",
+    "guide_id": "a5001c40-b2a9-4ecb-a33d-7302937fdcdb",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7df53bf9-d23e-4401-8db5-6448fc33de73/week/0f3e0e6b-bc01-48ce-b707-bc656675becd",
+    "week_index": 12
+  },
+  {
+    "id": "5b93629c-0477-4b92-b919-9c2068dd77ca",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/f0028fe6-7d5d-457a-bb0f-ca66aa090c24",
+    "week_index": 1
+  },
+  {
+    "id": "030d7466-9c5f-4d43-b13d-dceb51f95707",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/137d2d1d-f078-43c3-8300-042b7792373e",
+    "week_index": 2
+  },
+  {
+    "id": "3be1cac0-20d7-4806-b185-2555debf7930",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/8d5033cf-330c-44e1-bd5e-cd2431b0e644",
+    "week_index": 3
+  },
+  {
+    "id": "730c4477-4fb0-4c8a-9077-96eac7cee2cb",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/89740b25-03e2-41eb-9646-0600f2902d73",
+    "week_index": 4
+  },
+  {
+    "id": "1fc078d9-f5e9-4534-9625-5420bef4265e",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/ea80ba17-e4e7-4e48-a1cd-ffe12e63c7cb",
+    "week_index": 5
+  },
+  {
+    "id": "6b215571-fa30-47fb-ae68-c667d8c739eb",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/43cf43ed-6dcf-4b57-8529-37e866c08352",
+    "week_index": 6
+  },
+  {
+    "id": "13aa6577-f962-4d35-a6e7-436cbe9a2e06",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/e2236537-118e-4786-a3cd-466812baf436",
+    "week_index": 7
+  },
+  {
+    "id": "7b66686b-9091-41bb-90ba-262aeb829c72",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/073ce5ac-700c-4581-9a37-180d8facad9e",
+    "week_index": 8
+  },
+  {
+    "id": "c5bd7c2d-a797-4bfd-a6ed-8984f07e8665",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/63f83020-a5d7-4937-a180-35276bd2e0fe",
+    "week_index": 9
+  },
+  {
+    "id": "6e0dbab2-157e-46ee-8b0f-e7e016b8d39d",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/afae15b4-1da1-4bf8-961a-06492a12c4ce",
+    "week_index": 10
+  },
+  {
+    "id": "264a2e85-5b3d-4c11-93ce-0b95eeef1faa",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/caa9498b-7ce4-40b7-8690-8c1e8e342d12",
+    "week_index": 11
+  },
+  {
+    "id": "fa213e3b-67f1-4a5c-8ee8-77ad88023432",
+    "guide_id": "48410a11-e303-4cdd-a693-17d34048fa2d",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/58534693-8cb2-4278-8439-baa63faa7c87/week/eb4fdfad-7cd1-4549-8f5a-de7fbd87aa75",
+    "week_index": 12
+  },
+  {
+    "id": "8a605fa3-83c3-4ea5-943a-7cf00b90e68b",
+    "guide_id": "5db1598f-9e63-470f-9661-d173366c6a46",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/07b45886-d971-4861-a102-fa4945cbb813/week/c6fa0d14-8d9b-443d-9f2c-5ae905e0eddc",
+    "week_index": 1
+  },
+  {
+    "id": "d4081f64-158e-4030-b145-3a08916ec78e",
+    "guide_id": "fad45f2f-bb2c-4efc-ba71-121cb530746c",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b0c6dc7c-e16d-4214-9fc3-5b56c1f970d4/week/e913d60b-295a-4651-b2b5-602335f0e486",
+    "week_index": 1
+  },
+  {
+    "id": "f94d6b0f-cd4b-40bb-a73b-2ccbfb6d267b",
+    "guide_id": "f916c59e-86d9-491a-915b-e5a428fa6b01",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fa2ff460-59d8-4781-b6ea-c1ba28ecb372/week/8947a3a7-2558-4a2d-822c-c25d6cc7d417",
+    "week_index": 1
+  },
+  {
+    "id": "73415b58-688a-4019-a3f1-8bc7e6162d36",
+    "guide_id": "f916c59e-86d9-491a-915b-e5a428fa6b01",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fa2ff460-59d8-4781-b6ea-c1ba28ecb372/week/bebdc1d9-5224-4ed7-aa07-403200a41072",
+    "week_index": 2
+  },
+  {
+    "id": "f482d48d-c6df-41bc-a651-d1865c3f0e87",
+    "guide_id": "f916c59e-86d9-491a-915b-e5a428fa6b01",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fa2ff460-59d8-4781-b6ea-c1ba28ecb372/week/8852f169-7172-4d13-873d-514ea677e15c",
+    "week_index": 3
+  },
+  {
+    "id": "999e504e-e589-461e-98c1-cba6e133d67e",
+    "guide_id": "f916c59e-86d9-491a-915b-e5a428fa6b01",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/fa2ff460-59d8-4781-b6ea-c1ba28ecb372/week/a7b57d6c-8435-4ef6-9808-e4b98b28e01c",
+    "week_index": 4
+  },
+  {
+    "id": "3b0763ef-833c-4f19-aca8-682c21c804d3",
+    "guide_id": "7084a8f0-49cf-45f7-a856-af5b888da1d7",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/9b594f7d-c33c-4995-889b-f39a2522e71f/week/202d45d5-e48c-4f10-b260-7b3f4fc1357d",
+    "week_index": 1
+  },
+  {
+    "id": "9ccbaa87-43fc-4444-9c5c-db8864d4a2d9",
+    "guide_id": "7084a8f0-49cf-45f7-a856-af5b888da1d7",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/9b594f7d-c33c-4995-889b-f39a2522e71f/week/c8a6b0f4-3dc5-444c-953d-56e49277541b",
+    "week_index": 2
+  },
+  {
+    "id": "70502ea3-c7ee-422a-af2a-eb441ba9cb9b",
+    "guide_id": "7084a8f0-49cf-45f7-a856-af5b888da1d7",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/9b594f7d-c33c-4995-889b-f39a2522e71f/week/b2a9094d-c305-4f2e-9f66-2ee9cd225cc4",
+    "week_index": 3
+  },
+  {
+    "id": "986d85c7-be0c-4ba6-b847-7c8f51f9f428",
+    "guide_id": "7084a8f0-49cf-45f7-a856-af5b888da1d7",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/9b594f7d-c33c-4995-889b-f39a2522e71f/week/cf7769b3-bc05-458f-b4bf-fc4b166c4422",
+    "week_index": 4
+  },
+  {
+    "id": "4ed5f2f3-5b59-4a38-b8d5-43f80cd9f6d7",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/af599b91-79d8-4ff8-b0e6-56765c7e499e",
+    "week_index": 1
+  },
+  {
+    "id": "8092e7d5-c721-4c82-81ba-7b1a863a674a",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/926b9d4d-b54d-41ef-8dd0-5d0810e9fb1f",
+    "week_index": 2
+  },
+  {
+    "id": "c22b2ef6-0305-485b-b6ea-3fb46e636f12",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/8932e3af-c1df-4b6e-8cbf-4de94d0dc34c",
+    "week_index": 3
+  },
+  {
+    "id": "9641dd36-94fb-46ae-9fff-30c15d84489e",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/18c26995-8b08-4471-8ad7-ec1b9e9c5ff7",
+    "week_index": 4
+  },
+  {
+    "id": "36e9d6d6-ff65-4f99-a09c-a1b7bc8d7693",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/aba00503-ed61-46e1-8615-1e91aafe3f6d",
+    "week_index": 5
+  },
+  {
+    "id": "a922b9aa-2719-44df-ab95-fb24303d8bcd",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/c90f9894-3820-4f85-a005-cb417dbf2f3e",
+    "week_index": 6
+  },
+  {
+    "id": "d98a8b26-8107-48fc-8326-004aec1b1e20",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/c6f62dac-f2cd-4a5b-afb7-27b586984b91",
+    "week_index": 7
+  },
+  {
+    "id": "53cdd3b8-35bb-4020-b99b-6bb7a256845e",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/2729b2e1-d38a-46d5-b8fb-77b763f75a58",
+    "week_index": 8
+  },
+  {
+    "id": "d21de7ba-fb18-422c-a9af-a698ea1d42de",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/f15fdeaa-48f2-4908-86d0-d6ec5560bfc3",
+    "week_index": 9
+  },
+  {
+    "id": "d12f84b3-ed13-4b55-b8ea-9b99aeede829",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/f896c6d4-3039-420c-9ee5-2d147a97a745",
+    "week_index": 10
+  },
+  {
+    "id": "1b627561-27ea-4448-963e-97a3cc0144d4",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/1e30c48d-d7f4-4e56-94a7-da8a3f7ba2f3",
+    "week_index": 11
+  },
+  {
+    "id": "b4853f60-6be3-451c-8e9d-9ad01dc6e806",
+    "guide_id": "6755e343-04f2-4383-9c40-4dc54be4d5b1",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/48fa8c36-544f-47a3-b559-51888a3c5e64/week/1d0c2ff1-9647-4be7-8bc0-d508e8d6a99b",
+    "week_index": 12
+  },
+  {
+    "id": "e86c0f9c-b2cf-4ffb-ae0e-efb89b3ed5bc",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/8a9c57f0-393d-4f4d-b441-a75fe4db23ae",
+    "week_index": 1
+  },
+  {
+    "id": "0fb05681-8411-4e54-b45b-92522084f501",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/05721f16-3872-4f6b-8acc-c90b62d8373b",
+    "week_index": 2
+  },
+  {
+    "id": "a1473a71-f15a-4d5a-9b22-19a7a50cebda",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/7d8bc82a-2dd4-432e-8de7-73e225425f7b",
+    "week_index": 3
+  },
+  {
+    "id": "d442cdf3-ab7e-4b03-92cb-fef02a1a5f12",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/a5868178-f6f7-41ef-8441-7787db574122",
+    "week_index": 4
+  },
+  {
+    "id": "b1c4d2bb-f35c-47b2-8e5c-258e5e7b6b08",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/bfb16139-1bbc-412d-a040-d80d00149bec",
+    "week_index": 5
+  },
+  {
+    "id": "0c5941d2-ec24-449d-acb7-d5bb05e7b185",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/36c5e4d3-ff89-4555-93db-3b389d4ec6ca",
+    "week_index": 6
+  },
+  {
+    "id": "7ed40fd8-8941-4840-b8fc-5ac1419a62d6",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/0187ea49-baff-4fe3-b4df-38c43b2b4ad2",
+    "week_index": 7
+  },
+  {
+    "id": "eb0fdd74-616e-4ea0-89b1-3819df7b78da",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/bf4c28e3-e3e3-4739-a283-eecbb8d4fa58",
+    "week_index": 8
+  },
+  {
+    "id": "2ef9c8ec-4162-4edf-b271-3f208a9c3761",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/9d50b275-61c4-4272-84c0-1e0255949d73",
+    "week_index": 9
+  },
+  {
+    "id": "39f2ed0d-e1eb-4925-a194-414f48cfb458",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/4eb5af72-ad90-4f93-a05d-9830b0d68ab3",
+    "week_index": 10
+  },
+  {
+    "id": "0f644739-5dc9-4032-83ce-23d5b063c38b",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/2efe6767-1358-47d8-b9f9-9628f9f8c2ea",
+    "week_index": 11
+  },
+  {
+    "id": "6fac6f24-0133-4135-aa3d-df6f0ff18201",
+    "guide_id": "4ff04290-bc7b-4b6d-add4-9d5b1d65fd8f",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03f7164e-4ea7-45dc-895a-d962c31f4a42/week/dfc9fbdc-fc5a-4d99-81fe-303e6753ee04",
+    "week_index": 12
+  },
+  {
+    "id": "100a6e8e-5e8f-41df-a364-5c20b16a7504",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/bb9d4055-b257-4e2b-88c4-abf85f38171f",
+    "week_index": 1
+  },
+  {
+    "id": "fbca7e9c-e79c-4469-9cb2-40e69674c5d9",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/d21b8538-25f7-446f-9716-562f20eca373",
+    "week_index": 2
+  },
+  {
+    "id": "64ff09f3-0a67-46fa-aa9b-bb8e5f7ff483",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/161d9950-1bdd-490c-9260-d1068e407480",
+    "week_index": 3
+  },
+  {
+    "id": "0fed8d9f-92bb-4776-a698-0ad7141426a9",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/f36260dc-180e-424f-8a4d-6d45ad5e0e85",
+    "week_index": 4
+  },
+  {
+    "id": "6afa16f3-ee9a-484e-8439-3e482321e3aa",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/09c009c2-7660-4d9d-8585-077049d5b364",
+    "week_index": 5
+  },
+  {
+    "id": "2eba1a12-cf2d-4612-8d1c-d684ee65746d",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/37e877ea-8ceb-4cd2-a279-40278dddd827",
+    "week_index": 6
+  },
+  {
+    "id": "8eefc5fe-3fa8-4b10-81fb-b8c5076380e6",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/987381cd-38ee-411a-9c37-596f69c61004",
+    "week_index": 7
+  },
+  {
+    "id": "85a93dc8-f404-4587-b658-d005b2c38ab4",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/a33bc33d-0390-45fe-aeec-8a24b7c53bb2",
+    "week_index": 8
+  },
+  {
+    "id": "ef53eb12-56e3-4313-b8e4-d3b2a907cd0d",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/62c3b403-70ec-407c-81e3-377bbe006808",
+    "week_index": 9
+  },
+  {
+    "id": "954fa523-91dc-4992-a79f-c19f81097b49",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/4f4b815e-397b-4490-b769-77153a996d63",
+    "week_index": 10
+  },
+  {
+    "id": "2e23b6f5-df98-46bb-8a77-3ad547d54f8e",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/d98f4260-ecec-4c8b-ac76-703e7df9aaad",
+    "week_index": 11
+  },
+  {
+    "id": "b61bbba9-db90-41a0-980c-df4337f60f28",
+    "guide_id": "47f073d2-92d8-4590-b9cc-acf3fa46d338",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b26cf2b1-8467-4c05-898b-c6dd68fcfc34/week/e4c3e769-209d-4393-a8cf-8ad17cf315cd",
+    "week_index": 12
+  },
+  {
+    "id": "24bf3636-2fac-491c-a2d7-21d7071cd9d3",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/27411b46-4ce0-4941-a13d-b55cb86f6cae",
+    "week_index": 1
+  },
+  {
+    "id": "3479242c-4b21-4cae-84f0-e9e256d79dfd",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/e300668b-bde0-49e8-bcf2-555d542b2652",
+    "week_index": 2
+  },
+  {
+    "id": "47b7f1b6-1dec-49ea-974a-c9c4f65220df",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/5e8bc4a5-daff-4bd8-b05d-ea4552d572d3",
+    "week_index": 3
+  },
+  {
+    "id": "9d2a09f4-4faf-4802-bb35-9a1f8f07d360",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/1fcdd6c3-60e2-4456-b32c-d60e5dc5974f",
+    "week_index": 4
+  },
+  {
+    "id": "795a1b72-a1a9-4549-b4e1-1c897c98f985",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/a4fd9766-2b02-4e07-93e9-dc4bd5f4f4be",
+    "week_index": 5
+  },
+  {
+    "id": "9a40dda6-7662-4076-b1a0-4ad5763f93b5",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/665ea49f-96e7-4982-a039-a19f9bf7bd7d",
+    "week_index": 6
+  },
+  {
+    "id": "0bea565b-91f5-4da4-9fa3-85c8ea0eb046",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/9e537006-edd3-4544-be5d-86bcebe162ab",
+    "week_index": 7
+  },
+  {
+    "id": "c7b2e597-9421-4f45-b8f7-ee2d16320f0c",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/1f18dd2e-4c27-4e09-a585-03d29b595524",
+    "week_index": 8
+  },
+  {
+    "id": "cf6c456e-44fa-4a6d-adc6-0e1565bbe15b",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/d06ac008-61c5-45e1-8cdc-c60100c90ef7",
+    "week_index": 9
+  },
+  {
+    "id": "70ec1ba2-1b20-4187-86aa-2cbd80ef26f4",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/707415ae-29ba-4c90-bf8e-f45c06c51748",
+    "week_index": 10
+  },
+  {
+    "id": "897403b7-fa4e-4782-be39-478df786778c",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/524bb35f-dc92-4537-ba17-e9d6a29b3873",
+    "week_index": 11
+  },
+  {
+    "id": "5ce42b2e-8551-41f2-8307-783e9db31a79",
+    "guide_id": "a8b11efe-c35c-4564-8b83-ab27b6896f6c",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/dcda49b1-e22f-4434-a0c7-4b9914eefe7f/week/a97c0b1c-5d78-41f9-911b-763e7220e57f",
+    "week_index": 12
+  },
+  {
+    "id": "e99d15d4-de9c-43d7-a4bc-95c06356f7d1",
+    "guide_id": "1372aa4e-0bbc-47bd-9a3a-3ec247e781b5",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/78525468-7e50-4b24-867e-69044a756117/week/7945fbef-b7f5-42e1-9a08-1f94d9ebdc98",
+    "week_index": 1
+  },
+  {
+    "id": "0537e722-96a8-499a-ab6d-4a115b2e6945",
+    "guide_id": "1372aa4e-0bbc-47bd-9a3a-3ec247e781b5",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/78525468-7e50-4b24-867e-69044a756117/week/10513e9c-0757-41b8-a774-c10977b80527",
+    "week_index": 2
+  },
+  {
+    "id": "b5470722-76a1-41a8-9ed6-c9c74920cc5d",
+    "guide_id": "1372aa4e-0bbc-47bd-9a3a-3ec247e781b5",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/78525468-7e50-4b24-867e-69044a756117/week/c84d2b73-117d-48f2-9cbe-42b896a8c99a",
+    "week_index": 3
+  },
+  {
+    "id": "409b5b60-baeb-4c50-90b8-e934df56f9be",
+    "guide_id": "1372aa4e-0bbc-47bd-9a3a-3ec247e781b5",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/78525468-7e50-4b24-867e-69044a756117/week/cdc3b7a2-1475-45b7-a788-1f519cd7b06f",
+    "week_index": 4
+  },
+  {
+    "id": "6c1920b0-1c68-4eb3-ad80-77e19968efe0",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/f03df8bc-49ce-4ebc-8799-935a93d26981",
+    "week_index": 1
+  },
+  {
+    "id": "595cdfba-81e4-468b-902f-41cf88452444",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/4846dde9-3298-4b9b-90fc-6f8511a6d198",
+    "week_index": 2
+  },
+  {
+    "id": "64bea704-e39a-4560-9b4a-7c71dcbfde58",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/3b9189f9-ee21-48bc-808a-f475b9a64eb2",
+    "week_index": 3
+  },
+  {
+    "id": "f7d2b793-24df-4a71-9447-5d5915eb01d0",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/891935f3-f3be-4962-a492-e20ba741ef0c",
+    "week_index": 4
+  },
+  {
+    "id": "197b692f-3d45-469d-9a45-99b984e5d545",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/d00971fb-c419-4127-ad09-77a1a512d458",
+    "week_index": 5
+  },
+  {
+    "id": "6e0c6b61-f9ae-43cf-8a4e-f88ad3742e75",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/327cfb06-255d-4a07-a439-df11ab050c65",
+    "week_index": 6
+  },
+  {
+    "id": "2ab6ee04-4f02-4d9b-9cfa-e8c890ccc7db",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/c79e73d2-b0d0-48a5-a346-981616d7aa38",
+    "week_index": 7
+  },
+  {
+    "id": "44eee89b-7baa-404d-824f-bd8ba09778c6",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/7929aca4-296f-41d3-904e-db52a81a73e8",
+    "week_index": 8
+  },
+  {
+    "id": "824d486c-f6ca-4fb0-ad8e-135400315e94",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/5f5d3e09-e58b-4c97-8ea2-cad47d7b241d",
+    "week_index": 9
+  },
+  {
+    "id": "1598ab9d-7761-4469-ba42-c5f1ccf0b6f4",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/8077cb8b-f731-434f-a3d0-1d7cc2ed1918",
+    "week_index": 10
+  },
+  {
+    "id": "0f03d2b3-5214-46b8-bd1a-3ae69ec5bdf1",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/8974ae34-dd40-449b-a04e-073aaff997f5",
+    "week_index": 11
+  },
+  {
+    "id": "63617fd3-1c80-43ef-8b35-ed77d97f009a",
+    "guide_id": "cb2b0b03-275a-4e3d-910d-e5bc626cd699",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/506c92f7-34d2-415f-897e-9e978b9976f6/week/6d42ad4d-9f97-4bf4-b64d-fe60f46d29d8",
+    "week_index": 12
+  },
+  {
+    "id": "a3d4986f-15e5-4324-a9c7-64b7f7c367e4",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/1757253d-0c4d-4fe0-ba51-90c0f0678b66",
+    "week_index": 1
+  },
+  {
+    "id": "3c874571-456a-419d-8019-246e0da2a523",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/3d27f70f-ce64-4701-9dde-69b4cc0b98cb",
+    "week_index": 2
+  },
+  {
+    "id": "e87f51d4-9855-46ea-8569-f68c59cfe341",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/fbf64f07-b55d-43e9-9693-8df28d2fb8ca",
+    "week_index": 3
+  },
+  {
+    "id": "1d743ef7-ef3f-488c-9f04-590c718fb587",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/59142a0d-a593-4eca-9e46-f4cf2603363f",
+    "week_index": 4
+  },
+  {
+    "id": "c7790bdb-3e23-4c08-b24f-42d3dda5480a",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 5",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/81621a90-f0bd-4591-bd2b-886e30130c2e",
+    "week_index": 5
+  },
+  {
+    "id": "4c8b0b62-9017-4fea-be57-f254a26d1b86",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 6",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/67838c6c-e451-4935-8286-4e8807b49951",
+    "week_index": 6
+  },
+  {
+    "id": "c02b1367-89be-4ac1-9f90-d6ef23d29c09",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 7",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/c06e26bb-e85b-48b4-8d5b-5f5d83950608",
+    "week_index": 7
+  },
+  {
+    "id": "6d7d5ee1-285d-4fa9-a598-871dfb92aa95",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 8",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/d3e74bcd-248b-4450-a79a-7b04e07f74e9",
+    "week_index": 8
+  },
+  {
+    "id": "e23e2283-90ac-431d-850e-188e488dd874",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 9",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/28abbda7-7151-4d54-b6ce-f762d6f23986",
+    "week_index": 9
+  },
+  {
+    "id": "5370f84e-cb04-48e7-ad15-5c2230db45a0",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 10",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/940103a3-780d-44e2-94b3-091f1096aeff",
+    "week_index": 10
+  },
+  {
+    "id": "3fd74707-2e02-400b-81df-a87e9cdae9cc",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 11",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/b4875a1f-374f-42a0-be1a-a8cf2fe81457",
+    "week_index": 11
+  },
+  {
+    "id": "722005ed-b0d2-488a-8f19-39b822a13f98",
+    "guide_id": "e80872fc-9f5a-4c1b-91ef-245d36f106b3",
+    "week_title": "Semana 12",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ad106894-fb76-4dd2-af2b-5fc37d367dbd/week/c90fda37-ad72-4341-8f14-b006f5320da7",
+    "week_index": 12
+  },
+  {
+    "id": "577ce632-ef74-4513-b20e-78c48177e6b3",
+    "guide_id": "7fa553c6-6a50-4d73-a537-d2d36b71d0fa",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/555e6232-b53b-4745-9044-9f765772f354/week/29d73940-b458-499b-b0d4-c87ff782894f",
+    "week_index": 1
+  },
+  {
+    "id": "06dace0f-4906-479e-90e3-c04ed0fa4bcd",
+    "guide_id": "7fa553c6-6a50-4d73-a537-d2d36b71d0fa",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/555e6232-b53b-4745-9044-9f765772f354/week/4678f327-7bb9-48f4-8c47-b820e300cf8e",
+    "week_index": 2
+  },
+  {
+    "id": "6504b5d5-a8c1-4511-9dfa-a7f0370040b3",
+    "guide_id": "7fa553c6-6a50-4d73-a537-d2d36b71d0fa",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/555e6232-b53b-4745-9044-9f765772f354/week/f06d2755-98a4-48e1-aaa5-8dfce5a1af65",
+    "week_index": 3
+  },
+  {
+    "id": "ac324de6-7291-4e26-9d61-ea9f76e93293",
+    "guide_id": "7fa553c6-6a50-4d73-a537-d2d36b71d0fa",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/555e6232-b53b-4745-9044-9f765772f354/week/f11f690e-000b-4be7-ab08-fea206f252ee",
+    "week_index": 4
+  },
+  {
+    "id": "113feb1e-2198-45e0-8955-b18e6aea448b",
+    "guide_id": "4725180f-69b2-4eb2-89ba-127bc2ed7fca",
+    "week_title": "Semana 1",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/36ee3d8f-1d0d-4a09-8985-32a8a4f615f3/week/6416b857-21b8-49a5-a457-da093bb4270c",
+    "week_index": 1
+  },
+  {
+    "id": "af63e420-0400-4234-8560-68eb9dfce1d2",
+    "guide_id": "4725180f-69b2-4eb2-89ba-127bc2ed7fca",
+    "week_title": "Semana 2",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/36ee3d8f-1d0d-4a09-8985-32a8a4f615f3/week/39e7fef8-034d-44fb-9d20-7d0307681a19",
+    "week_index": 2
+  },
+  {
+    "id": "1394bf42-4196-4534-9a22-a1dfb6d6db98",
+    "guide_id": "4725180f-69b2-4eb2-89ba-127bc2ed7fca",
+    "week_title": "Semana 3",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/36ee3d8f-1d0d-4a09-8985-32a8a4f615f3/week/52cf96bf-f86c-4179-8a81-d59c21fbb5cf",
+    "week_index": 3
+  },
+  {
+    "id": "fd23529b-fe37-4d30-8e46-09817cd9cc7c",
+    "guide_id": "4725180f-69b2-4eb2-89ba-127bc2ed7fca",
+    "week_title": "Semana 4",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/36ee3d8f-1d0d-4a09-8985-32a8a4f615f3/week/3e671eed-1662-451a-861c-08acedb0ddfc",
+    "week_index": 4
+  },
+  {
+    "id": "7efc90f1-ccdf-4590-9abe-2234571df687",
+    "guide_id": "46868090-93e2-4ee0-80a2-1784a8ddd45d",
+    "week_title": "Día Único: ¿Solo 30'? Dale fuego a tus abdominales",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/7a7fde9f-c50a-47ca-837b-544805402fa0/week/fbf6321d-695e-4636-af75-ab3d33044727/day/29b3df8b-ba20-4590-9be7-5b5c862b455f",
+    "week_index": 1
+  },
+  {
+    "id": "7f1d3895-32cd-4d4d-beb5-bd03edf1e5e1",
+    "guide_id": "b587defc-7806-437d-a01f-30f602bb0988",
+    "week_title": "Día Único: Circuito",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/79ea395a-a62b-4ba7-9095-e1afd8f035b6/week/1be7b37c-3d27-4af8-9a50-4388f89e4cc6/day/17c81127-022d-443a-9b0e-bbb8c556e38d",
+    "week_index": 1
+  },
+  {
+    "id": "96db43a4-f4e9-4894-8c5e-2afaa37f0da2",
+    "guide_id": "de35cc8c-8865-4d36-b99f-0139fc1c7f69",
+    "week_title": "Día Único: The sound of the summer is CRUNCH!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/28c484a5-a0a3-4a35-8067-60f8f70b8300/week/bee705a6-07e1-4ceb-beb4-4722467c1b05/day/cde5d090-e6f3-4670-929c-af1e24034e8d",
+    "week_index": 1
+  },
+  {
+    "id": "f59d00dc-e939-4061-a5cb-f364229b1508",
+    "guide_id": "32a64ef4-8836-486f-8cbd-929081155257",
+    "week_title": "Día Único: Día de barras",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/f1e7c2d5-6bea-47d3-b294-080bd032da9d/week/e2e3caf5-2eaa-4f66-951b-c1a50da1fba2/day/34bb855b-7a24-42f0-8ba4-d299878cccb0",
+    "week_index": 1
+  },
+  {
+    "id": "bcd36cda-745c-406e-8101-02f213d3227d",
+    "guide_id": "e0509763-1ab4-4db4-a3ee-988e93613957",
+    "week_title": "Día Único: La progresión completa para tu primera dominada",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/42cada2d-2dfa-4899-ac91-ce51d83b9b89/week/50d47003-af02-4770-a2a4-6b6b695fe2cf/day/1807b0dc-2c7d-4d11-a020-fc22383bc902",
+    "week_index": 1
+  },
+  {
+    "id": "cd229678-346d-4ee2-9b32-99035cae08d0",
+    "guide_id": "b92fc694-d235-4454-8d66-47c0d00d6626",
+    "week_title": "Día Único: ¿Tu primera flexión? Ya la tienes y no lo sabías",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/302df083-8e76-413c-a5e3-2b78dc05b5f0/week/b74630a0-f0cc-45c7-b2ab-0c71e18f73b7/day/66bf1a06-816b-40fa-80f8-e646240eaeda",
+    "week_index": 1
+  },
+  {
+    "id": "22fbde0a-1ae0-4f05-9d79-0d51f5627805",
+    "guide_id": "68751f0f-cd1a-4338-a110-08679af90894",
+    "week_title": "Día Único: Heart love's you 🤝🏼",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/03b5080a-512b-4a91-b57b-ebaef6942763/week/b371cd97-0042-41cb-960c-1d1176dd5f1f/day/d0c06740-82da-4438-a8dd-86999a00cf6e",
+    "week_index": 1
+  },
+  {
+    "id": "075cc0b0-31cd-4756-8803-38edbdf190d9",
+    "guide_id": "e9961dcb-103a-4c15-8c7e-4a388961154d",
+    "week_title": "Día Único: ¿Sábado en casa? Vamos a movernos !",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3c1f74e4-9ff6-4a39-8eed-503948bd80f6/week/73c00eb3-4e7f-4f95-a39e-4eb38ed4529f/day/086ca3d5-3885-4fc9-80c0-596491f2f4c7",
+    "week_index": 1
+  },
+  {
+    "id": "dfb7d671-c87e-418e-9365-d106aacee2ea",
+    "guide_id": "a5b08830-52fa-4728-b556-fc3cf533fe6a",
+    "week_title": "Día Único: ¿Lunes? Entrena ¿Martes? ¡Entrena!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/67e64650-1863-4ca4-a1aa-ee2bc1014e35/week/b916b5d3-6dd0-455a-ac13-ccd2ac8ae79d/day/20918df2-48c7-4197-9496-47c301e901be",
+    "week_index": 1
+  },
+  {
+    "id": "aa4e57c7-f7b2-4bb7-89e6-8e1d93ca28f3",
+    "guide_id": "579369cc-6c23-4368-8e34-193dbd77b090",
+    "week_title": "Día Único: Reduce tu dolor de cadera",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/a0a06845-dbc9-4389-bb9d-4a8d6977da29/week/af461340-0b61-4c19-b819-1bf22fd31378/day/0a30fda9-fae0-4533-8d4c-3358320cfbd2",
+    "week_index": 1
+  },
+  {
+    "id": "97fd7baf-4967-4051-a3ec-ba09e5ab8f73",
+    "guide_id": "fa17af4e-5b6b-466b-8261-20ba99790af1",
+    "week_title": "Día Único: HIIT Olimpico",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6c322359-3cdc-4dda-a5c9-e1e5077989b7/week/9bf3ed2a-2331-4cb7-bbfa-1d415df20748/day/b8e979ad-8eac-445a-9900-d39c9da5501b",
+    "week_index": 1
+  },
+  {
+    "id": "82896c8f-2afa-4815-ba18-4a5480632828",
+    "guide_id": "7a3e86b3-5527-4a29-9e53-499430b0788b",
+    "week_title": "Día Único: Explosive Booty Day",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6e958fe1-aa79-4c31-81f9-eeabe9328545/week/8df39913-ce68-4ae3-91d3-eedb4d86597b/day/017adea2-be00-4b26-92cb-1407709ae7aa",
+    "week_index": 1
+  },
+  {
+    "id": "b044308f-82b2-4311-8bb3-2d22dd2845e2",
+    "guide_id": "d7502f65-c84d-4a8b-bb79-917186b7747f",
+    "week_title": "Día Único: Mejora tu salud estando de vacaciones!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/579e434e-a382-491e-879d-b8155a4db1ad/week/4cfd3ce4-1d47-4a52-ac20-6411ac37faab/day/c2044ad5-b5a7-4cf6-94bd-1023f4622942",
+    "week_index": 1
+  },
+  {
+    "id": "271132fd-1973-4718-8780-e15c25190722",
+    "guide_id": "83e16c26-e80e-4612-b158-1701e389766c",
+    "week_title": "Día Único: Entrenamiento completo con gomas",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d0829d67-6ff1-4d7f-a7d0-0c28689b71aa/week/8773bdca-e31e-4be5-9740-4b715fa6df30/day/f6bb95b6-01fb-468b-b36d-301c5a2e85e8",
+    "week_index": 1
+  },
+  {
+    "id": "62f03305-d32f-43c9-a35e-5746b2579ca2",
+    "guide_id": "61ed2280-d5e7-4305-a54d-582d299b5dde",
+    "week_title": "Día Único: Full Body Day, No excuses!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/415fd47e-15f4-4f47-bc01-ca871e956cd1/week/25fd1a2f-bdb7-43a7-b928-5f7ef25b044c/day/1e276245-15a6-4298-abfb-40b1ccfbde4b",
+    "week_index": 1
+  },
+  {
+    "id": "31867344-125a-4f5a-8aa3-3c382cef2ecc",
+    "guide_id": "8211c640-a4a1-4ae5-a818-0c83d6b4c3f6",
+    "week_title": "Día Único: Fullbody con banco/silla",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bc964e7d-c95b-4c30-abc6-197dcb93cdbc/week/935672cf-2839-4c23-83ef-435e4a3a1099/day/1d21ca1c-24b6-4d8b-b07a-98af51a3ddd5",
+    "week_index": 1
+  },
+  {
+    "id": "a0bb6a8d-2e6d-43a7-8fe5-ebc806d3c36c",
+    "guide_id": "ca288755-8d9c-41b5-8c77-f08cfc36d500",
+    "week_title": "Día Único: ¿Poco tiempo? ¿Pocas ganas? En tan solo 30' lo tienes hecho!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/24b92ade-2220-4757-8457-b5c0cf73a424/week/da693250-6ed6-4964-adcc-414420488925/day/a6525871-0062-4ac3-9db8-188b1faf9913",
+    "week_index": 1
+  },
+  {
+    "id": "e589980f-e159-4af3-80ec-52a03725009c",
+    "guide_id": "a93ac2a0-1ea2-488c-b0e9-ed614218d34f",
+    "week_title": "Día Único: Fullbody - mancuernas",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c5cce563-3c85-416a-bbb1-dc9f23671604/week/190d907a-f745-4f2b-92c6-202ef2a84831/day/beac2be2-b792-4adf-a0e2-96c3cb5cbc58",
+    "week_index": 1
+  },
+  {
+    "id": "31e2ea6a-21e5-44c7-9d90-432c2ea7a611",
+    "guide_id": "75d9b397-0bc8-4bef-8413-9ed89f8324d8",
+    "week_title": "Día Único: GLUTE BURNER",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/1155f2be-6aac-4ee1-9052-91c3968627be/week/0aab84e6-480b-4700-8b05-71d7105db30f/day/c701b0f4-0fa7-4fc5-bbb6-9996840d54ad",
+    "week_index": 1
+  },
+  {
+    "id": "3b06b978-cbac-4de9-9c34-36309e7775d1",
+    "guide_id": "a2792a89-b29e-44e2-89f0-e2e15e34e2ec",
+    "week_title": "Día Único: Día único",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/bfcf9b2d-eba8-46a4-8ba6-903b0d857c1f/week/cef33e90-5db7-4407-8900-6b10534afe63/day/7cdbaba9-14de-417c-95f2-b4dfcbfd0daa",
+    "week_index": 1
+  },
+  {
+    "id": "aebf4039-f492-4a0f-8a37-867b04a7ae5e",
+    "guide_id": "afe7aeaf-9c83-48ee-8798-c60965c5adab",
+    "week_title": "Día Único: Always is glutes time.",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b481288d-7b09-4f00-8dae-f9be14ef832d/week/13de1aa7-aa94-4fb8-ae64-c2a47596b57e/day/409e8a42-4916-441e-bc61-1482297ff4e0",
+    "week_index": 1
+  },
+  {
+    "id": "d7d1ef9e-f1ab-452d-8624-45a72d38e40f",
+    "guide_id": "8aa6676d-f6c2-4489-8eb8-83c3732a83d2",
+    "week_title": "Día Único: Solo necesitas 30' de tu día",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/b9390ab1-c6e5-4e61-98eb-0457549f890c/week/42a333a7-e285-4c6a-9d76-ed1cc92ed33a/day/fdf360b6-4517-4f16-b055-af830875476b",
+    "week_index": 1
+  },
+  {
+    "id": "044f359e-ca74-42de-86d4-c916f8884e59",
+    "guide_id": "cba464c5-0cc9-4789-9f5a-4d11e0c8c254",
+    "week_title": "Día Único: FULL HIIT ABS",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/5ab3381e-52cf-4c09-9836-38f9ce216c41/week/29b15e7d-aed0-4287-ab6f-551d3391d4bc/day/77018014-eb01-47a7-98f0-3de3a46e5ea6",
+    "week_index": 1
+  },
+  {
+    "id": "7d85543e-5b43-4a7f-bdb1-8c820b214f3b",
+    "guide_id": "07b70797-e6fc-434e-9cea-66747e3e3188",
+    "week_title": "Día Único: Booty Day en casita",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3144ca22-3d38-4332-9621-3c656d59b87f/week/b702f85b-3a93-4f06-8549-d7e915e2ace4/day/4e360064-6739-4959-9f22-9db654be24ec",
+    "week_index": 1
+  },
+  {
+    "id": "fa5c0da4-1d42-4cf9-bdad-7c30a2124e15",
+    "guide_id": "af30fbf8-347f-487b-a96c-428fd4ab0588",
+    "week_title": "Día Único: Pon a fuego tus piernas con este HIIT",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d5d85886-31c2-4620-a0ec-5af75ae2672a/week/02338eba-062c-4e4f-bbf8-31f299506c39/day/386039e1-fbd3-470b-a7a5-c5e71745eba6",
+    "week_index": 1
+  },
+  {
+    "id": "b9f1bbd4-aa65-41dd-8b52-7eb19a60967c",
+    "guide_id": "5275a759-188a-427e-a539-99c2d025599e",
+    "week_title": "Día Único: Solo necesitas un kettlebell y magia!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/4a074c8e-3bc4-484b-975e-214fc4c583e7/week/6ea55f62-c0e7-40b2-a2e6-5afbf173089c/day/7bbc0c39-0f2b-424f-8f42-e21124ba1855",
+    "week_index": 1
+  },
+  {
+    "id": "dfc35269-a239-4878-a610-93cacd5002df",
+    "guide_id": "602dc4dd-1abb-4237-9bd0-602eff2fe95b",
+    "week_title": "Día Único: día de hombros ¿ready?",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/a454890e-285f-4e8e-8943-d62dd520afd9/week/6d9c2bc1-8b9d-462d-8a34-3de07fda774b/day/ffa0cadb-8b8e-46d5-94d7-f73774a2797b",
+    "week_index": 1
+  },
+  {
+    "id": "553e5c58-092c-461c-a59b-f8e1cebb8162",
+    "guide_id": "2f885d55-35cd-431c-98c1-632043ff5317",
+    "week_title": "Día Único: Leg day",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/020a5ef5-11e1-41dd-99b5-c844a26f897a/week/f8e45cdb-6300-40b9-a244-eaab36dd4c93/day/a4a7a458-515e-468a-89c9-ecbb0288f4db",
+    "week_index": 1
+  },
+  {
+    "id": "ef3ce443-7fb4-4702-aa18-913031bb53ae",
+    "guide_id": "7a5d1f7e-ce13-4b0f-994c-401c1ff48851",
+    "week_title": "Día Único: Squat day!",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d123b038-68b9-4e51-8119-28e1521745b7/week/4cf3ea06-3827-4e63-94b4-d4c60c0bae7d/day/8f0aad8a-b41c-4a6f-a690-609a250b7301",
+    "week_index": 1
+  },
+  {
+    "id": "4da6ee80-f4e4-4554-9ea9-cde1b12d6e97",
+    "guide_id": "b7e6102f-e89e-4ced-a3c2-efad8d352cd7",
+    "week_title": "Día Único: No te oxides de vacaciones",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/63361a36-22ec-45b0-bbb8-b6e0d7cd8cbf/week/9493898d-65ac-404e-bb74-f647c2a29aca/day/2516ffa1-76bc-4304-804b-0632102abb39",
+    "week_index": 1
+  },
+  {
+    "id": "91534199-afb4-471f-8b14-86bb3cf24ca3",
+    "guide_id": "7ada6455-9653-4528-b635-58f5a455fd37",
+    "week_title": "Día Único: Adios al dolor de espalda y cuello",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/6387b034-f35c-47cc-918e-8af769896fd6/week/f4b949ae-ede1-438e-bc16-ad1418497fc0/day/6843b9f1-2bd2-43c8-8944-5aa2bdfeceec",
+    "week_index": 1
+  },
+  {
+    "id": "6eabdd94-4a66-47fe-a7b1-0c253a128449",
+    "guide_id": "3eabb94e-4d8c-48be-b8aa-761eb3fd6336",
+    "week_title": "Día Único: Día de relax en casa",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/ac50c82a-1eb7-4174-a16d-d3cc29f4d335/week/9c2714fc-ed06-4e06-b71f-a5776f45ad62/day/be0a7fb3-09aa-4257-b993-abec9ec90099",
+    "week_index": 1
+  },
+  {
+    "id": "23028635-769e-42fb-a1f0-ab3042703ad1",
+    "guide_id": "071e7e2e-023e-4a9e-9fe6-3d8616dc40c6",
+    "week_title": "Día Único: Día de relax II",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/3639b398-9877-4553-9d83-aab8957df090/week/4372a378-7132-4b31-b1be-7d8ec3296c9a/day/c336b31f-2b0c-42cb-b382-89bcfd37a069",
+    "week_index": 1
+  },
+  {
+    "id": "4828f319-f74e-4914-aa8e-7177efc39569",
+    "guide_id": "32f743b5-f490-4e65-ad31-9b3dc77549a0",
+    "week_title": "Día Único: Entreno de pecho, hombro y triceps",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/8f39d420-3a39-4720-b04c-edfbf5c0d12b/week/23936d5a-9e35-44e6-a061-61dee2eba9f9/day/7d430e37-7b41-4214-a4ef-9e04f86bb353",
+    "week_index": 1
+  },
+  {
+    "id": "4ea0838a-caa9-482d-a69d-52251f87ae53",
+    "guide_id": "b1708436-29e6-437d-a33b-a20dff25d0ed",
+    "week_title": "Día Único: Movilidad y Estiramientos para la espalda.",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/79d053d2-cae9-40d5-81d1-b2b65490b71b/week/33e14a60-7653-4fc1-acf2-066ad24fca88/day/b0b2668e-87b9-45a4-a0f9-688a4b869db9",
+    "week_index": 1
+  },
+  {
+    "id": "16bd330b-f4df-4fce-b379-8deae6325579",
+    "guide_id": "d0d7658b-5efb-4b0e-af59-8530a15b81ff",
+    "week_title": "Día Único: Are you ready? Sure?",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/d44e717b-cb50-4096-a13d-e84eef5d4099/week/505b766d-da4d-46c3-9fea-bf10290aff23/day/e42d5e5e-1a84-48dc-93bb-e3008b852943",
+    "week_index": 1
+  },
+  {
+    "id": "6f15ce9e-4085-4042-8499-afd143105a5e",
+    "guide_id": "3e70b4e2-7630-4945-83ff-88ed883aab8c",
+    "week_title": "Día Único: Día de Glúteo, Día de misa.",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/c7882ca5-3a4e-428a-816d-90e37df413c8/week/f40b824d-81a4-4adc-af42-8314b2c9fc12/day/37c64e18-f3e7-43db-8b3b-b4944a76a92c",
+    "week_index": 1
+  },
+  {
+    "id": "7ad5d84f-67fe-4ae7-9577-582f7a038cf9",
+    "guide_id": "86cf5403-3a03-49dc-87a7-a5cbcf94e6e2",
+    "week_title": "Día Único: Tu primera dominada ya está aquí",
+    "week_link": "https://thesaiyankiwi.com/athlete/routine/2f5fd16e-b6de-4f9c-b61b-c7795f695a13/week/d7bd0a2b-9353-49ac-b1ef-a024ea498cd0/day/2668e223-764f-420a-9644-99bcb65a3b83",
+    "week_index": 1
+  }
+]

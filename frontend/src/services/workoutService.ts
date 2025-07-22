@@ -31,7 +31,7 @@ export interface Session {
 
 export interface Exercise {
   id: string
-  exercise_name: string
+  title: string
   exercise_description: string
   exercise_type: string
   video_url?: string
@@ -131,25 +131,69 @@ export const workoutService = {
 
     if (sessionError) throw sessionError
 
+    // Get exercises for this session through session_exercises pivot table, ordered by order_in_session
+    const { data: sessionExercises, error: sessionExercisesError } = await supabase
+      .from('session_exercises')
+      .select('exercise_id, order_in_session')
+      .eq('session_id', id)
+      .order('order_in_session', { ascending: true })
+
+    if (sessionExercisesError) throw sessionExercisesError
+
+    // Get all exercises
+    const exerciseIds = sessionExercises.map(se => se.exercise_id)
     const { data: exercises, error: exercisesError } = await supabase
       .from('exercises')
       .select('*')
-      .eq('session_id', id)
+      .in('id', exerciseIds)
 
     if (exercisesError) throw exercisesError
 
-    // Get sets for each exercise
-    const exercisesWithSets = await Promise.all(
-      exercises.map(async (exercise) => {
-        const { data: sets, error: setsError } = await supabase
-          .from('exercise_sets')
-          .select('*')
-          .eq('exercise_id', exercise.id)
-
-        if (setsError) throw setsError
-        return { ...exercise, sets }
-      })
+    // Create a map of exercise ID to its order_in_session
+    const exerciseOrderMap = new Map(
+      sessionExercises.map(se => [se.exercise_id, se.order_in_session])
     )
+
+    // Get all sets for all exercises in this session in a single query
+    const { data: allExerciseSets, error: allExerciseSetsError } = await supabase
+      .from('exercise_sets')
+      .select('exercise_id, set_id, order_in_exercise')
+      .in('exercise_id', exerciseIds)
+      .eq('session_id', id)
+      .order('exercise_id')
+      .order('order_in_exercise')
+
+    if (allExerciseSetsError) throw allExerciseSetsError
+
+    // Group sets by exercise_id
+    const setsByExercise = new Map<string, ExerciseSet[]>()
+    for (const es of allExerciseSets) {
+      const { set_id } = es
+      const { data: sets, error: setsError } = await supabase
+        .from('sets')
+        .select('*')
+        .eq('id', set_id)
+        .single()
+
+      if (setsError) throw setsError
+      
+      const exerciseSets = setsByExercise.get(es.exercise_id) || []
+      exerciseSets.push(sets)
+      setsByExercise.set(es.exercise_id, exerciseSets)
+    }
+
+    // Add order information and sets to each exercise
+    const exercisesWithSets = exercises.map(exercise => {
+      const exerciseWithOrder = {
+        ...exercise,
+        order_in_session: exerciseOrderMap.get(exercise.id) || 0,
+        sets: setsByExercise.get(exercise.id) || []
+      }
+      return exerciseWithOrder
+    })
+
+    // Sort exercises by order_in_session
+    exercisesWithSets.sort((a, b) => a.order_in_session - b.order_in_session)
 
     return { session, exercises: exercisesWithSets }
   },

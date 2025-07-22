@@ -1,0 +1,114 @@
+{
+  "total_guides_or_routines": 80,
+  "total_weeks": 524,
+  "total_sessions": 2403,
+  "total_unique_exercises": 600,
+  "total_unique_sets": 2940,
+  "total_session_exercise_relations": 23032,
+  "total_exercise_set_relations": 25186,
+  "optimization_date": "2025-07-22T11:57:23.014Z",
+  "most_used_exercises": [
+    {
+      "title": "Movilidad - Cat camel",
+      "usage_count": 487
+    },
+    {
+      "title": "Movilidad - Balanceo de piernas",
+      "usage_count": 452
+    },
+    {
+      "title": "Movilidad - Shoulder CAR",
+      "usage_count": 439
+    },
+    {
+      "title": "Movilidad - Runners lunge",
+      "usage_count": 404
+    },
+    {
+      "title": "Vuelta a la calma | Correr a trote suave",
+      "usage_count": 380
+    },
+    {
+      "title": "Movilidad - Flexión de tobillo en bipedestación",
+      "usage_count": 329
+    },
+    {
+      "title": "Correr",
+      "usage_count": 326
+    },
+    {
+      "title": "Movilidad - Prone snow angels",
+      "usage_count": 305
+    },
+    {
+      "title": "Estiramiento | Postura del niño con rodillas separadas",
+      "usage_count": 239
+    },
+    {
+      "title": "Movilidad - Manguitos rotadores con resistencia",
+      "usage_count": 236
+    }
+  ],
+  "most_used_sets": [
+    {
+      "series": "1",
+      "reps": "10",
+      "rest": "-",
+      "usage_count": 3271
+    },
+    {
+      "series": "1",
+      "reps": "20 m",
+      "rest": "-",
+      "usage_count": 1008
+    },
+    {
+      "series": "1",
+      "reps": "30\"",
+      "rest": "-",
+      "usage_count": 634
+    },
+    {
+      "series": "1",
+      "reps": "10 por lado",
+      "rest": "-",
+      "usage_count": 594
+    },
+    {
+      "series": "2",
+      "reps": "10",
+      "rest": "-",
+      "usage_count": 458
+    },
+    {
+      "series": "1-3",
+      "reps": "10",
+      "rest": "-",
+      "usage_count": 430
+    },
+    {
+      "series": "1",
+      "reps": "8 por lado",
+      "rest": "-",
+      "usage_count": 400
+    },
+    {
+      "series": "1-3",
+      "reps": "12",
+      "rest": "-",
+      "usage_count": 356
+    },
+    {
+      "series": "1",
+      "reps": "30\" por lado",
+      "rest": "-",
+      "usage_count": 264
+    },
+    {
+      "series": "1",
+      "reps": "12 por lado",
+      "rest": "-",
+      "usage_count": 248
+    }
+  ]
+}
