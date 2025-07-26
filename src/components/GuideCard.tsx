@@ -1,16 +1,20 @@
-import { useState } from 'react'
-import { Card, CardHeader, CardContent, CardTitle } from './ui/Card'
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@radix-ui/react-collapsible'
-import { ChevronDown, ChevronRight } from 'lucide-react'
-import WeekCard from './WeekCard'
-import { Skeleton } from './ui/Skeleton'
-import { workoutService } from '@/api/services/workoutService'
-import { useAppState } from './core/AppStateProvider'
+"use client"
+
+import { useState } from "react"
+import { Card, CardHeader, CardContent, CardTitle } from "./ui/Card"
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@radix-ui/react-collapsible"
+import { ChevronDown, ChevronRight, BookOpen, Dumbbell } from "lucide-react"
+import WeekCard from "./WeekCard"
+import { Skeleton } from "./ui/Skeleton"
+import { workoutService } from "@/api/services/workoutService"
+import { useAppState } from "./core/AppStateProvider"
+import { Badge } from "./ui/Badge"
 
 interface Guide {
   id: string
   title: string
   image_url: string
+  type: number // 0 = Guide, 1 = Training
 }
 
 interface Week {
@@ -32,56 +36,75 @@ export default function GuideCard({ guide }: GuideCardProps) {
 
   const toggleGuide = async () => {
     const newExpanded = !isExpanded
-    setExpandedGuides(prev => ({
+    setExpandedGuides((prev) => ({
       ...prev,
-      [guide.id]: newExpanded
+      [guide.id]: newExpanded,
     }))
 
     if (newExpanded && weeks.length === 0) {
       setLoading(true)
       try {
         const guideData = await workoutService.getGuide(guide.id)
-        setWeeksData(prev => ({
+        setWeeksData((prev) => ({
           ...prev,
-          [guide.id]: guideData.weeks || []
+          [guide.id]: guideData.weeks || [],
         }))
       } catch (error) {
-        console.error('Error fetching weeks:', error)
+        console.error("Error fetching weeks:", error)
       } finally {
         setLoading(false)
       }
     }
   }
 
+  const getGuideTypeInfo = (type: number) => {
+    return type === 0
+      ? { label: "Guía", icon: BookOpen, color: "bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-200" }
+      : {
+          label: "Entrenamiento",
+          icon: Dumbbell,
+          color: "bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-200",
+        }
+  }
+
+  const typeInfo = getGuideTypeInfo(guide.type)
+  const TypeIcon = typeInfo.icon
+
   return (
-    <div className="transform transition-all duration-300 hover:scale-[1.01]">
-      <Card className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-white/20 dark:border-slate-700/50 shadow-lg hover:shadow-xl transition-all duration-300">
+    <div className="transform transition-all duration-300 hover:scale-[1.02] h-full">
+      <Card className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm border-white/30 dark:border-slate-700/50 shadow-lg hover:shadow-xl transition-all duration-300 h-full flex flex-col">
         <Collapsible open={isExpanded} onOpenChange={toggleGuide}>
           <CollapsibleTrigger asChild>
-            <CardHeader className="cursor-pointer hover:bg-gradient-to-r hover:from-blue-50/50 hover:to-indigo-50/50 dark:hover:from-slate-700/50 dark:hover:to-slate-600/50 transition-all duration-300 border-b border-slate-200/50 dark:border-slate-700/50">
-              <div className="flex items-center justify-between p-2">
-                <div className="flex items-center gap-4">
-                  <div className="relative group">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-slate-700 dark:to-slate-600 shadow-sm overflow-hidden">
+            <CardHeader className="cursor-pointer hover:bg-gradient-to-r hover:from-blue-50/50 hover:to-indigo-50/50 dark:hover:from-slate-700/50 dark:hover:to-slate-600/50 transition-all duration-300 border-b border-slate-200/50 dark:border-slate-700/50 flex-shrink-0">
+              <div className="flex items-start justify-between p-2">
+                <div className="flex items-start gap-4 flex-1 min-w-0">
+                  <div className="relative group flex-shrink-0">
+                    <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-slate-700 dark:to-slate-600 shadow-sm overflow-hidden">
                       <img
-                        src={guide.image_url || "/placeholder.svg"}
+                        src={guide.image_url || "/placeholder.svg?height=80&width=80&query=workout guide"}
                         alt={guide.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         onError={(e) => {
-                          e.currentTarget.src = "/placeholder.svg";
+                          e.currentTarget.src = "/placeholder.svg?height=80&width=80"
                         }}
                       />
                     </div>
                     <div className="absolute inset-0 rounded-xl bg-black/5 group-hover:bg-black/10 transition-colors duration-300"></div>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <CardTitle className="text-base font-semibold text-slate-800 dark:text-slate-100 truncate leading-tight hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="secondary" className={typeInfo.color}>
+                        <TypeIcon className="w-3 h-3 mr-1" />
+                        {typeInfo.label}
+                      </Badge>
+                    </div>
+                    <CardTitle className="text-base font-semibold text-slate-800 dark:text-slate-100 leading-tight hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 line-clamp-2">
                       {guide.title}
                     </CardTitle>
-                    <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">Toca para expandir</p>
+                    <p className="text-sm text-slate-500 dark:text-slate-400 mt-2">Toca para expandir</p>
                   </div>
                 </div>
-                <div className="flex-shrink-0 ml-4">
+                <div className="flex-shrink-0 ml-2">
                   <div className="p-2 rounded-full hover:bg-white/60 dark:hover:bg-slate-700/60 transition-colors duration-200">
                     {isExpanded ? (
                       <ChevronDown className="w-5 h-5 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200" />
@@ -94,8 +117,8 @@ export default function GuideCard({ guide }: GuideCardProps) {
             </CardHeader>
           </CollapsibleTrigger>
 
-          <CollapsibleContent className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:slide-out-to-top-1 data-[state=open]:slide-in-from-top-1">
-            <CardContent className="pt-4">
+          <CollapsibleContent className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:slide-out-to-top-1 data-[state=open]:slide-in-from-top-1 flex-1">
+            <CardContent className="pt-4 flex-1">
               {loading ? (
                 <div className="space-y-3">
                   {[...Array(2)].map((_, i) => (
@@ -107,8 +130,8 @@ export default function GuideCard({ guide }: GuideCardProps) {
               ) : (
                 <div className="space-y-3">
                   {weeks.map((week, index) => (
-                    <div 
-                      key={week.id} 
+                    <div
+                      key={week.id}
                       className="animate-in slide-in-from-top-2 fade-in-0"
                       style={{ animationDelay: `${index * 100}ms` }}
                     >
