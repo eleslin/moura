@@ -49,9 +49,36 @@ export const exerciseStorage = {
     }
 
     localStorage.setItem(EXERCISE_COMPLETION_KEY, JSON.stringify(completions))
+  },
 
-    // Update session completion status
-    this.updateSessionCompletion(sessionId)
+  // Update session completion status based on exercise completions and total exercises
+  updateSessionCompletion(sessionId: string, totalExercisesInSession: number): void {
+    const exerciseCompletions = this.getExerciseCompletions()
+    const sessionExercises = exerciseCompletions.filter((c) => c.sessionId === sessionId)
+
+    const completedExercises = sessionExercises.filter((c) => c.isCompleted).length
+
+    // Only mark as completed if we have completions for ALL exercises in the session
+    const isCompleted = completedExercises === totalExercisesInSession && totalExercisesInSession > 0
+
+    const sessionCompletions = this.getSessionCompletions()
+    const existingIndex = sessionCompletions.findIndex((c) => c.sessionId === sessionId)
+
+    const completion: SessionCompletion = {
+      sessionId,
+      completedAt: new Date().toISOString(),
+      totalExercises: totalExercisesInSession,
+      completedExercises,
+      isCompleted,
+    }
+
+    if (existingIndex >= 0) {
+      sessionCompletions[existingIndex] = completion
+    } else {
+      sessionCompletions.push(completion)
+    }
+
+    localStorage.setItem(SESSION_COMPLETION_KEY, JSON.stringify(sessionCompletions))
   },
 
   // Get all session completions
@@ -66,45 +93,24 @@ export const exerciseStorage = {
     return completions.find((c) => c.sessionId === sessionId) || null
   },
 
-  // Update session completion status based on exercise completions
-  updateSessionCompletion(sessionId: string): void {
-    const exerciseCompletions = this.getExerciseCompletions()
-    const sessionExercises = exerciseCompletions.filter((c) => c.sessionId === sessionId)
-
-    if (sessionExercises.length === 0) return
-
-    const completedExercises = sessionExercises.filter((c) => c.isCompleted).length
-    const totalExercises = sessionExercises.length
-    const isCompleted = completedExercises === totalExercises && totalExercises > 0
-
-    const sessionCompletions = this.getSessionCompletions()
-    const existingIndex = sessionCompletions.findIndex((c) => c.sessionId === sessionId)
-
-    const completion: SessionCompletion = {
-      sessionId,
-      completedAt: new Date().toISOString(),
-      totalExercises,
-      completedExercises,
-      isCompleted,
-    }
-
-    if (existingIndex >= 0) {
-      sessionCompletions[existingIndex] = completion
-    } else {
-      sessionCompletions.push(completion)
-    }
-
-    localStorage.setItem(SESSION_COMPLETION_KEY, JSON.stringify(sessionCompletions))
-  },
-
   // Get completion stats for a session
   getSessionStats(sessionId: string): { completed: number; total: number; percentage: number } {
-    const exerciseCompletions = this.getExerciseCompletions()
-    const sessionExercises = exerciseCompletions.filter((c) => c.sessionId === sessionId)
-    const completed = sessionExercises.filter((c) => c.isCompleted).length
-    const total = sessionExercises.length
-    const percentage = total > 0 ? Math.round((completed / total) * 100) : 0
+    const sessionCompletion = this.getSessionCompletion(sessionId)
 
-    return { completed, total, percentage }
+    if (sessionCompletion) {
+      const { completedExercises, totalExercises } = sessionCompletion
+      const percentage = totalExercises > 0 ? Math.round((completedExercises / totalExercises) * 100) : 0
+      return { completed: completedExercises, total: totalExercises, percentage }
+    }
+
+    return { completed: 0, total: 0, percentage: 0 }
+  },
+
+  // Initialize session with total exercise count
+  initializeSession(sessionId: string, totalExercises: number): void {
+    const existingCompletion = this.getSessionCompletion(sessionId)
+    if (!existingCompletion) {
+      this.updateSessionCompletion(sessionId, totalExercises)
+    }
   },
 }

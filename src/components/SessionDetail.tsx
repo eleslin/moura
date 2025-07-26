@@ -50,6 +50,11 @@ export default function SessionDetail() {
         const sessionData = await workoutService.getSession(sessionId)
         setSession(sessionData)
 
+        // Initialize session with total exercise count
+        if (sessionData.exercises) {
+          exerciseStorage.initializeSession(sessionId, sessionData.exercises.length)
+        }
+
         // Load exercise completions from localStorage
         const completions: Record<string, boolean> = {}
         sessionData.exercises?.forEach((exercise: Exercise) => {
@@ -67,7 +72,7 @@ export default function SessionDetail() {
   }, [sessionId])
 
   const toggleExerciseCompletion = (exerciseId: string) => {
-    if (!sessionId) return
+    if (!sessionId || !session) return
 
     const newStatus = !exerciseCompletions[exerciseId]
     setExerciseCompletions((prev) => ({
@@ -76,6 +81,8 @@ export default function SessionDetail() {
     }))
 
     exerciseStorage.setExerciseCompletion(exerciseId, sessionId, newStatus)
+    // Update session completion with correct total count
+    exerciseStorage.updateSessionCompletion(sessionId, session.exercises.length)
   }
 
   const getSessionProgress = () => {
@@ -92,7 +99,7 @@ export default function SessionDetail() {
     const [isPlaying, setIsPlaying] = useState(false)
 
     return (
-      <div className="relative rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-700 mb-4">
+      <div className="relative rounded-lg overflow-hidden bg-muted mb-4">
         <video
           className="w-full h-48 object-cover"
           controls
@@ -117,18 +124,18 @@ export default function SessionDetail() {
 
   if (loading) {
     return (
-      <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900">
+      <div className="min-h-screen w-full bg-background">
         <ThemeToggle />
         <div className="w-full px-6 py-8">
           <div className="max-w-4xl mx-auto space-y-4">
-            <Skeleton className="h-10 w-32 bg-slate-200 dark:bg-slate-700" />
-            <Skeleton className="h-8 w-64 bg-slate-200 dark:bg-slate-700" />
+            <Skeleton className="h-10 w-32 bg-muted" />
+            <Skeleton className="h-8 w-64 bg-muted" />
             {[...Array(3)].map((_, i) => (
-              <Card key={i} className="bg-white/80 dark:bg-slate-800/80">
+              <Card key={i} className="bg-card border-border">
                 <div className="p-6">
-                  <Skeleton className="h-6 w-3/4 mb-4 bg-slate-200 dark:bg-slate-700" />
-                  <Skeleton className="h-48 w-full mb-4 bg-slate-200 dark:bg-slate-700" />
-                  <Skeleton className="h-20 w-full bg-slate-200 dark:bg-slate-700" />
+                  <Skeleton className="h-6 w-3/4 mb-4 bg-muted" />
+                  <Skeleton className="h-48 w-full mb-4 bg-muted" />
+                  <Skeleton className="h-20 w-full bg-muted" />
                 </div>
               </Card>
             ))}
@@ -140,11 +147,11 @@ export default function SessionDetail() {
 
   if (!session) {
     return (
-      <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900">
+      <div className="min-h-screen w-full bg-background">
         <ThemeToggle />
         <div className="w-full px-6 py-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-4">Sesión no encontrada</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">Sesión no encontrada</h2>
             <Button onClick={() => navigate(-1)}>
               <ArrowLeft className="w-4 h-4 mr-2" />
               Volver
@@ -158,7 +165,7 @@ export default function SessionDetail() {
   const progress = getSessionProgress()
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900 transition-colors duration-500">
+    <div className="min-h-screen w-full bg-background transition-colors duration-500">
       <ThemeToggle />
       <div className="w-full px-6 py-8">
         <div className="max-w-4xl mx-auto">
@@ -166,7 +173,7 @@ export default function SessionDetail() {
             <Button
               variant="ghost"
               onClick={() => navigate(-1)}
-              className="mb-4 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100"
+              className="mb-4 text-muted-foreground hover:text-foreground"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               Volver
@@ -174,31 +181,31 @@ export default function SessionDetail() {
 
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-3">
-                <Badge variant="secondary" className="bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-200">
+                <Badge variant="secondary" className="bg-primary/10 text-primary">
                   Día {session.day_number}
                 </Badge>
-                <h1 className="text-3xl font-bold text-slate-800 dark:text-slate-100">{session.name}</h1>
+                <h1 className="text-3xl font-bold text-foreground">{session.name}</h1>
               </div>
 
               {/* Progress indicator */}
               <div className="flex items-center space-x-3">
                 <div className="text-right">
-                  <div className="text-sm font-medium text-slate-600 dark:text-slate-300">
+                  <div className="text-sm font-medium text-foreground">
                     {progress.completed} de {progress.total} ejercicios
                   </div>
-                  <div className="text-xs text-slate-500 dark:text-slate-400">{progress.percentage}% completado</div>
+                  <div className="text-xs text-muted-foreground">{progress.percentage}% completado</div>
                 </div>
                 <div className="w-16 h-16 relative">
                   <svg className="w-16 h-16 transform -rotate-90" viewBox="0 0 36 36">
                     <path
-                      className="text-slate-200 dark:text-slate-700"
+                      className="text-muted"
                       stroke="currentColor"
                       strokeWidth="3"
                       fill="none"
                       d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
                     />
                     <path
-                      className="text-green-500 dark:text-green-400"
+                      className="text-green-500"
                       stroke="currentColor"
                       strokeWidth="3"
                       strokeDasharray={`${progress.percentage}, 100`}
@@ -208,15 +215,13 @@ export default function SessionDetail() {
                     />
                   </svg>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-sm font-semibold text-slate-700 dark:text-slate-200">
-                      {progress.percentage}%
-                    </span>
+                    <span className="text-sm font-semibold text-foreground">{progress.percentage}%</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="text-slate-600 dark:text-slate-300">{session.title}</p>
+            <p className="text-muted-foreground">{session.title}</p>
           </div>
 
           <div className="space-y-6">
@@ -226,30 +231,30 @@ export default function SessionDetail() {
                 className="animate-in slide-in-from-bottom-2 fade-in-0"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <Card className="overflow-hidden bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
-                  <CardHeader className="bg-gradient-to-r from-blue-50/80 to-indigo-50/80 dark:from-slate-700/80 dark:to-slate-600/80">
+                <Card className="overflow-hidden bg-card border-border shadow-lg hover:shadow-xl transition-all duration-300">
+                  <CardHeader className="bg-muted/30">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 bg-blue-500 dark:bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
+                        <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-semibold">
                           {index + 1}
                         </div>
                         <div className="flex-1">
-                          <CardTitle className="text-lg text-slate-800 dark:text-slate-100">{exercise.title}</CardTitle>
+                          <CardTitle className="text-lg text-card-foreground">{exercise.title}</CardTitle>
                           {exercise.description && (
-                            <p className="text-sm text-slate-600 dark:text-slate-300 mt-1">{exercise.description}</p>
+                            <p className="text-sm text-muted-foreground mt-1">{exercise.description}</p>
                           )}
                         </div>
                       </div>
                       <div className="flex items-center space-x-3">
-                        <Dumbbell className="w-5 h-5 text-blue-500 dark:text-blue-400" />
+                        <Dumbbell className="w-5 h-5 text-primary" />
                         <button
                           onClick={() => toggleExerciseCompletion(exercise.id)}
-                          className="p-2 rounded-full hover:bg-white/60 dark:hover:bg-slate-700/60 transition-colors duration-200"
+                          className="p-2 rounded-full hover:bg-muted transition-colors duration-200"
                         >
                           {exerciseCompletions[exercise.id] ? (
-                            <CheckCircle2 className="w-6 h-6 text-green-500 dark:text-green-400" />
+                            <CheckCircle2 className="w-6 h-6 text-green-500" />
                           ) : (
-                            <Circle className="w-6 h-6 text-slate-400 dark:text-slate-500" />
+                            <Circle className="w-6 h-6 text-muted-foreground" />
                           )}
                         </button>
                       </div>
@@ -263,26 +268,19 @@ export default function SessionDetail() {
                     {/* Sets */}
                     <div className="grid gap-3">
                       {exercise.sets?.map((set, setIndex) => (
-                        <div
-                          key={set.id}
-                          className="flex items-center justify-between p-3 bg-slate-50/80 dark:bg-slate-700/50 rounded-lg backdrop-blur-sm"
-                        >
+                        <div key={set.id} className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
                           <div className="flex items-center space-x-4">
-                            <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
-                              Serie {setIndex + 1}
-                            </span>
+                            <span className="text-sm font-medium text-muted-foreground">Serie {setIndex + 1}</span>
                             <div className="flex items-center space-x-3">
                               <div className="flex items-center space-x-1">
-                                <Repeat className="w-4 h-4 text-blue-500 dark:text-blue-400" />
-                                <span className="text-sm font-medium text-slate-700 dark:text-slate-200">
+                                <Repeat className="w-4 h-4 text-primary" />
+                                <span className="text-sm font-medium text-foreground">
                                   {set.set_series} × {set.set_reps}
                                 </span>
                               </div>
                               <div className="flex items-center space-x-1">
-                                <Clock className="w-4 h-4 text-green-500 dark:text-green-400" />
-                                <span className="text-sm text-slate-600 dark:text-slate-300">
-                                  {set.set_rest} descanso
-                                </span>
+                                <Clock className="w-4 h-4 text-green-500" />
+                                <span className="text-sm text-muted-foreground">{set.set_rest} descanso</span>
                               </div>
                             </div>
                           </div>
@@ -296,11 +294,11 @@ export default function SessionDetail() {
           </div>
 
           {session.exercises?.length === 0 && (
-            <Card className="text-center py-8 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm">
+            <Card className="text-center py-8 bg-card border-border">
               <CardContent>
-                <Dumbbell className="w-12 h-12 text-slate-400 dark:text-slate-500 mx-auto mb-4" />
-                <h3 className="text-lg font-medium text-slate-800 dark:text-slate-100 mb-2">No hay ejercicios</h3>
-                <p className="text-slate-600 dark:text-slate-300">Esta sesión no tiene ejercicios configurados.</p>
+                <Dumbbell className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
+                <h3 className="text-lg font-medium text-foreground mb-2">No hay ejercicios</h3>
+                <p className="text-muted-foreground">Esta sesión no tiene ejercicios configurados.</p>
               </CardContent>
             </Card>
           )}

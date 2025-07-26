@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import { Card, CardHeader, CardContent } from './ui/Card'
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@radix-ui/react-collapsible'
-import { Calendar, ChevronDown, ChevronRight } from 'lucide-react'
-import SessionCard from './SessionCard'
-import { Skeleton } from './ui/Skeleton'
-import { useAppState } from './core/AppStateProvider'
-import { workoutService } from '@/api/services/workoutService'
+"use client"
+
+import { useState } from "react"
+import { Card, CardHeader, CardContent } from "./ui/Card"
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@radix-ui/react-collapsible"
+import { Calendar, ChevronDown, ChevronRight } from "lucide-react"
+import SessionCard from "./SessionCard"
+import { Skeleton } from "./ui/Skeleton"
+import { useAppState } from "./core/AppStateProvider"
+import { workoutService } from "@/api/services/workoutService"
 
 interface Week {
   id: string
@@ -33,21 +35,21 @@ export default function WeekCard({ week }: WeekCardProps) {
 
   const toggleWeek = async () => {
     const newExpanded = !isExpanded
-    setExpandedWeeks(prev => ({
+    setExpandedWeeks((prev) => ({
       ...prev,
-      [week.id]: newExpanded
+      [week.id]: newExpanded,
     }))
 
     if (newExpanded && sessions.length === 0) {
       setLoading(true)
       try {
         const weekData = await workoutService.getWeek(week.id)
-        setSessionsData(prev => ({
+        setSessionsData((prev) => ({
           ...prev,
-          [week.id]: weekData.sessions || []
+          [week.id]: weekData.sessions || [],
         }))
       } catch (error) {
-        console.error('Error fetching sessions:', error)
+        console.error("Error fetching sessions:", error)
       } finally {
         setLoading(false)
       }
@@ -55,22 +57,22 @@ export default function WeekCard({ week }: WeekCardProps) {
   }
 
   return (
-    <Card className="border-l-4 border-l-blue-500 dark:border-l-blue-400 bg-white/90 dark:bg-slate-700/90 backdrop-blur-sm shadow-md hover:shadow-lg transition-all duration-300">
+    <Card className="border-l-4 border-l-primary bg-card border-border shadow-md hover:shadow-lg transition-all duration-300">
       <Collapsible open={isExpanded} onOpenChange={toggleWeek}>
         <CollapsibleTrigger asChild>
-          <CardHeader className="cursor-pointer hover:bg-slate-50/80 dark:hover:bg-slate-600/50 transition-colors duration-300 py-3">
+          <CardHeader className="cursor-pointer hover:bg-muted/50 transition-colors duration-300 py-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-3">
-                <Calendar className="w-4 h-4 text-blue-500 dark:text-blue-400" />
+                <Calendar className="w-4 h-4 text-primary" />
                 <div>
-                  <h3 className="font-medium text-slate-800 dark:text-slate-100">{week.week_title}</h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">Semana {week.week_index}</p>
+                  <h3 className="font-medium text-card-foreground">{week.week_title}</h3>
+                  <p className="text-sm text-muted-foreground">Semana {week.week_index}</p>
                 </div>
               </div>
               {isExpanded ? (
-                <ChevronDown className="w-4 h-4 text-slate-500 dark:text-slate-400" />
+                <ChevronDown className="w-4 h-4 text-muted-foreground" />
               ) : (
-                <ChevronRight className="w-4 h-4 text-slate-500 dark:text-slate-400" />
+                <ChevronRight className="w-4 h-4 text-muted-foreground" />
               )}
             </div>
           </CardHeader>
@@ -82,14 +84,14 @@ export default function WeekCard({ week }: WeekCardProps) {
               <div className="space-y-2">
                 {[...Array(2)].map((_, i) => (
                   <div key={i} className="animate-pulse">
-                    <Skeleton className="h-12 w-full bg-slate-200 dark:bg-slate-600 rounded-lg" />
+                    <Skeleton className="h-12 w-full bg-muted rounded-lg" />
                   </div>
                 ))}
               </div>
             ) : (
               <div className="space-y-2">
                 {sessions.map((session, index) => (
-                  <div 
+                  <div
                     key={session.id}
                     className="animate-in slide-in-from-top-1 fade-in-0"
                     style={{ animationDelay: `${index * 50}ms` }}

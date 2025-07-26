@@ -59,7 +59,11 @@ export default function GuideCard({ guide }: GuideCardProps) {
 
   const getGuideTypeInfo = (type: number) => {
     return type === 0
-      ? { label: "Guía", icon: BookOpen, color: "bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-200" }
+      ? {
+          label: "Guía",
+          icon: BookOpen,
+          color: "bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-200",
+        }
       : {
           label: "Entrenamiento",
           icon: Dumbbell,
@@ -72,14 +76,14 @@ export default function GuideCard({ guide }: GuideCardProps) {
 
   return (
     <div className="transform transition-all duration-300 hover:scale-[1.02] h-full">
-      <Card className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm border-white/30 dark:border-slate-700/50 shadow-lg hover:shadow-xl transition-all duration-300 h-full flex flex-col">
+      <Card className="bg-card border-border shadow-lg hover:shadow-xl transition-all duration-300 h-full flex flex-col">
         <Collapsible open={isExpanded} onOpenChange={toggleGuide}>
           <CollapsibleTrigger asChild>
-            <CardHeader className="cursor-pointer hover:bg-gradient-to-r hover:from-blue-50/50 hover:to-indigo-50/50 dark:hover:from-slate-700/50 dark:hover:to-slate-600/50 transition-all duration-300 border-b border-slate-200/50 dark:border-slate-700/50 flex-shrink-0">
+            <CardHeader className="cursor-pointer hover:bg-muted/50 transition-all duration-300 border-b border-border flex-shrink-0">
               <div className="flex items-start justify-between p-2">
                 <div className="flex items-start gap-4 flex-1 min-w-0">
                   <div className="relative group flex-shrink-0">
-                    <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-slate-700 dark:to-slate-600 shadow-sm overflow-hidden">
+                    <div className="w-20 h-20 rounded-xl bg-muted shadow-sm overflow-hidden">
                       <img
                         src={guide.image_url || "/placeholder.svg?height=80&width=80&query=workout guide"}
                         alt={guide.title}
@@ -98,18 +102,18 @@ export default function GuideCard({ guide }: GuideCardProps) {
                         {typeInfo.label}
                       </Badge>
                     </div>
-                    <CardTitle className="text-base font-semibold text-slate-800 dark:text-slate-100 leading-tight hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 line-clamp-2">
+                    <CardTitle className="text-base font-semibold text-card-foreground leading-tight hover:text-primary transition-colors duration-200 line-clamp-2">
                       {guide.title}
                     </CardTitle>
-                    <p className="text-sm text-slate-500 dark:text-slate-400 mt-2">Toca para expandir</p>
+                    <p className="text-sm text-muted-foreground mt-2">Toca para expandir</p>
                   </div>
                 </div>
                 <div className="flex-shrink-0 ml-2">
-                  <div className="p-2 rounded-full hover:bg-white/60 dark:hover:bg-slate-700/60 transition-colors duration-200">
+                  <div className="p-2 rounded-full hover:bg-muted transition-colors duration-200">
                     {isExpanded ? (
-                      <ChevronDown className="w-5 h-5 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200" />
+                      <ChevronDown className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors duration-200" />
                     ) : (
-                      <ChevronRight className="w-5 h-5 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200" />
+                      <ChevronRight className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors duration-200" />
                     )}
                   </div>
                 </div>
@@ -123,7 +127,7 @@ export default function GuideCard({ guide }: GuideCardProps) {
                 <div className="space-y-3">
                   {[...Array(2)].map((_, i) => (
                     <div key={i} className="animate-pulse">
-                      <Skeleton className="h-16 w-full bg-slate-200 dark:bg-slate-700 rounded-lg" />
+                      <Skeleton className="h-16 w-full bg-muted rounded-lg" />
                     </div>
                   ))}
                 </div>
