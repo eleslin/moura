@@ -1,0 +1,703 @@
+/// App.tsx main file
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { ThemeProvider } from './components/core/ThemeProvider'
+import { AppStateProvider } from './components/core/AppStateProvider'
+import GuideList from './components/GuideList'
+import SessionDetail from './components/SessionDetail'
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppStateProvider>
+        <Router>
+          <div className="App">
+            <Routes>
+              <Route path="/" element={<GuideList />} />
+              <Route path="/session/:sessionId" element={<SessionDetail />} />
+            </Routes>
+          </div>
+        </Router>
+      </AppStateProvider>
+    </ThemeProvider>
+  )
+}
+
+export default App
+
+
+/// ThemeProvider
+import { createContext, useContext, useEffect, useState } from 'react'
+
+type Theme = 'dark' | 'light'
+
+interface ThemeContextType {
+  theme: Theme
+  toggleTheme: () => void
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  const [theme, setTheme] = useState<Theme>(() => {
+    const saved = localStorage.getItem('theme')
+    return (saved as Theme) || 'dark'
+  })
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme)
+    document.documentElement.classList.toggle('dark', theme === 'dark')
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'dark' ? 'light' : 'dark')
+  }
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  )
+}
+
+export function useTheme() {
+  const context = useContext(ThemeContext)
+  if (!context) {
+    throw new Error('useTheme must be used within ThemeProvider')
+  }
+  return context
+}
+
+///AppStateProvider
+import { createContext, useContext, useState } from 'react'
+
+interface AppState {
+  expandedGuides: Record<string, boolean>
+  expandedWeeks: Record<string, boolean>
+  weeksData: Record<string, any[]>
+  sessionsData: Record<string, any[]>
+}
+
+interface AppStateContextType {
+  state: AppState
+  setExpandedGuides: React.Dispatch<React.SetStateAction<Record<string, boolean>>>
+  setExpandedWeeks: React.Dispatch<React.SetStateAction<Record<string, boolean>>>
+  setWeeksData: React.Dispatch<React.SetStateAction<Record<string, any[]>>>
+  setSessionsData: React.Dispatch<React.SetStateAction<Record<string, any[]>>>
+}
+
+const AppStateContext = createContext<AppStateContextType | undefined>(undefined)
+
+export function AppStateProvider({ children }: { children: React.ReactNode }) {
+  const [expandedGuides, setExpandedGuides] = useState<Record<string, boolean>>({})
+  const [expandedWeeks, setExpandedWeeks] = useState<Record<string, boolean>>({})
+  const [weeksData, setWeeksData] = useState<Record<string, any[]>>({})
+  const [sessionsData, setSessionsData] = useState<Record<string, any[]>>({})
+
+  const state = {
+    expandedGuides,
+    expandedWeeks,
+    weeksData,
+    sessionsData
+  }
+
+  return (
+    <AppStateContext.Provider value={{
+      state,
+      setExpandedGuides,
+      setExpandedWeeks,
+      setWeeksData,
+      setSessionsData
+    }}>
+      {children}
+    </AppStateContext.Provider>
+  )
+}
+
+export function useAppState() {
+  const context = useContext(AppStateContext)
+  if (!context) {
+    throw new Error('useAppState must be used within AppStateProvider')
+  }
+  return context
+}
+
+/// ThemeToggle
+import { Moon, Sun } from 'lucide-react'
+import { useTheme } from '../core/ThemeProvider'
+
+export function ThemeToggle() {
+  const { theme, toggleTheme } = useTheme()
+
+  return (
+    <button
+      onClick={toggleTheme}
+      className="fixed top-4 right-4 p-3 rounded-full bg-white/10 dark:bg-black/20 backdrop-blur-sm border border-white/20 dark:border-white/10 hover:bg-white/20 dark:hover:bg-white/10 transition-all duration-300 z-50"
+      aria-label="Toggle theme"
+    >
+      {theme === 'dark' ? (
+        <Sun className="w-5 h-5 text-amber-400" />
+      ) : (
+        <Moon className="w-5 h-5 text-slate-600" />
+      )}
+    </button>
+  )
+}
+
+/// GuideList
+import { useEffect, useState } from 'react'
+import { Card } from './ui/Card'
+import { Skeleton } from './ui/Skeleton'
+import GuideCard from './GuideCard'
+import { workoutService } from '@/api/services/workoutService'
+import { ThemeToggle } from './core/ThemeToggle'
+
+interface Guide {
+  id: string
+  title: string
+  image_url: string
+  weeks: Week[]
+}
+
+interface Week {
+  id: string
+  week_index: number
+  sessions: Session[]
+  week_title: string
+}
+
+interface Session {
+  id: string
+  day_number: number
+  title: string
+  name: string
+}
+
+export default function GuideList() {
+  const [guides, setGuides] = useState<Guide[]>([])
+  const [loading, setLoading] = useState(true)
+  
+  useEffect(() => {
+    const fetchGuides = async () => {
+      try {
+        const data = await workoutService.getGuides()
+        setGuides(data)
+      } catch (error) {
+        console.error('Error fetching guides:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+    fetchGuides()
+  }, [])
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900">
+        <ThemeToggle />
+        <div className="container mx-auto px-4 py-8 max-w-4xl">
+          <div className="space-y-4">
+            {[...Array(3)].map((_, i) => (
+              <Card key={i} className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-white/20 dark:border-slate-700/50">
+                <div className="p-6">
+                  <Skeleton className="h-6 w-3/4 mb-4 bg-slate-200 dark:bg-slate-700" />
+                  <Skeleton className="h-32 w-full bg-slate-200 dark:bg-slate-700" />
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900 transition-colors duration-500">
+      <ThemeToggle />
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-slate-800 dark:text-slate-100 mb-2">
+            Guías de Entrenamiento
+          </h1>
+        </div>
+
+        <div className="space-y-3">
+          {guides.map((guide) => (
+            <GuideCard key={guide.id} guide={guide} />
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/// GuideCard
+import { useState } from 'react'
+import { Card, CardHeader, CardContent, CardTitle } from './ui/Card'
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@radix-ui/react-collapsible'
+import { ChevronDown, ChevronRight } from 'lucide-react'
+import WeekCard from './WeekCard'
+import { Skeleton } from './ui/Skeleton'
+import { workoutService } from '@/api/services/workoutService'
+import { useAppState } from './core/AppStateProvider'
+
+interface Guide {
+  id: string
+  title: string
+  image_url: string
+}
+
+interface Week {
+  id: string
+  week_index: number
+  week_title: string
+}
+
+interface GuideCardProps {
+  guide: Guide
+}
+
+export default function GuideCard({ guide }: GuideCardProps) {
+  const { state, setExpandedGuides, setWeeksData } = useAppState()
+  const [loading, setLoading] = useState(false)
+
+  const isExpanded = state.expandedGuides[guide.id] || false
+  const weeks = state.weeksData[guide.id] || []
+
+  const toggleGuide = async () => {
+    const newExpanded = !isExpanded
+    setExpandedGuides(prev => ({
+      ...prev,
+      [guide.id]: newExpanded
+    }))
+
+    if (newExpanded && weeks.length === 0) {
+      setLoading(true)
+      try {
+        const guideData = await workoutService.getGuide(guide.id)
+        setWeeksData(prev => ({
+          ...prev,
+          [guide.id]: guideData.weeks || []
+        }))
+      } catch (error) {
+        console.error('Error fetching weeks:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+  }
+
+  return (
+    <div className="transform transition-all duration-300 hover:scale-[1.01]">
+      <Card className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-white/20 dark:border-slate-700/50 shadow-lg hover:shadow-xl transition-all duration-300">
+        <Collapsible open={isExpanded} onOpenChange={toggleGuide}>
+          <CollapsibleTrigger asChild>
+            <CardHeader className="cursor-pointer hover:bg-gradient-to-r hover:from-blue-50/50 hover:to-indigo-50/50 dark:hover:from-slate-700/50 dark:hover:to-slate-600/50 transition-all duration-300 border-b border-slate-200/50 dark:border-slate-700/50">
+              <div className="flex items-center justify-between p-2">
+                <div className="flex items-center gap-4">
+                  <div className="relative group">
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-slate-700 dark:to-slate-600 shadow-sm overflow-hidden">
+                      <img
+                        src={guide.image_url || "/placeholder.svg"}
+                        alt={guide.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        onError={(e) => {
+                          e.currentTarget.src = "/placeholder.svg";
+                        }}
+                      />
+                    </div>
+                    <div className="absolute inset-0 rounded-xl bg-black/5 group-hover:bg-black/10 transition-colors duration-300"></div>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base font-semibold text-slate-800 dark:text-slate-100 truncate leading-tight hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                      {guide.title}
+                    </CardTitle>
+                    <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">Toca para expandir</p>
+                  </div>
+                </div>
+                <div className="flex-shrink-0 ml-4">
+                  <div className="p-2 rounded-full hover:bg-white/60 dark:hover:bg-slate-700/60 transition-colors duration-200">
+                    {isExpanded ? (
+                      <ChevronDown className="w-5 h-5 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200" />
+                    ) : (
+                      <ChevronRight className="w-5 h-5 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200" />
+                    )}
+                  </div>
+                </div>
+              </div>
+            </CardHeader>
+          </CollapsibleTrigger>
+
+          <CollapsibleContent className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:slide-out-to-top-1 data-[state=open]:slide-in-from-top-1">
+            <CardContent className="pt-4">
+              {loading ? (
+                <div className="space-y-3">
+                  {[...Array(2)].map((_, i) => (
+                    <div key={i} className="animate-pulse">
+                      <Skeleton className="h-16 w-full bg-slate-200 dark:bg-slate-700 rounded-lg" />
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {weeks.map((week, index) => (
+                    <div 
+                      key={week.id} 
+                      className="animate-in slide-in-from-top-2 fade-in-0"
+                      style={{ animationDelay: `${index * 100}ms` }}
+                    >
+                      <WeekCard week={week} />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </CardContent>
+          </CollapsibleContent>
+        </Collapsible>
+      </Card>
+    </div>
+  )
+}
+
+/// WeekCard
+import { useState } from 'react'
+import { Card, CardHeader, CardContent } from './ui/Card'
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@radix-ui/react-collapsible'
+import { Calendar, ChevronDown, ChevronRight } from 'lucide-react'
+import SessionCard from './SessionCard'
+import { Skeleton } from './ui/Skeleton'
+import { useAppState } from './core/AppStateProvider'
+import { workoutService } from '@/api/services/workoutService'
+
+interface Week {
+  id: string
+  week_index: number
+  week_title: string
+}
+
+interface Session {
+  id: string
+  day_number: number
+  title: string
+  name: string
+}
+
+interface WeekCardProps {
+  week: Week
+}
+
+export default function WeekCard({ week }: WeekCardProps) {
+  const { state, setExpandedWeeks, setSessionsData } = useAppState()
+  const [loading, setLoading] = useState(false)
+
+  const isExpanded = state.expandedWeeks[week.id] || false
+  const sessions = state.sessionsData[week.id] || []
+
+  const toggleWeek = async () => {
+    const newExpanded = !isExpanded
+    setExpandedWeeks(prev => ({
+      ...prev,
+      [week.id]: newExpanded
+    }))
+
+    if (newExpanded && sessions.length === 0) {
+      setLoading(true)
+      try {
+        const weekData = await workoutService.getWeek(week.id)
+        setSessionsData(prev => ({
+          ...prev,
+          [week.id]: weekData.sessions || []
+        }))
+      } catch (error) {
+        console.error('Error fetching sessions:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+  }
+
+  return (
+    <Card className="border-l-4 border-l-blue-500 dark:border-l-blue-400 bg-white/90 dark:bg-slate-700/90 backdrop-blur-sm shadow-md hover:shadow-lg transition-all duration-300">
+      <Collapsible open={isExpanded} onOpenChange={toggleWeek}>
+        <CollapsibleTrigger asChild>
+          <CardHeader className="cursor-pointer hover:bg-slate-50/80 dark:hover:bg-slate-600/50 transition-colors duration-300 py-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <Calendar className="w-4 h-4 text-blue-500 dark:text-blue-400" />
+                <div>
+                  <h3 className="font-medium text-slate-800 dark:text-slate-100">{week.week_title}</h3>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">Semana {week.week_index}</p>
+                </div>
+              </div>
+              {isExpanded ? (
+                <ChevronDown className="w-4 h-4 text-slate-500 dark:text-slate-400" />
+              ) : (
+                <ChevronRight className="w-4 h-4 text-slate-500 dark:text-slate-400" />
+              )}
+            </div>
+          </CardHeader>
+        </CollapsibleTrigger>
+
+        <CollapsibleContent className="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:slide-out-to-top-1 data-[state=open]:slide-in-from-top-1">
+          <CardContent className="pt-0">
+            {loading ? (
+              <div className="space-y-2">
+                {[...Array(2)].map((_, i) => (
+                  <div key={i} className="animate-pulse">
+                    <Skeleton className="h-12 w-full bg-slate-200 dark:bg-slate-600 rounded-lg" />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="space-y-2">
+                {sessions.map((session, index) => (
+                  <div 
+                    key={session.id}
+                    className="animate-in slide-in-from-top-1 fade-in-0"
+                    style={{ animationDelay: `${index * 50}ms` }}
+                  >
+                    <SessionCard session={session} />
+                  </div>
+                ))}
+              </div>
+            )}
+          </CardContent>
+        </CollapsibleContent>
+      </Collapsible>
+    </Card>
+  )
+}
+
+/// SessionCard
+import { Card, CardHeader } from './ui/Card'
+import { Play, ArrowRight } from 'lucide-react'
+import { Badge } from './ui/Badge'
+import { useNavigate } from 'react-router-dom'
+
+interface Session {
+  id: string
+  day_number: number
+  title: string
+  name: string
+}
+
+interface SessionCardProps {
+  session: Session
+}
+
+export default function SessionCard({ session }: SessionCardProps) {
+  const navigate = useNavigate()
+
+  const handleSessionClick = () => {
+    navigate(`/session/${session.id}`)
+  }
+
+  return (
+    <Card className="bg-slate-50/80 dark:bg-slate-600/80 hover:bg-slate-100/80 dark:hover:bg-slate-500/80 backdrop-blur-sm transition-all duration-300 cursor-pointer transform hover:scale-[1.02] shadow-sm hover:shadow-md" onClick={handleSessionClick}>
+      <CardHeader className="py-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-3">
+            <Play className="w-4 h-4 text-green-500 dark:text-green-400" />
+            <div>
+              <h4 className="font-medium text-sm text-slate-800 dark:text-slate-100">{session.name}</h4>
+              <div className="flex items-center space-x-2 mt-1">
+                <Badge variant="secondary" className="text-xs bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-200">
+                  Día {session.day_number}
+                </Badge>
+                <span className="text-xs text-slate-500 dark:text-slate-400">
+                  {session.title}
+                </span>
+              </div>
+            </div>
+          </div>
+          <ArrowRight className="w-4 h-4 text-slate-400 dark:text-slate-500" />
+        </div>
+      </CardHeader>
+    </Card>
+  )
+}
+
+/// SessionDetail
+import { useEffect, useState } from 'react'
+import { useParams, useNavigate } from 'react-router-dom'
+import { Card, CardHeader, CardContent, CardTitle } from './ui/Card'
+import { Badge } from './ui/Badge'
+import { Skeleton } from './ui/Skeleton'
+import { ArrowLeft, Dumbbell, Clock, Repeat } from 'lucide-react'
+import { workoutService } from '@/api/services/workoutService'
+import { ThemeToggle } from './core/ThemeToggle'
+import { Button } from './ui/Button'
+
+interface Exercise {
+  id: string
+  title: string
+  description: string
+  sets: Set[]
+  order_in_session: number
+}
+
+interface Set {
+  id: string
+  set_reps: string
+  set_rest: string
+  set_series: string
+}
+
+interface Session {
+  id: string
+  day_number: number
+  title: string
+  name: string
+  exercises: Exercise[]
+}
+
+export default function SessionDetail() {
+  const { sessionId } = useParams<{ sessionId: string }>()
+  const navigate = useNavigate()
+  const [session, setSession] = useState<Session | null>(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const fetchSession = async () => {
+      if (!sessionId) return
+      
+      try {
+        const sessionData = await workoutService.getSession(sessionId)
+        setSession(sessionData)
+      } catch (error) {
+        console.error('Error fetching session:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchSession()
+  }, [sessionId])
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900">
+        <ThemeToggle />
+        <div className="container mx-auto px-4 py-8 max-w-4xl">
+          <div className="space-y-4">
+            <Skeleton className="h-10 w-32 bg-slate-200 dark:bg-slate-700" />
+            <Skeleton className="h-8 w-64 bg-slate-200 dark:bg-slate-700" />
+            {[...Array(3)].map((_, i) => (
+              <Card key={i} className="bg-white/80 dark:bg-slate-800/80">
+                <div className="p-6">
+                  <Skeleton className="h-6 w-3/4 mb-4 bg-slate-200 dark:bg-slate-700" />
+                  <Skeleton className="h-20 w-full bg-slate-200 dark:bg-slate-700" />
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  if (!session) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900">
+        <ThemeToggle />
+        <div className="container mx-auto px-4 py-8 max-w-4xl">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-4">Sesión no encontrada</h2>
+            <Button onClick={() => navigate(-1)}>
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Volver
+            </Button>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900 transition-colors duration-500">
+      <ThemeToggle />
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
+        <div className="mb-6">
+          <Button 
+            variant="ghost" 
+            onClick={() => navigate(-1)}
+            className="mb-4 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100"
+          >
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Volver
+          </Button>
+          
+          <div className="flex items-center space-x-3 mb-2">
+            <Badge variant="secondary" className="bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-200">
+              Día {session.day_number}
+            </Badge>
+            <h1 className="text-3xl font-bold text-slate-800 dark:text-slate-100">{session.name}</h1>
+          </div>
+          <p className="text-slate-600 dark:text-slate-300">{session.title}</p>
+        </div>
+
+        <div className="space-y-4">
+          {session.exercises?.map((exercise, index) => (
+            <div 
+              key={exercise.id}
+              className="animate-in slide-in-from-bottom-2 fade-in-0"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <Card className="overflow-hidden bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
+                <CardHeader className="bg-gradient-to-r from-blue-50/80 to-indigo-50/80 dark:from-slate-700/80 dark:to-slate-600/80">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-8 h-8 bg-blue-500 dark:bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
+                        {index + 1}
+                      </div>
+                      <div>
+                        <CardTitle className="text-lg text-slate-800 dark:text-slate-100">{exercise.title}</CardTitle>
+                        {exercise.description && (
+                          <p className="text-sm text-slate-600 dark:text-slate-300 mt-1">{exercise.description}</p>
+                        )}
+                      </div>
+                    </div>
+                    <Dumbbell className="w-5 h-5 text-blue-500 dark:text-blue-400" />
+                  </div>
+                </CardHeader>
+                
+                <CardContent className="pt-4">
+                  <div className="grid gap-3">
+                    {exercise.sets?.map((set, setIndex) => (
+                      <div key={set.id} className="flex items-center justify-between p-3 bg-slate-50/80 dark:bg-slate-700/50 rounded-lg backdrop-blur-sm">
+                        <div className="flex items-center space-x-4">
+                          <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
+                            Serie {setIndex + 1}
+                          </span>
+                          <div className="flex items-center space-x-3">
+                            <div className="flex items-center space-x-1">
+                              <Repeat className="w-4 h-4 text-blue-500 dark:text-blue-400" />
+                              <span className="text-sm font-medium text-slate-700 dark:text-slate-200">{set.set_series} × {set.set_reps}</span>
+                            </div>
+                            <div className="flex items-center space-x-1">
+                              <Clock className="w-4 h-4 text-green-500 dark:text-green-400" />
+                              <span className="text-sm text-slate-600 dark:text-slate-300">{set.set_rest} descanso</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          ))}
+        </div>
+
+        {session.exercises?.length === 0 && (
+          <Card className="text-center py-8 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm">
+            <CardContent>
+              <Dumbbell className="w-12 h-12 text-slate-400 dark:text-slate-500 mx-auto mb-4" />
+              <h3 className="text-lg font-medium text-slate-800 dark:text-slate-100 mb-2">No hay ejercicios</h3>
+              <p className="text-slate-600 dark:text-slate-300">Esta sesión no tiene ejercicios configurados.</p>
+            </CardContent>
+          </Card>
+        )}
+      </div>
+    </div>
+  )
+}

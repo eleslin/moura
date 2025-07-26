@@ -1,21 +1,23 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { ThemeProvider } from './components/core/ThemeProvider'
+import { AppStateProvider } from './components/core/AppStateProvider'
 import GuideList from './components/GuideList'
-import WeekList from './components/WeekList'
-import SessionList from './components/SessionList'
-import ExerciseList from './components/ExerciseList'
+import SessionDetail from './components/SessionDetail'
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen bg-gray-100">
-        <Routes>
-          <Route path="/" element={<GuideList />} />
-          <Route path="/week/:id" element={<WeekList />} />
-          <Route path="/session/:id" element={<SessionList />} />
-          <Route path="/exercise/:id" element={<ExerciseList />} />
-        </Routes>
-      </div>
-    </Router>
+    <ThemeProvider>
+      <AppStateProvider>
+        <Router>
+          <div className="App">
+            <Routes>
+              <Route path="/" element={<GuideList />} />
+              <Route path="/session/:sessionId" element={<SessionDetail />} />
+            </Routes>
+          </div>
+        </Router>
+      </AppStateProvider>
+    </ThemeProvider>
   )
 }
 

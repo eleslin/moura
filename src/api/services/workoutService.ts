@@ -1,4 +1,4 @@
-import { supabase } from '../lib/supabaseClient'
+import { supabase } from '../core/supabaseClient'
 
 export interface Guide {
   id: string
@@ -165,21 +165,27 @@ export const workoutService = {
 
     if (allExerciseSetsError) throw allExerciseSetsError
 
-    // Group sets by exercise_id
+    // Get all set IDs and fetch all sets in a single query
+    const setIds = allExerciseSets.map(es => es.set_id)
+    const { data: allSets, error: allSetsError } = await supabase
+      .from('sets')
+      .select('*')
+      .in('id', setIds)
+
+    if (allSetsError) throw allSetsError
+
+    // Create a map of set_id to set data for quick lookup
+    const setsMap = new Map(allSets.map(set => [set.id, set]))
+
+    // Group sets by exercise_id with proper ordering
     const setsByExercise = new Map<string, ExerciseSet[]>()
     for (const es of allExerciseSets) {
-      const { set_id } = es
-      const { data: sets, error: setsError } = await supabase
-        .from('sets')
-        .select('*')
-        .eq('id', set_id)
-        .single()
-
-      if (setsError) throw setsError
-      
-      const exerciseSets = setsByExercise.get(es.exercise_id) || []
-      exerciseSets.push(sets)
-      setsByExercise.set(es.exercise_id, exerciseSets)
+      const setData = setsMap.get(es.set_id)
+      if (setData) {
+        const exerciseSets = setsByExercise.get(es.exercise_id) || []
+        exerciseSets.push(setData)
+        setsByExercise.set(es.exercise_id, exerciseSets)
+      }
     }
 
     // Add order information and sets to each exercise
@@ -195,7 +201,10 @@ export const workoutService = {
     // Sort exercises by order_in_session
     exercisesWithSets.sort((a, b) => a.order_in_session - b.order_in_session)
 
-    return { session, exercises: exercisesWithSets }
+    return {
+      ...session,
+      exercises: exercisesWithSets
+    }
   },
 
   // Get a specific exercise with its sets
