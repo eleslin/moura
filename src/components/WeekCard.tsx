@@ -15,13 +15,6 @@ interface Week {
   week_title: string
 }
 
-interface Session {
-  id: string
-  day_number: number
-  title: string
-  name: string
-}
-
 interface WeekCardProps {
   week: Week
 }

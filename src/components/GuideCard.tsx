@@ -17,12 +17,6 @@ interface Guide {
   type: number // 0 = Guide, 1 = Training
 }
 
-interface Week {
-  id: string
-  week_index: number
-  week_title: string
-}
-
 interface GuideCardProps {
   guide: Guide
 }

@@ -95,7 +95,7 @@ export default function SessionDetail() {
     return { completed, total, percentage }
   }
 
-  const VideoPlayer = ({ videoUrl, title }: { videoUrl: string; title: string }) => {
+  const VideoPlayer = ({ videoUrl }: { videoUrl: string }) => {
     const [isPlaying, setIsPlaying] = useState(false)
 
     return (
@@ -263,7 +263,7 @@ export default function SessionDetail() {
 
                   <CardContent className="pt-4">
                     {/* Video player */}
-                    {exercise.video_url && <VideoPlayer videoUrl={exercise.video_url} title={exercise.title} />}
+                    {exercise.video_url && <VideoPlayer videoUrl={exercise.video_url} />}
 
                     {/* Sets */}
                     <div className="grid gap-3">
