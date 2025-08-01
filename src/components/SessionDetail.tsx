@@ -9,7 +9,7 @@ import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play, ListChe
 import { workoutService } from "@/api/services/workoutService"
 import { ThemeToggle } from "./core/ThemeToggle"
 import { exerciseStorage } from "@/utils/exerciseStorage"
-import { Button } from "@/components/ui/Button"
+import { Button } from "@/components/ui/button"
 
 interface Exercise {
   id: string
