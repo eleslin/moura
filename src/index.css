@@ -15,7 +15,7 @@
 
   /* Light theme colors - proper light theme */
   --background: #fafafa;
-  --foreground: #0a0a0a;
+  --foreground: #171A29;
   --card: #ffffff;
   --card-foreground: #0a0a0a;
   --popover: #ffffff;
@@ -140,9 +140,9 @@ button:focus-visible {
 }
 
 .dark {
-  --background: #0a0a0a;
+  --background: #171A29;
   --foreground: #fafafa;
-  --card: #1a1a1a;
+  --card: #0f111c;
   --card-foreground: #fafafa;
   --popover: #1a1a1a;
   --popover-foreground: #fafafa;

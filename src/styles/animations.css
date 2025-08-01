@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animate-fadeInUp {
+    opacity: 0; /* Esencial para ocultar antes de animar */
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  .animate-fadeIn {
+    opacity: 0; /* Esencial para ocultar antes de animar */
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  /* Delays personalizados */
+  .delay-0 { animation-delay: 0s; }
+  .delay-1 { animation-delay: 0.3s; }
+  .delay-2 { animation-delay: 0.8s; }
+  .delay-3 { animation-delay: 1.5s; }
+
+  @keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease forwards;
+}
+
+}
