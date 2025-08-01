@@ -2,13 +2,13 @@
 
 import { useEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
-import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/Card"
-import { Badge } from "@/components/ui/Badge"
-import { Skeleton } from "@/components/ui/Skeleton"
+import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Skeleton } from "@/components/ui/skeleton"
 import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play, ListChecks, X } from "lucide-react"
 import { workoutService } from "@/api/services/workoutService"
 import { ThemeToggle } from "./core/ThemeToggle"
-import { Button } from "./ui/Button"
+import { Button } from "./ui/button"
 import { exerciseStorage } from "@/utils/exerciseStorage"
 
 interface Exercise {

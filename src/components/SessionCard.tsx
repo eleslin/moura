@@ -1,8 +1,8 @@
 "use client"
 
-import { Card, CardHeader } from "@/components/ui/Card"
+import { Card, CardHeader } from "@/components/ui/card"
 import { Play, ArrowRight, CheckCircle2 } from "lucide-react"
-import { Badge } from "@/components/ui/Badge"
+import { Badge } from "@/components/ui/badge"
 import { useNavigate } from "react-router-dom"
 import { exerciseStorage } from "@/utils/exerciseStorage"
 import { useEffect, useState } from "react"
