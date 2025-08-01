@@ -8,8 +8,8 @@ import { Skeleton } from "@/components/ui/skeleton"
 import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play, ListChecks, X } from "lucide-react"
 import { workoutService } from "@/api/services/workoutService"
 import { ThemeToggle } from "./core/ThemeToggle"
-import { Button } from "./ui/button"
 import { exerciseStorage } from "@/utils/exerciseStorage"
+import { Button } from "@/components/ui/Button"
 
 interface Exercise {
   id: string
