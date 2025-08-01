@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import { Card, CardHeader, CardContent, CardTitle } from "./ui/Card"
 import { Badge } from "./ui/Badge"
 import { Skeleton } from "./ui/Skeleton"
-import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play } from "lucide-react"
+import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play, ListChecks } from "lucide-react"
 import { workoutService } from "@/api/services/workoutService"
 import { ThemeToggle } from "./core/ThemeToggle"
 import { Button } from "./ui/Button"
@@ -268,21 +268,42 @@ export default function SessionDetail() {
                     {/* Sets */}
                     <div className="grid gap-3">
                       {exercise.sets?.map((set, setIndex) => (
-                        <div key={set.id} className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
-                          <div className="flex items-center space-x-4">
-                            <span className="text-sm font-medium text-muted-foreground">Serie {setIndex + 1}</span>
-                            <div className="flex items-center space-x-3">
-                              <div className="flex items-center space-x-1">
-                                <Repeat className="w-4 h-4 text-primary" />
-                                <span className="text-sm font-medium text-foreground">
-                                  {set.set_series} × {set.set_reps}
-                                </span>
-                              </div>
-                              <div className="flex items-center space-x-1">
-                                <Clock className="w-4 h-4 text-green-500" />
-                                <span className="text-sm text-muted-foreground">{set.set_rest} descanso</span>
-                              </div>
+                        <div key={set.id} className="flex items-center justify-around p-3 bg-muted/50 rounded-lg">
+                          {/* Number of Series */}
+                          <div className="flex items-center flex-col">
+                            <div className="flex items-center space-x-2">
+                              <ListChecks className="w-4 h-4 text-chart-3" />
+                              <span className="text-sm font-medium text-foreground">
+                                Series
+                              </span>
                             </div>
+                            <span className="text-lg font-bold text-foreground">
+                              {set.set_series}
+                            </span>
+                          </div>
+                          {/* Reps */}
+                          <div className="flex items-center flex-col">
+                            <div className="flex items-center space-x-2">
+                              <Repeat className="w-4 h-4 text-primary" />
+                              <span className="text-sm font-medium text-foreground">
+                                Reps
+                              </span>
+                            </div>
+                            <span className="text-lg font-bold text-foreground">
+                              {set.set_reps}
+                            </span>
+                          </div>
+                          {/* Rest */}
+                          <div className="flex items-center flex-col">
+                            <div className="flex items-center space-x-2">
+                                <Clock className="w-4 h-4 text-green-500" />
+                              <span className="text-sm font-medium text-foreground">
+                                Descanso
+                              </span>
+                            </div>
+                            <span className="text-lg font-bold text-foreground">
+                              {set.set_rest}
+                            </span>
                           </div>
                         </div>
                       ))}
