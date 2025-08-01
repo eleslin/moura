@@ -76,13 +76,13 @@ export default function Splash() {
       <img
         src={moura}
         alt="Moura Meditation"
-        className="w-48 h-auto animate-fadeInUp delay-1"
+        className="w-120 h-auto animate-fadeInUp delay-1"
       />
 
       <img
         src={trainingApp}
         alt="Training App"
-        className="w-40 h-auto animate-fadeInUp delay-2"
+        className="w-100 h-auto animate-fadeInUp delay-2"
       />
 
       <Button

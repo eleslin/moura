@@ -12,7 +12,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Moura Training App',
+        name: 'Moura',
         short_name: 'Moura',
         description: 'Tus guías de entrenamiento personalizadas',
         theme_color: '#3b82f6',

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useLayoutEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -49,6 +49,7 @@ export default function SessionDetail() {
 
 
   useEffect(() => {
+    window.scrollTo(0, 0) // Reset scroll position on mount
     const fetchSession = async () => {
       if (!sessionId) return
 
