@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Card } from "./ui/Card"
-import { Skeleton } from "./ui/Skeleton"
+import { Card } from "@/components/ui/Card"
+import { Skeleton } from "@/components/ui/Skeleton"
 import GuideCard from "./GuideCard"
 import { workoutService } from "@/api/services/workoutService"
 import { ThemeToggle } from "./core/ThemeToggle"

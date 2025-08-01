@@ -1,14 +1,14 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardHeader, CardContent, CardTitle } from "./ui/Card"
+import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/Card"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@radix-ui/react-collapsible"
 import { ChevronDown, ChevronRight, BookOpen, Dumbbell } from "lucide-react"
 import WeekCard from "./WeekCard"
-import { Skeleton } from "./ui/Skeleton"
+import { Skeleton } from "@/components/ui/Skeleton"
 import { workoutService } from "@/api/services/workoutService"
 import { useAppState } from "./core/AppStateProvider"
-import { Badge } from "./ui/Badge"
+import { Badge } from "@/components/ui/Badge"
 
 interface Guide {
   id: string

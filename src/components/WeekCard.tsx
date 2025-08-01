@@ -1,13 +1,13 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardHeader, CardContent } from "./ui/Card"
+import { Card, CardHeader, CardContent } from "@/components/ui/Card"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@radix-ui/react-collapsible"
 import { Calendar, ChevronDown, ChevronRight } from "lucide-react"
 import SessionCard from "./SessionCard"
-import { Skeleton } from "./ui/Skeleton"
 import { useAppState } from "./core/AppStateProvider"
 import { workoutService } from "@/api/services/workoutService"
+import { Skeleton } from "@/components/ui/Skeleton"
 
 interface Week {
   id: string
