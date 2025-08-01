@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import { Card, CardHeader, CardContent, CardTitle } from "./ui/Card"
 import { Badge } from "./ui/Badge"
 import { Skeleton } from "./ui/Skeleton"
-import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play, ListChecks } from "lucide-react"
+import { ArrowLeft, Dumbbell, Clock, Repeat, CheckCircle2, Circle, Play, ListChecks, X } from "lucide-react"
 import { workoutService } from "@/api/services/workoutService"
 import { ThemeToggle } from "./core/ThemeToggle"
 import { Button } from "./ui/Button"
@@ -41,6 +41,11 @@ export default function SessionDetail() {
   const [session, setSession] = useState<Session | null>(null)
   const [loading, setLoading] = useState(true)
   const [exerciseCompletions, setExerciseCompletions] = useState<Record<string, boolean>>({})
+  const [modalVideo, setModalVideo] = useState<{ isOpen: boolean; videoUrl: string; exerciseTitle: string }>({
+    isOpen: false,
+    videoUrl: '',
+    exerciseTitle: ''
+  })
 
   useEffect(() => {
     const fetchSession = async () => {
@@ -85,6 +90,22 @@ export default function SessionDetail() {
     exerciseStorage.updateSessionCompletion(sessionId, session.exercises.length)
   }
 
+  const openVideoModal = (videoUrl: string, exerciseTitle: string) => {
+    setModalVideo({
+      isOpen: true,
+      videoUrl,
+      exerciseTitle
+    })
+  }
+
+  const closeVideoModal = () => {
+    setModalVideo({
+      isOpen: false,
+      videoUrl: '',
+      exerciseTitle: ''
+    })
+  }
+
   const getSessionProgress = () => {
     if (!session?.exercises) return { completed: 0, total: 0, percentage: 0 }
 
@@ -95,28 +116,46 @@ export default function SessionDetail() {
     return { completed, total, percentage }
   }
 
-  const VideoPlayer = ({ videoUrl }: { videoUrl: string }) => {
-    const [isPlaying, setIsPlaying] = useState(false)
+  const VideoModal = () => {
+    if (!modalVideo.isOpen) return null
 
     return (
-      <div className="relative rounded-lg overflow-hidden bg-muted mb-4">
-        <video
-          className="w-full h-48 object-cover"
-          controls
-          preload="metadata"
-          onPlay={() => setIsPlaying(true)}
-          onPause={() => setIsPlaying(false)}
-          poster="/placeholder.svg?height=192&width=400"
-        >
-          <source src={videoUrl} type="video/mp4" />
-          Tu navegador no soporta el elemento de video.
-        </video>
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          {!isPlaying && (
-            <div className="w-16 h-16 bg-black/50 rounded-full flex items-center justify-center">
-              <Play className="w-8 h-8 text-white ml-1" />
-            </div>
-          )}
+      <div className="fixed inset-0 z-50 flex items-center justify-center">
+        {/* Backdrop */}
+        <div 
+          className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+          onClick={closeVideoModal}
+        />
+        
+        {/* Modal content */}
+        <div className="relative z-10 w-full max-w-4xl mx-4 bg-card rounded-lg overflow-hidden shadow-2xl">
+          {/* Header */}
+          <div className="flex items-center justify-between p-4 border-b border-border bg-muted/30">
+            <h3 className="text-lg font-semibold text-foreground">{modalVideo.exerciseTitle}</h3>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={closeVideoModal}
+              className="p-2 rounded-full hover:bg-muted"
+            >
+              <X className="w-5 h-5 text-muted-foreground" />
+            </Button>
+          </div>
+          
+          {/* Video */}
+          <div className="p-4">
+            <video
+              className="w-full h-auto max-h-[70vh] rounded-lg"
+              controls
+              autoPlay
+              preload="metadata"
+              poster="/placeholder.svg?height=400&width=800"
+              loop
+            >
+              <source src={modalVideo.videoUrl} type="video/mp4" />
+              Tu navegador no soporta el elemento de video.
+            </video>
+          </div>
         </div>
       </div>
     )
@@ -262,12 +301,9 @@ export default function SessionDetail() {
                   </CardHeader>
 
                   <CardContent className="pt-4">
-                    {/* Video player */}
-                    {exercise.video_url && <VideoPlayer videoUrl={exercise.video_url} />}
-
                     {/* Sets */}
-                    <div className="grid gap-3">
-                      {exercise.sets?.map((set, setIndex) => (
+                    <div className="grid gap-3 mb-4">
+                      {exercise.sets?.map((set) => (
                         <div key={set.id} className="flex items-center justify-around p-3 bg-muted/50 rounded-lg">
                           {/* Number of Series */}
                           <div className="flex items-center flex-col">
@@ -308,6 +344,19 @@ export default function SessionDetail() {
                         </div>
                       ))}
                     </div>
+
+                    {/* Video button */}
+                    {exercise.video_url && (
+                      <div className="flex justify-center">
+                        <Button
+                          variant="outline"
+                          onClick={() => openVideoModal(exercise.video_url!, exercise.title)}
+                          className="flex items-center space-x-2 p-2 bg-primary/10! hover:bg-primary/10 border-primary/20! hover:border-primary/30 transition-all duration-200"
+                        >
+                          <Play className="w-4 h-4 text-primary" />
+                        </Button>
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               </div>
@@ -325,6 +374,9 @@ export default function SessionDetail() {
           )}
         </div>
       </div>
+
+      {/* Video Modal */}
+      {modalVideo.isOpen && <VideoModal />}
     </div>
   )
 }
