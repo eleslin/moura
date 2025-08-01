@@ -35,18 +35,44 @@ export default function GuideList() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const fetchGuides = async () => {
-      try {
-        const data = await workoutService.getGuides()
-        setGuides(data)
-      } catch (error) {
-        console.error("Error fetching guides:", error)
-      } finally {
-        setLoading(false)
+  const fetchGuides = async () => {
+    try {
+      const data = await workoutService.getGuides()
+
+      // Obtener orden personalizado desde localStorage
+      const savedOrder = JSON.parse(localStorage.getItem('guideOrder') || '{}') as Record<string, string[]>
+
+      const reorder = (guides: Guide[], type: number) => {
+        const guidesOfType = guides.filter(g => g.type === type)
+        const order = savedOrder[type === 0 ? 'guides' : 'trainings'] || []
+        
+        const ordered = [
+          // Primero los que están en orden guardado
+          ...order
+            .map(id => guidesOfType.find(g => g.id === id))
+            .filter(Boolean) as Guide[],
+          // Luego los que no están en orden guardado
+          ...guidesOfType.filter(g => !order.includes(g.id))
+        ]
+
+        return ordered
       }
+
+      const allGuides = data
+      setGuides([
+        ...reorder(allGuides, 0),
+        ...reorder(allGuides, 1)
+      ])
+    } catch (error) {
+      console.error("Error fetching guides:", error)
+    } finally {
+      setLoading(false)
     }
-    fetchGuides()
-  }, [])
+  }
+
+  fetchGuides()
+}, [])
+
 
   // Separate guides by type
   const guideTypeGuides = guides.filter((guide) => guide.type === 0)

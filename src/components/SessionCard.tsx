@@ -16,9 +16,11 @@ interface Session {
 
 interface SessionCardProps {
   session: Session
+  guideType: number // 0 = Guide, 1 = Training
+  guideId: string
 }
 
-export default function SessionCard({ session }: SessionCardProps) {
+export default function SessionCard({ session, guideType, guideId }: SessionCardProps) {
   const navigate = useNavigate()
   const [completionStats, setCompletionStats] = useState({ completed: 0, total: 0, percentage: 0 })
 
@@ -28,6 +30,18 @@ export default function SessionCard({ session }: SessionCardProps) {
   }, [session.id])
 
   const handleSessionClick = () => {
+    const storageKey = guideType === 0 ? 'guides' : 'trainings'
+    const prevOrder = JSON.parse(localStorage.getItem('guideOrder') || '{}') as Record<string, string[]>
+    const updatedOrder = [guideId, ...(prevOrder[storageKey]?.filter(id => id !== guideId) || [])]
+
+    localStorage.setItem(
+      'guideOrder',
+      JSON.stringify({
+        ...prevOrder,
+        [storageKey]: updatedOrder
+      })
+    )
+
     navigate(`/session/${session.id}`)
   }
 

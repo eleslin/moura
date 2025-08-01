@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useLayoutEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -46,6 +46,7 @@ export default function SessionDetail() {
     videoUrl: '',
     exerciseTitle: ''
   })
+
 
   useEffect(() => {
     const fetchSession = async () => {

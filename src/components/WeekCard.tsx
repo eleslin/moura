@@ -17,9 +17,11 @@ interface Week {
 
 interface WeekCardProps {
   week: Week
+  guideType: number // 0 = Guide, 1 = Training
+  guideId: string
 }
 
-export default function WeekCard({ week }: WeekCardProps) {
+export default function WeekCard({ week, guideId, guideType }: WeekCardProps) {
   const { state, setExpandedWeeks, setSessionsData } = useAppState()
   const [loading, setLoading] = useState(false)
 
@@ -89,7 +91,7 @@ export default function WeekCard({ week }: WeekCardProps) {
                     className="animate-in slide-in-from-top-1 fade-in-0"
                     style={{ animationDelay: `${index * 50}ms` }}
                   >
-                    <SessionCard session={session} />
+                    <SessionCard session={session} guideId={guideId} guideType={guideType} />
                   </div>
                 ))}
               </div>

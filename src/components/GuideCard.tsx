@@ -133,7 +133,7 @@ export default function GuideCard({ guide }: GuideCardProps) {
                       className="animate-in slide-in-from-top-2 fade-in-0"
                       style={{ animationDelay: `${index * 100}ms` }}
                     >
-                      <WeekCard week={week} />
+                      <WeekCard week={week} guideId={guide.id} guideType={guide.type} />
                     </div>
                   ))}
                 </div>
